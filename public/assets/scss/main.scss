@@ -2,8 +2,8 @@
 @import "../css/vendor/fontawesome.css";
 @import "../css/plugins/swiper.css";
 @import "../css/plugins/odometer.css";
-@import "../css/vendor/animate.min.css";
-@import "../css/vendor/bootstrap.min.css";
+@import "~animate.css/animate.min.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
 
 // custom css
 @include meta.load-css("style.scss");

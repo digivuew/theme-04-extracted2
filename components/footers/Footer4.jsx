@@ -8,7 +8,7 @@ import Sidebar from "../headers/Sidebar";
 import MobileMenu from "../headers/MobileMenu";
 import MobileMenuOnepage from "../headers/MobileMenuOnepage";
 export default function Footer4({
-  darkLogo = "/assets/images/logo/white-logo-reeni.png",
+  darkLogo = "/assets/images/logo/logo-yello.svg",
   lightLogo = "/assets/images/logo/logo-white.png",
 }) {
   return (

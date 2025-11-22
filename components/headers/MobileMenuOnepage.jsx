@@ -33,7 +33,7 @@ export default function MobileMenuOnepage() {
                 <img
                   className="logo-dark"
                   alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
-                  src="/assets/images/logo/white-logo-reeni.png"
+                  src="/assets/images/logo/logo-yello.svg"
                   width={121}
                   height={41}
                 />

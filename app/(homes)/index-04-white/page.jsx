@@ -24,11 +24,10 @@ export default function page() {
   return (
     <>
       <div className="tmp-white-version">
-        <div className="color-primary-3rd">
-          <Header1
-            darkLogo="/assets/images/logo/white-logo-reeni-3.png"
-            lightLogo="/assets/images/logo/logo-white-3.png"
-          />
+        <Header1
+          darkLogo="/assets/images/logo/logo-yello.svg"
+          lightLogo="/assets/images/logo/logo-yello-white.svg"
+        />
           <Hero />
           <TextAnim />
           <About />
@@ -41,11 +40,10 @@ export default function page() {
           <Contact />
           <Blogs isLight />
           <Footer2
-            darkLogo="/assets/images/logo/white-logo-reeni-3.png"
-            lightLogo="/assets/images/logo/logo-white-3.png"
+            darkLogo="/assets/images/logo/logo-yello.svg"
+            lightLogo="/assets/images/logo/logo-yello-white.svg"
           />
           <Copyright /> <CommonComponents />
-        </div>
       </div>
     </>
   );

@@ -16,7 +16,7 @@ export default function Experiences2() {
             </h2>
           </div>
           <div className="discription-area tmp-scroll-trigger tmp-fade-in animation-order-3">
-            <p className="description color-primary-3rd">
+            <p className="description">
               Business consulting consultants provide expert advice and guida
               businesses to help them improve their performance, efficiency, and
               organizational
