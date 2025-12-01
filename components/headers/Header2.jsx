@@ -5,8 +5,8 @@ import Link from "next/link";
 import { openMobilemenu2 } from "@/utlis/toggleMobilemenu";
 import OnepageNav from "./OnepageNav";
 export default function Header2({
-  darkLogo = "/assets/images/logo/white-logo-reeni.png",
-  lightLogo = "/assets/images/logo/logo-white.png",
+  darkLogo = "/assets/images/logo/logo-yello.svg",
+  lightLogo = "/assets/images/logo/logo-yello.svg",
 }) {
   return (
     <header className="tmp-header-area-start header-one header--sticky header--transparent">
