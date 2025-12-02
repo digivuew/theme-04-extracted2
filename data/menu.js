@@ -25,18 +25,6 @@ export const menuItems = [
       },
     ],
   },
-  {
-    label: "Project",
-    href: "#",
-    hasDropdown: true,
-    submenu: [
-      { label: "Project", href: "/project-white" },
-      {
-        label: "Project Details",
-        href: "/project-details-white/my-portfolio-of-innovation",
-      },
-    ],
-  },
   { label: "Contact", href: "/contact-white", isLink: true },
 ];
 

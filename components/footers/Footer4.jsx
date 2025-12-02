@@ -45,10 +45,10 @@ export default function Footer4({
                   © {new Date().getFullYear()} . All rights reserved by
                   <a
                     target="_blank"
-                    href="https://themeforest.net/user/inversweb/portfolio"
+                    href="#"
                   >
                     {" "}
-                    Inversweb.
+                    Digivue.
                   </a>
                 </p>
               </div>

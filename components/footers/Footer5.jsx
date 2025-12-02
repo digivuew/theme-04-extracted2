@@ -101,9 +101,9 @@ export default function Footer5() {
                       © {new Date().getFullYear()} Copyright All rights reserved{" "}
                       <a
                         target="_blank"
-                        href="https://themeforest.net/user/inversweb/portfolio"
+                        href="#"
                       >
-                        Inversweb
+                        Digivue
                       </a>
                     </p>
                   </div>

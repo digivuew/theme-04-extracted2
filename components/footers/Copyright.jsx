@@ -10,10 +10,10 @@ export default function Copyright() {
               <p className="copy-right-para tmp-link-animation">
                 ©{" "}
                 <a
-                  href="https://themeforest.net/user/inversweb/portfolio"
+                  href="#"
                   target="_blank"
                 >
-                  Inversweb {new Date().getFullYear()}
+                  Digivue {new Date().getFullYear()}
                 </a>{" "}
                 | All Rights Reserved
               </p>{" "}
