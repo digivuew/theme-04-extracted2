@@ -68,11 +68,8 @@ export default function Contact() {
                   <i className="fa-solid fa-envelope" />
                 </div>
                 <h3 className="title">E-mail</h3>
-                <a href="mailto:themespark11@gmail.com">
-                  <p className="para">hasan@yourmail.com</p>
-                </a>
-                <a href="mailto:themespark11@gmail.com">
-                  <p className="para">themespark11@gmail.com</p>
+                <a href="mailto:vishruts261@gmail.com">
+                  <p className="para">vishruts261@gmail.com</p>
                 </a>
               </div>
             </div>
@@ -82,8 +79,9 @@ export default function Contact() {
                   <i className="fa-solid fa-phone" />
                 </div>
                 <h3 className="title">Call Me</h3>
-                <p className="para">0000 - 000 - 000 00</p>
-                <p className="para">+1234 - 000</p>
+                <a href="tel:+971504961514">
+                  <p className="para">+971504961514</p>
+                </a>
               </div>
             </div>
           </div>
