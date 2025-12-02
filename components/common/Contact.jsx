@@ -75,7 +75,7 @@ export default function Contact({
                     </span>
                     <div className="ft-link-wrap">
                       <h4 className="link-title">Location:</h4>
-                      <div>3891 Ranchview Dr. Richardson</div>
+                      <div>Rajdhani Nikunj, IP Extension, Patparganj, Delhi, India</div>
                     </div>
                   </li>
                   <li className="tmp-scroll-trigger tmp-fade-in animation-order-3 tmp-link-animation">

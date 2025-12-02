@@ -58,8 +58,8 @@ export default function Contact() {
                   <i className="fa-solid fa-location-dot" />
                 </div>
                 <h3 className="title">Address</h3>
-                <p className="para">Dhaka 102, utl 1216, road 45</p>
-                <p className="para">house of street</p>
+                <p className="para">Rajdhani Nikunj, IP Extension</p>
+                <p className="para">Patparganj, Delhi, India</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">

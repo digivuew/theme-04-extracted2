@@ -85,19 +85,19 @@ export default function Footer2({
                       <span className="ft-icon">
                         <i className="fa-solid fa-phone" />
                       </span>
-                      <a href="#">017345 678 9101</a>
+                      <a href="tel:+971504961514">+971504961514</a>
                     </li>
                     <li>
                       <span className="ft-icon">
                         <i className="fa-solid fa-location-dot" />
                       </span>
-                      Cumilla,Bangladesh
+                      Rajdhani Nikunj, IP Extension, Patparganj, Delhi, India
                     </li>
                     <li>
                       <span className="ft-icon">
                         <i className="fa-solid fa-envelope" />
                       </span>
-                      <a href="#">abcd@gmail.com</a>
+                      <a href="mailto:vishruts261@gmail.com">vishruts261@gmail.com</a>
                     </li>
                   </ul>
                 </div>
