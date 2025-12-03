@@ -2,9 +2,9 @@ name: Build and Push Frontend Docker Image to Docker Hub
 
 on:
   push:
-    branches: [ colour-change-2, dev, main ]
+    branches: [ update-user-details, dev, main ]
   pull_request:
-    branches: [ colour-change-2, dev, main ]
+    branches: [ update-user-details, dev, main ]
 
 env:
   DOCKER_HUB_USERNAME: teamfusion
@@ -22,7 +22,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
           
       - name: Extract version from package.json
         id: extract-version
