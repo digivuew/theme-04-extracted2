@@ -2,9 +2,9 @@ name: Build and Push Frontend Docker Image to Docker Hub
 
 on:
   push:
-    branches: [ update-user-details, dev, main ]
+    branches: [ dev ]
   pull_request:
-    branches: [ update-user-details, dev, main ]
+    branches: [ dev ]
 
 env:
   DOCKER_HUB_USERNAME: teamfusion
