@@ -12,8 +12,8 @@ export default function Hero() {
               className="tmp-scroll-trigger tmp-zoom-in animation-order-1"
               alt="banner"
               src="/assets/images/banner/banner-user-image-four.png"
-              width={720}
-              height={890}
+              width={959}
+              height={778}
             />
           </div>
           <div className="banner-four-right-bg-img">
