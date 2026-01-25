@@ -9,17 +9,15 @@ import Footer2 from "@/components/footers/Footer2";
 import Header1 from "@/components/headers/Header1";
 import Blogs from "@/components/homes/home-4/Blogs";
 import Hero from "@/components/homes/home-4/Hero";
-import Portfolio from "@/components/homes/home-4/Portfolio";
 import Portfolios2 from "@/components/homes/home-4/Portfolios2";
-import Pricing from "@/components/homes/home-4/Pricing";
 import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
 
 export const metadata = {
   title:
-    "Theme04 Light - Modern Portfolio | Professional Web Solutions",
+    "Dr. Vishrut Singh - Pediatrician in Dubai | Child Health Specialist at Aster Clinic",
   description:
-    "Theme04 Light is a modern portfolio template featuring clean design, professional layouts, and comprehensive sections for showcasing your work and skills.",
+    "Dr. Vishrut Singh is a board-certified Pediatrician specializing in pediatric respiratory disorders, infectious diseases, asthma, allergy management, and critical care. Located at Aster Clinic, Bur Dubai with 9+ years of experience.",
 };
 
 export default function Home() {
@@ -34,12 +32,10 @@ export default function Home() {
           <Hero />
           <TextAnim />
           <About />
-          <Portfolio isLight />
           <Experiences2 />
           <Testimonials />
           <Skills3 />
           <Portfolios2 isLight />
-          <Pricing />
           <Contact />
           <Blogs isLight />
           <Footer2

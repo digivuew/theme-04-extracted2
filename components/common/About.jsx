@@ -11,19 +11,19 @@ export default function About({ parentClass = "about-us-area" }) {
             <div className="about-us-left-content-wrap bg-vactor-one">
               <div className="years-of-experience-card tmp-scroll-trigger tmp-fade-in animation-order-1">
                 <h2 className="counter card-title">
-                  <OdometerComponent max={10} /> +
+                  <OdometerComponent max={9} /> +
                 </h2>
-                <p className="card-para">years of experience</p>
+                <p className="card-para">Years of Experience</p>
               </div>
               <div className="design-card tmp-scroll-trigger tmp-fade-in animation-order-2">
                 <div className="design-card-img">
                   <div className="icon">
-                    <i className="fa-sharp fa-thin fa-lock" />
+                    <i className="fa-sharp fa-thin fa-user-doctor" />
                   </div>
                 </div>
                 <div className="card-info">
-                  <h3 className="card-title">Ui/Ux Design</h3>
-                  <p className="card-para">241 Projects</p>
+                  <h3 className="card-title">Pediatric Care</h3>
+                  <p className="card-para">5000+ Patients Treated</p>
                 </div>
               </div>
             </div>
@@ -32,16 +32,15 @@ export default function About({ parentClass = "about-us-area" }) {
             <div className="about-us-right-content-wrap">
               <div className="section-head text-align-left mb--50">
                 <div className="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-                  <span className="subtitle">About Me</span>
+                  <span className="subtitle">About Dr. Vishrut</span>
                 </div>
                 <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-                  Boost Business Strategic <br />
-                  Solutions with Us
+                  Compassionate Care for <br />
+                  Your Child's Health
                 </h2>
                 <p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
-                  Business consulting consultants provide expert advice and
-                  guida businesses to help them improve their performance,
-                  efficiency, and organizational
+                  Dr. Vishrut Singh specializes in diagnosing and treating health conditions in children from birth to 18 years.
+                  With expertise in respiratory disorders, infectious diseases, and critical care, he provides evidence-based, patient-centered medical care.
                 </p>
               </div>
               <div className="about-us-section-card row g-5">
@@ -56,11 +55,10 @@ export default function About({ parentClass = "about-us-area" }) {
                           height={24}
                         />
                       </div>
-                      <h3 className="card-title">Business Solutions</h3>
+                      <h3 className="card-title">Gold Medallist</h3>
                     </div>
                     <p className="card-para">
-                      Each one showcases my approach and dedication to detail,
-                      creativity
+                      MBBS Gold Medallist from King George's Medical University, Lucknow
                     </p>
                   </div>
                 </div>
@@ -75,11 +73,10 @@ export default function About({ parentClass = "about-us-area" }) {
                           height={24}
                         />
                       </div>
-                      <h3 className="card-title">Profit Partners</h3>
+                      <h3 className="card-title">Specialized Training</h3>
                     </div>
                     <p className="card-para">
-                      Business consulting consul us to a provide expert advice
-                      businesses
+                      MD Pediatrics and IDPCCM certified in Pediatric Critical Care
                     </p>
                   </div>
                 </div>
@@ -87,10 +84,10 @@ export default function About({ parentClass = "about-us-area" }) {
               <div className="about-btn mt--40 tmp-scroll-trigger tmp-fade-in animation-order-6">
                 <Link
                   className="tmp-btn hover-icon-reverse radius-round"
-                  href={`/about`}
+                  href={`/about-white`}
                 >
                   <span className="icon-reverse-wrapper">
-                    <span className="btn-text">Read More About Me</span>
+                    <span className="btn-text">Read More About Dr. Vishrut</span>
                     <span className="btn-icon">
                       <i className="fa-sharp fa-regular fa-arrow-right" />
                     </span>

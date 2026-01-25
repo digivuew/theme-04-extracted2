@@ -10,18 +10,18 @@ export default function Portfolios2({ isLight = false }) {
         <div className="header-top-inner">
           <div className="section-head text-align-left">
             <div className="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-              <span className="subtitle">Recent Portfolio</span>
+              <span className="subtitle">Professional Credentials</span>
             </div>
             <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-              Transforming Ideas <br />
-              into Exceptional
+              Awards & Recognition <br />
+              in Pediatric Medicine
             </h2>
           </div>
           <div className="discription-area tmp-scroll-trigger tmp-fade-in animation-order-3">
             <p className="description">
-              Business consulting consultants provide expert advice and guida
-              <span>businesses</span> to help them improve their performance,
-              efficiency, and organizational
+              Dr. Vishrut Singh has received multiple honors and recognitions for
+              <span> medical excellence</span>, including gold medals, certificates of distinction,
+              and professional memberships in prestigious pediatric organizations
             </p>
           </div>
         </div>
@@ -104,7 +104,7 @@ export default function Portfolios2({ isLight = false }) {
         <div className="see-all-btn-wrap text-center mt--60">
           <a className="tmp-btn hover-icon-reverse radius-round" href="#">
             <span className="icon-reverse-wrapper">
-              <span className="btn-text">View All Portfolio</span>
+              <span className="btn-text">View All Achievements</span>
               <span className="btn-icon">
                 <i className="fa-sharp fa-regular fa-arrow-right" />
               </span>

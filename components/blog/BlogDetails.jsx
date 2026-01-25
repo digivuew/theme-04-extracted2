@@ -22,12 +22,12 @@ export default function BlogDetails({ blog, isLight = false }) {
               </div>
               <div className="blog-details-discription">
                 <div className="blog-classic-tag">
-                  <h4 className="title">By Stanio lainto</h4>
+                  <h4 className="title">By Dr. Vishrut Singh</h4>
                   <ul>
                     <li>
                       <div className="tag-wrap">
                         <i className="fa-solid fa-tag" />
-                        <h4 className="tag-title">Web design</h4>
+                        <h4 className="tag-title">Child Health</h4>
                       </div>
                     </li>
                     <li>
@@ -40,61 +40,40 @@ export default function BlogDetails({ blog, isLight = false }) {
                 </div>
                 <h3 className="title split-collab">{blog.title}</h3>
                 <p className="disc">
-                  Aliquam eros justo, posuere loborti viverra laoreet matti
-                  ullamcorper posuere viverra .Aliquam eros justo, posuere
-                  lobortis, viverra laoreet augue mattis fermentum ullamcorper
-                  viverra laoreet Aliquam
+                  As a board-certified Pediatrician with over 9 years of experience, I've dedicated my career to providing comprehensive healthcare for children from birth to 18 years. My approach combines evidence-based medicine with compassionate care, ensuring every child receives the attention and treatment they deserve.
                 </p>
                 <p className="disc">
-                  Aliquam eros justo, posuere loborti viverra laoreet matti
-                  ullamcorper posuere viverra .Aliquam eros justoposuere
-                  lobortis non, viverra laoreet augue mattis fermentum
-                  ullamcorper viverra laore Aliquam eros justo posuere desig
-                  loborti viverra laoreet matti ullamcorper posuere viverra
+                  In my practice, I focus on preventive care, early diagnosis, and effective treatment of pediatric conditions. From routine check-ups and vaccinations to managing complex respiratory disorders and critical care situations, I work closely with families to ensure optimal health outcomes for every child.
                 </p>
               </div>
               <div className="quote-area-blog-details">
                 <p className="disc">
-                  Aliquam eros justo, posuere loborti viverra laoreet matti
-                  ullamcorper posuere viverra .Aliquam eros justo, posuere
-                  lobortis, viverra laoreet augue mattis fermentum ullamcorper
-                  viverra laoreet.
+                  Every child deserves the highest quality healthcare. My mission is to provide compassionate, evidence-based pediatric care that helps children thrive and gives parents peace of mind.
                 </p>
-                <h3 className="author">Mark wood</h3>
+                <h3 className="author">Dr. Vishrut Singh</h3>
                 <span>
                   <i className="fa-solid fa-quote-right" />
                 </span>
               </div>
               <div className="blog-details-discription">
                 <h3 className="title split-collab">
-                  Showcase your talent with our portfolio
+                  Comprehensive Pediatric Care Services
                 </h3>
                 <p className="disc">
-                  Aliquam eros justo, posuere loborti viverra laoreet matti
-                  ullamcorper posuere viverra .Aliquam eros justo, posuere
-                  lobortis, viverra laoreet augue mattis fermentum ullamcorper
-                  viverra laoreet Aliquam eros
+                  My practice offers a full range of pediatric services including preventive care, diagnosis and treatment of acute and chronic illnesses, growth and development monitoring, and specialized care for respiratory and infectious diseases.
                 </p>
                 <div className="our-portfolio-swiper">
                   <div className="blog-details-swiper">
                     <div className="our-portfoli-swiper-card">
                       <div className="card-left-content">
                         <p className="disc">
-                          Ished fact that a reader will be distrol acted bioii
-                          the.ished fact th reader will besi distrol ac laoreet
-                          Aliquam fact that a reader will be distrol acted
-                          Aliquam posuere loborti viverra laoreet
+                          With specialized training in Pediatric Critical Care Medicine (IDPCCM) from Fortis Memorial Research Institute, I am equipped to handle complex medical situations and provide intensive care when needed.
                         </p>
                         <p className="disc">
-                          Aliquam eros justo, posuere loborti viverra laoreet
-                          matt design the ullamcorper posuere viverra .Aliquam
-                          eros justo posuere inni lobortis non, viverra laoreet
-                          augue mattis
+                          My approach emphasizes clear communication with families, ensuring parents understand their child's condition and treatment plan. I believe in building long-term relationships with families based on trust and mutual respect.
                         </p>
                         <p className="disc">
-                          Aliquam eros justo, posuere loborti viverra laoreet
-                          matti design an the ullamcorper posuere viverra
-                          .Aliquam eros
+                          Regular follow-ups and preventive care are essential components of pediatric practice, helping identify and address health concerns before they become serious problems.
                         </p>
                       </div>
                       <div className="card-right-content">
@@ -128,16 +107,16 @@ export default function BlogDetails({ blog, isLight = false }) {
                     </ul>
                   </div>
                   <div className="social-link footer">
-                    <a href="#">
+                    <a href="https://www.instagram.com/dr_vishrut_singh_md/" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-instagram" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/dr-vishrut-singh-4b671113a" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-linkedin-in" />
                     </a>
-                    <a href="#">
+                    <a href="https://x.com/vishruts261" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-twitter" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.facebook.com/DrVishrutSingh" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-facebook-f" />
                     </a>
                   </div>
@@ -173,10 +152,7 @@ export default function BlogDetails({ blog, isLight = false }) {
                         </div>
                       </div>
                       <p className="disc">
-                        Ished fact that a reader will be distrol acted bioii
-                        the.ished fact that a reader will be distrol acted
-                        laoreet Aliquam fact that a reader will be distrol acted
-                        Aliquam eros justo.
+                        Very informative article! Dr. Singh's expertise and clear explanations help parents understand complex medical topics. Looking forward to more helpful content.
                       </p>
                       <a href="#" className="reply-btn">
                         reply
@@ -211,9 +187,7 @@ export default function BlogDetails({ blog, isLight = false }) {
                         </div>
                       </div>
                       <p className="disc">
-                        Ished fact that a reader will be distrol acted bioii
-                        the.ished fact that a reader will be distrol acted
-                        laoreet.
+                        Thank you for sharing this valuable information. It's reassuring to have access to expert pediatric guidance online.
                       </p>
                       <a href="#" className="reply-btn">
                         reply
@@ -248,10 +222,7 @@ export default function BlogDetails({ blog, isLight = false }) {
                         </div>
                       </div>
                       <p className="disc">
-                        Ished fact that a reader will be distrol acted bioii
-                        the.ished fact that a reader will be distrol acted
-                        laoreet Aliquam fact that a reader will be distrol acted
-                        Aliquam eros justo.
+                        Very informative article! Dr. Singh's expertise and clear explanations help parents understand complex medical topics. Looking forward to more helpful content.
                       </p>
                       <a href="#" className="reply-btn">
                         reply

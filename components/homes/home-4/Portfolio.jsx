@@ -8,10 +8,10 @@ export default function Portfolio({ isLight = false }) {
   const [filtered, setFiltered] = useState(portfolioItems8);
   const categories = [
     "All",
-    "Branding",
-    "Design",
-    "Content writing",
-    "Marketing",
+    "Certifications",
+    "Awards",
+    "Publications",
+    "Training",
   ];
   useEffect(() => {
     if (activeCategory == "All") {
@@ -27,15 +27,14 @@ export default function Portfolio({ isLight = false }) {
       <div className="container">
         <div className="section-head mb--60">
           <div className="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-            <span className="subtitle">Latest Portfolio</span>
+            <span className="subtitle">Medical Achievements</span>
           </div>
           <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-            Transforming Ideas into Exceptional
+            Excellence in Pediatric Medicine
           </h2>
           <p className="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3">
-            Business consulting consultants provide expert advice and guida
-            businesses to help them improve their performance, efficiency, and
-            organizational
+            Recognized medical qualifications, specialized training, and professional achievements
+            in pediatric care, critical care medicine, and child health specialization
           </p>
         </div>
         <div className="latest-portfolio-tabs-area">

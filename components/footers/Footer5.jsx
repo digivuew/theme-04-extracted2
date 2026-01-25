@@ -30,7 +30,7 @@ export default function Footer5() {
                           target="_blank"
                           href="https://themeforest.net/item/reeni-personal-portfolio-html-template/56387656"
                         >
-                          Purchase Reeni{" "}
+                          Visit Clinic{" "}
                           <i className="icon feather-arrow-right"> </i>
                         </a>
                       </div>

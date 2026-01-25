@@ -11,7 +11,7 @@ export default function Header5() {
           <div className="logo">
             <Link href={`/`}>
               <img
-                alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                alt="Dr. Vishrut Singh - Pediatrician in Dubai"
                 width="121"
                 height="41"
                 src="assets/images/logo/logo-yello.svg"

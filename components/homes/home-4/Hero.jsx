@@ -10,10 +10,10 @@ export default function Hero() {
           <div className="bg-benner-img-four">
             <Image
               className="tmp-scroll-trigger tmp-zoom-in animation-order-1"
-              alt="banner-img-3"
+              alt="banner"
               src="/assets/images/banner/banner-user-image-four.png"
-              width={959}
-              height={778}
+              width={720}
+              height={890}
             />
           </div>
           <div className="banner-four-right-bg-img">
@@ -28,23 +28,23 @@ export default function Hero() {
             <div className="col-lg-4 col-md-6">
               <div className="inner">
                 <span className="sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-                  Web Developer
+                  Pediatrician & Child Health Specialist
                 </span>
                 <h1 className="title tmp-scroll-trigger tmp-fade-in animation-order-2">
-                  Jackson Clark
+                  Dr. Vishrut Singh
                 </h1>
-                <p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
-                  Outsourcing can provide corporate businesses with several
-                  advantages, incl b usinesses Outsourcing can provide usinesses
-                  Outsourcing can provide
+                <p className="description">
+                  Board-certified Pediatrician specializing in respiratory disorders, infectious diseases,
+                  asthma, allergy management, and critical care. Committed to delivering compassionate,
+                  evidence-based care for children.
                 </p>
                 <div className="button-area-banner-three tmp-scroll-trigger tmp-fade-in animation-order-4">
                   <Link
                     className="tmp-btn hover-icon-reverse radius-round"
-                    href={`/portfolio-details`}
+                    href={`/contact-white`}
                   >
                     <span className="icon-reverse-wrapper">
-                      <span className="btn-text">View Portfolio</span>
+                      <span className="btn-text">Book Appointment</span>
                       <span className="btn-icon">
                         <i className="fa-sharp fa-regular fa-arrow-right" />
                       </span>
@@ -59,29 +59,28 @@ export default function Hero() {
             <div className="col-lg-3 col-md-6">
               <div className="banner-right-content tmp-scroll-trigger tmp-fade-in animation-order-5">
                 <div className="year-expariance-wrap">
-                  {/* <h3 class="title "><span class="counter">25</span></h3> */}
                   <h3 className="counter title">
-                    <OdometerComponent max={25} />
+                    <OdometerComponent max={9} />
                   </h3>
                   <p className="para">
                     Years Of <br />
-                    experience
+                    Experience
                   </p>
                 </div>
                 <div className="find-me-on">
-                  <h2 className="find-me-on-title">Find me on</h2>
+                  <h2 className="find-me-on-title">Connect With Us</h2>
                   <div className="social-link banner">
-                    <a href="#">
+                    <a href="https://www.instagram.com/dr_vishrut_singh_md/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                       <i className="fa-brands fa-instagram" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/dr-vishrut-singh-4b671113a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                       <i className="fa-brands fa-linkedin-in" />
                     </a>
-                    <a href="#">
-                      <i className="fa-brands fa-twitter" />
-                    </a>
-                    <a href="#">
+                    <a href="https://www.facebook.com/DrVishrutSingh" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                       <i className="fa-brands fa-facebook-f" />
+                    </a>
+                    <a href="https://x.com/vishruts261" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                      <i className="fa-brands fa-twitter" />
                     </a>
                   </div>
                 </div>

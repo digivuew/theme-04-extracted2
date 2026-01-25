@@ -8,44 +8,16 @@ export default function Contact() {
 
   const sandMail = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        // EmailJS service ID - identifies which email service to use
-        "service_cyobi0y",
-
-        // EmailJS template ID - specifies which email template to use
-        "template_4nbexqj",
-
-        // Reference to the HTML form element containing user input
-        form.current,
-
-        {
-          // Public API key for authentication with EmailJS
-          publicKey: "D79JdTqxXVCcQBXL4",
-        }
-      )
-      .then((res) => {
-        if (res.status == 200) {
-          toast.success("Message Sent successfully!", {
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
-          form.current.reset();
-        } else {
-          toast.error("Ops Message not Sent!", {
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
-        }
-      });
+    // Email sending is currently disabled
+    toast.info("Coming Soon", {
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+    form.current.reset();
   };
   return (
     <div className="contact-area-wrapper tmp-section-gap">
@@ -57,9 +29,12 @@ export default function Contact() {
                 <div className="contact-icon">
                   <i className="fa-solid fa-location-dot" />
                 </div>
-                <h3 className="title">Address</h3>
-                <p className="para">Rajdhani Nikunj, IP Extension</p>
-                <p className="para">Patparganj, Delhi, India</p>
+                <h3 className="title">Dubai Clinic</h3>
+                <a href="https://www.google.com/maps/place/Aster+Clinic/data=!4m2!3m1!1s0x0:0xdbe0fa6f3ac30033?sa=X&ved=1t:2428&ictx=111"
+                   target="_blank" rel="noopener noreferrer">
+                  <p className="para">Aster Clinic, Bur Dubai</p>
+                  <p className="para">Mon-Sat: 9AM-1PM, 5PM-9PM</p>
+                </a>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -78,7 +53,7 @@ export default function Contact() {
                 <div className="contact-icon">
                   <i className="fa-solid fa-phone" />
                 </div>
-                <h3 className="title">Call Me</h3>
+                <h3 className="title">Phone</h3>
                 <a href="tel:+971504961514">
                   <p className="para">+971504961514</p>
                 </a>
@@ -99,12 +74,10 @@ export default function Contact() {
                       <span className="subtitle">GET IN TOUCH</span>
                     </div>
                     <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-                      Elevate your brand with Me
+                      Book Your Appointment Today
                     </h2>
                     <p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
-                      ished fact that a reader will be distrol acted bioiiy
-                      desig ished fact that a reader will acted ished fact that
-                      a reader will be distrol acted
+                      Schedule a consultation with Dr. Vishrut Singh for comprehensive pediatric care. We provide expert medical services for children from birth to 18 years, specializing in respiratory disorders, infectious diseases, and critical care.
                     </p>
                   </div>
                 </div>
@@ -187,7 +160,7 @@ export default function Contact() {
                               >
                                 <span className="icon-reverse-wrapper">
                                   <span className="btn-text">
-                                    Appointment Now
+                                    Book appointment now
                                   </span>
                                   <span className="btn-icon">
                                     <i className="fa-sharp fa-regular fa-arrow-right" />

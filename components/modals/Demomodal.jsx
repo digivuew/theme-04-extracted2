@@ -40,10 +40,10 @@ export default function Demomodal() {
             </button>
           </div>
           <div className="demo-top text-center">
-            <h4 className="title">Reeni</h4>
+            <h4 className="title">Dr. Vishrut Singh</h4>
             <p className="subtitle">
-              A personal portfolio website is your digital resume—a place to
-              showcase your work, skills, and achievements.
+              Professional medical portfolio showcasing expertise in pediatric
+              care, medical achievements, and patient testimonials.
             </p>
           </div>
           <ul
@@ -111,7 +111,7 @@ export default function Demomodal() {
                             <Link href={demo.href}>
                               <Image
                                 className="w-100"
-                                alt="Personal Portfolio"
+                                alt="Medical Portfolio"
                                 src={demo.img}
                                 width={340}
                                 height={240}
@@ -141,7 +141,7 @@ export default function Demomodal() {
                           <a href="#">
                             <Image
                               className="w-100"
-                              alt="Personal Portfolio"
+                              alt="Medical Portfolio"
                               src="/assets/images/demo/coming-soon.png"
                               width={340}
                               height={240}
@@ -184,7 +184,7 @@ export default function Demomodal() {
                             <Link href={demo.href}>
                               <Image
                                 className="w-100"
-                                alt="Personal Portfolio"
+                                alt="Medical Portfolio"
                                 src={demo.img}
                                 width={340}
                                 height={240}
@@ -214,7 +214,7 @@ export default function Demomodal() {
                           <a href="#">
                             <Image
                               className="w-100"
-                              alt="Personal Portfolio"
+                              alt="Medical Portfolio"
                               src="/assets/images/demo/coming-soon-white.png"
                               width={340}
                               height={240}

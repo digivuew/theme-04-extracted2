@@ -1,81 +1,86 @@
 export const experienceData = [
   {
-    title: "Trainer Marketing",
-    years: "2005-2009",
+    title: "Consultant Pediatrician",
+    years: "2019-Present",
     description:
-      "A personal portfolio is a curated collection of an individual's professional work, showcasing their skills, experience A personal portfolio.",
+      "Providing comprehensive pediatric care at Aster DM Healthcare, Dubai, specializing in respiratory disorders, infectious diseases, and critical care for children.",
     animationOrder: 1,
   },
   {
-    title: "Assistant Director",
-    years: "2010-2014",
+    title: "Pediatrician & Trainer",
+    years: "2017-2019",
     description:
-      "Each project here showcases my commitment to excellence and adaptability, tailored to meet each client’s unique needs.",
+      "Served as Pediatrician and Postgraduate Trainer at Felix Hospital, Greater Noida, managing critical cases and training medical residents in pediatric care.",
     animationOrder: 2,
   },
   {
-    title: "Design Assistant",
-    years: "2008-2012",
+    title: "Critical Care Training",
+    years: "2018-2019",
     description:
-      "I’ve had the privilege of working with various clients, from startups to established companies, helping bring their visions to life.",
+      "Completed IDPCCM (Pediatric Critical Care) training at Fortis Memorial Research Institute, Gurugram, gaining advanced ICU management skills.",
     animationOrder: 3,
   },
   {
-    title: "Design Assistant",
-    years: "2008-2012",
+    title: "MD Pediatrics",
+    years: "2015-2018",
     description:
-      "Each project here showcases my commitment to excellence and adaptability, tailored to meet each client’s unique needs a personal.",
+      "Completed postgraduate specialization in Pediatrics from Lady Hardinge Medical College, New Delhi, with focus on child health and development.",
     animationOrder: 4,
   },
 ];
 
 export const jobExperience = [
   {
-    title: "Jr. Web Developer",
-    duration: "2005-2009",
+    title: "Consultant Pediatrician",
+    duration: "2019-Present",
     description:
-      "A personal portfolio is a curated collection of an individual's professional work, showcasing their skills, experience A personal portfolio.",
+      "Providing comprehensive pediatric care at Aster DM Healthcare, Dubai, specializing in respiratory disorders, infectious diseases, and critical care for children.",
   },
   {
-    title: "Sr. Web Developer",
-    duration: "2010-2014",
+    title: "Pediatrician & Postgraduate Trainer",
+    duration: "2017-2019",
     description:
-      "Each project here showcases my commitment to excellence and adaptability, tailored to meet each client’s unique needs.",
+      "Served as Pediatrician and Postgraduate Trainer at Felix Hospital, Greater Noida, managing critical cases and training medical residents in pediatric care.",
   },
   {
-    title: "Sr. Grafic Designer",
-    duration: "2008-2012",
+    title: "IDPCCM Training (Critical Care)",
+    duration: "2018-2019",
     description:
-      "I’ve had the privilege of working with various clients, from startups to established companies, helping bring their visions to life.",
+      "Completed advanced Pediatric Critical Care training at Fortis Memorial Research Institute, Gurugram, gaining expertise in ICU management for critically ill children.",
   },
   {
-    title: "Design Assistant",
-    duration: "2008-2012",
+    title: "MD Pediatrics Residency",
+    duration: "2015-2018",
     description:
-      "Each project here showcases my commitment to excellence and adaptability, tailored to meet each client’s unique needs a personal.",
+      "Completed postgraduate medical training in Pediatrics at Lady Hardinge Medical College, New Delhi, with comprehensive clinical experience in child healthcare.",
   },
 ];
 
 export const resumeItems = [
   {
-    duration: "2022 - Present",
-    title: "Senior Developer",
-    institute: "CodeGenius (USA)",
+    duration: "2019 - Present",
+    title: "Consultant Pediatrician",
+    institute: "Aster DM Healthcare, Dubai, UAE",
   },
   {
-    duration: "2022 - 2022",
-    title: "Web Developer",
-    institute: "Modarni Tomoli",
+    duration: "2017 - 2019",
+    title: "Pediatrician & Postgraduate Trainer",
+    institute: "Felix Hospital, Greater Noida, India",
   },
   {
-    duration: "2020 - 2022",
-    title: "UI Designer",
-    institute: "Tech Design Company",
+    duration: "2018 - 2019",
+    title: "IDPCCM Training (Critical Care)",
+    institute: "Fortis Memorial Research Institute, Gurugram",
   },
   {
-    duration: "2016 - 2019",
-    title: "Intern UI/UX Designer",
-    institute: "USA Web Company",
+    duration: "2015 - 2018",
+    title: "MD Pediatrics",
+    institute: "Lady Hardinge Medical College, New Delhi",
+  },
+  {
+    duration: "2010 - 2015",
+    title: "MBBS (Gold Medallist)",
+    institute: "King George's Medical University, Lucknow",
     isLast: true, // use to optionally add a custom class like mb--0
   },
 ];

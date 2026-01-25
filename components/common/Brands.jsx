@@ -15,7 +15,7 @@ export default function Brands({
                 className={`support-company-logo tmp-scroll-trigger tmp-fade-in animation-order-${logo.animationOrder}`}
               >
                 <Image
-                  alt="Reeni - Personal Portfolio HTML Template"
+                  alt="Dr. Vishrut Singh - Pediatrician"
                   src={logo.src}
                   width={logo.width}
                   height={logo.height}

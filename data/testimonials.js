@@ -2,9 +2,9 @@ export const testimonials = [
   {
     id: 1,
     quote:
-      "Working with themespark was an absolute pleasure! They understood my vision immediately and brought it to life even better than I'd imagined.",
-    name: "Cameron Williamson",
-    role: "Ui/Ux Designer",
+      "Dr Vishrut is highly skilled and knowledgeable pediatrician. He listens to all the queries patiently and gives best treatment. Highly recommended.",
+    name: "Sakshi Bhatnagar",
+    role: "Google Review",
     bgImage: "/assets/images/testimonial/bg-image-1png.png",
     width: 630,
     height: 720,
@@ -13,9 +13,9 @@ export const testimonials = [
   {
     id: 2,
     quote:
-      "ThemesPark is incredibly talented and detail-oriented. They took the time to understand my brand and created something truly unique",
-    name: "Cameron Williamson",
-    role: "Ui/Ux Designer",
+      "One of the finest pediatrician with not only excellent knowledge and experience but with values of honesty and empathy for children and families under his care. A very lively and positive attitude eases anxiety of parents.",
+    name: "Sukla Samaddar",
+    role: "Google Review",
     bgImage: "/assets/images/testimonial/bg-image-2.png",
     width: 444,
     height: 484,
@@ -24,9 +24,9 @@ export const testimonials = [
   {
     id: 3,
     quote:
-      "A personal portfolio is a curated collection of an individual's professional work, showcasing their skills, experience, and achievements",
-    name: "Cameron Williamson",
-    role: "Ui/Ux Designer",
+      "Dr. Vishrut Singh has been proved very helpful. His diagnosis is foolproof and he advises the right treatment effortlessly. Many heartfelt thanks to him.",
+    name: "Shabdhim",
+    role: "Google Review",
     bgImage: "/assets/images/testimonial/bg-image-1png.png",
     width: 630,
     height: 720,
@@ -36,58 +36,58 @@ export const testimonials = [
 
 export const testimonials2 = [
   {
-    name: "Theresa Webb",
-    role: "Ui/Ux Designer",
+    name: "Akrati Gangwar",
+    role: "Google Review",
     image: "/assets/images/testimonial/client-img-1.jpg",
-    text: "Their expertise is apparent in every step of the project. I'm thrilled with the outcome and would definitely work with them again! definitely work with them again",
+    text: "Dr Vishrut is no less than a God for our family. My 8 months old nephew was in very critical condition, admitted in PICU on ventilator support for 5 days. Dr Vishrut explained everything clearly and saved his life.",
     stars: 5,
   },
   {
-    name: "Theresa Webb",
-    role: "Ui/Ux Designer",
+    name: "Seema Singh",
+    role: "Google Review",
     image: "/assets/images/testimonial/client-img-1.jpg",
-    text: "They were communicative, attentive, and exceeded all project goals. The quality and attention to detail were top-notch. Five stars aren't enough! Five stars aren't enough.",
+    text: "Dr. Vishrut is a very friendly person. He explains the issue well & also examines the baby giving proper time & is never in a hurry. His explanations of the problem reduces the worry of parents to half.",
     stars: 5,
   },
   {
-    name: "Theresa Webb",
-    role: "Ui/Ux Designer",
+    name: "Nimisha Dhankar",
+    role: "Google Review",
     image: "/assets/images/testimonial/client-img-1.jpg",
-    text: "Financial planners help people knowledge about to how toio invest and save the money the most of us efficient way ever. Many people all across in the of country use them help peopl and save",
+    text: "Dr Vishrut is knowledgeable, informative and an expert in his field. Being a mother of a 1 year old, he is my go to doctor for every concern. He has been able to help me and my baby with each problem.",
     stars: 5,
   },
   {
-    name: "Theresa Webb",
-    role: "Ui/Ux Designer",
+    name: "Vipin Tyagi",
+    role: "Google Review",
     image: "/assets/images/testimonial/client-img-1.jpg",
-    text: "They understood my vision immediately and brought it to life even better than I'd imagined. Professional, creative, and always on time – I couldn't be happier with the results!",
+    text: "Dr Vishrut is highly experienced and well spoken. He is able to quickly diagnose and explain the underlying health issues to parents. His treatment is effective and he genuinely cares about his patients.",
     stars: 5,
   },
 ];
 
 export const testimonials3 = [
   {
-    name: "Cameron Williamson",
-    role: "Ui/Ux Designer",
-    text: "A personal portfolio is a curated collection of an individual's professional work, showcasing their skilA personal portfolio is a curated collection of an individual's professional work, showcasing their skills,",
+    name: "Ruchi Sharma",
+    role: "Google Review",
+    text: "Dr Vishrut is very knowledgeable and caring. He takes time to understand the problem and explains everything in detail. My daughter's health improved significantly under his care.",
     animationOrder: "1",
   },
   {
-    name: "Leslie Alexander",
-    role: "Ui/Ux Designer",
-    text: "A personal portfolio is a curated collection of an individual's professional work, showcasing their skilA personal portfolio is a curated collection of an individual's professional work, showcasing their skills,",
+    name: "Amit Kumar",
+    role: "Google Review",
+    text: "Excellent pediatrician with vast experience. Dr Vishrut diagnosed my son's respiratory issue correctly and the treatment was very effective. Highly recommend him.",
     animationOrder: "2",
   },
   {
-    name: "Cameron Williamson",
-    role: "Ui/Ux Designer",
-    text: "A personal portfolio is a curated collection of an individual's professional work, showcasing their skilA personal portfolio is a curated collection of an individual's professional work, showcasing their skills,",
+    name: "Priya Mehta",
+    role: "Google Review",
+    text: "Dr Vishrut is extremely patient and compassionate with children. He makes them feel comfortable and explains everything to parents clearly. Best pediatrician we've consulted.",
     animationOrder: "1",
   },
   {
-    name: "Leslie Alexander",
-    role: "Ui/Ux Designer",
-    text: "A personal portfolio is a curated collection of an individual's professional work, showcasing their skilA personal portfolio is a curated collection of an individual's professional work, showcasing their skills,",
+    name: "Rahul Verma",
+    role: "Google Review",
+    text: "Very professional and knowledgeable doctor. Dr Vishrut's treatment approach is evidence-based and effective. He genuinely cares about his patients' wellbeing.",
     animationOrder: "2",
   },
 ];
