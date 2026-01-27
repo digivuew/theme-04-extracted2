@@ -8,8 +8,8 @@ on:
 
 env:
   DOCKER_HUB_USERNAME: teamfusion
-  IMAGE_NAME: theme-04-extracted2
-  SERVICE_NAME: digivue-fe-website
+  IMAGE_NAME: portfolio-web
+  SERVICE_NAME: frontend
 
 jobs:
   build-and-push:
@@ -52,7 +52,7 @@ jobs:
             ${{ env.DOCKER_HUB_USERNAME }}/${{ env.IMAGE_NAME }}:${{ env.SERVICE_NAME }}-latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
-          
+
       - name: Image digest
         if: github.event_name != 'pull_request'
         run: echo "Image pushed with digest ${{ steps.docker_build.outputs.digest }}"
