@@ -3,31 +3,45 @@ import { slugify } from "@/utlis/slugify";
 export const services = [
   {
     id: 1,
-    icon: "fa-light fa-pen-ruler",
-    title: "Web Design",
-    projects: "120 Projects",
+    icon: "fa-light fa-stethoscope",
+    title: "Pediatric Consultations",
+    projects: "General child health & wellness",
     animationOrder: "1",
   },
   {
     id: 2,
-    icon: "fa-light fa-bezier-curve",
-    title: "Ui/Ux Design",
-    projects: "241 Projects",
+    icon: "fa-light fa-lungs",
+    title: "Respiratory Care",
+    projects: "Asthma & breathing disorders",
     animationOrder: "2",
   },
   {
     id: 3,
-    icon: "fa-light fa-lightbulb",
-    title: "Web Research",
-    projects: "240 Projects",
+    icon: "fa-light fa-syringe",
+    title: "Allergy Management",
+    projects: "Testing & treatment plans",
     animationOrder: "3",
   },
   {
     id: 4,
-    icon: "fa-light fa-envelope",
-    title: "Marketing",
-    projects: "331 Prodect",
+    icon: "fa-light fa-virus",
+    title: "Infectious Diseases",
+    projects: "Diagnosis & treatment",
     animationOrder: "4",
+  },
+  {
+    id: 5,
+    icon: "fa-light fa-heart-pulse",
+    title: "Critical Care",
+    projects: "Pediatric ICU expertise",
+    animationOrder: "5",
+  },
+  {
+    id: 6,
+    icon: "fa-light fa-baby",
+    title: "Neonatology",
+    projects: "Newborn care & support",
+    animationOrder: "6",
   },
 ].map((elm) => {
   return {
@@ -40,9 +54,9 @@ export const services2 = [
   {
     id: 1,
     num: "01.",
-    title: "Success Architects",
+    title: "Pediatric Respiratory Disorders",
     description:
-      "Business consulting consultants provide expert advice and guida the a businesses to help theme their performance efficiency",
+      "Expert diagnosis and treatment of asthma, bronchitis, pneumonia, and other respiratory conditions in children from birth to 18 years",
     animationOrder: "1",
     isLink: true,
     column: 1,
@@ -50,9 +64,9 @@ export const services2 = [
   {
     id: 2,
     num: "02.",
-    title: "Success Architects",
+    title: "Infectious Disease Management",
     description:
-      "App consulting consultants provide expert advice and guida the a businesses to help theme their performance efficiency",
+      "Comprehensive care for bacterial and viral infections, including fever management, vaccination guidance, and preventive care strategies",
     animationOrder: "2",
     isLink: true,
     column: 1,
@@ -60,9 +74,9 @@ export const services2 = [
   {
     id: 3,
     num: "03.",
-    title: "Success Architects",
+    title: "Allergy & Asthma Treatment",
     description:
-      "I specialize in creating solutions that are not only visually engaging but also align with business goals. From [list services, e.g., branding",
+      "Specialized diagnosis and management of pediatric allergies, asthma, and related conditions with personalized treatment plans",
     animationOrder: "3",
     isLink: true,
     column: 1,
@@ -70,9 +84,9 @@ export const services2 = [
   {
     id: 4,
     num: "04.",
-    title: "Ui/visual Design",
+    title: "Growth & Development",
     description:
-      "I'm proud of what I've accomplished and excited to share my journey with you. I'm proud of what I've accomplished and excited to.",
+      "Monitoring and addressing growth concerns, developmental milestones, and nutritional guidance for optimal child development",
     animationOrder: "4",
     isLink: false,
     column: 2,
@@ -80,9 +94,9 @@ export const services2 = [
   {
     id: 5,
     num: "05.",
-    title: "Branding Design",
+    title: "Pediatric Critical Care",
     description:
-      "Interested in working together? Let's bring your ideas to life! Contact me, and let's start building something amazing.",
+      "Advanced critical care support with IDPCCM certification, providing specialized intensive care for critically ill children",
     animationOrder: "5",
     isLink: false,
     column: 2,
@@ -90,9 +104,9 @@ export const services2 = [
   {
     id: 6,
     num: "06.",
-    title: "Motion Design",
+    title: "Neonatology Services",
     description:
-      "Feel free to browse through my recent projects. Each one showcases my approach and dedication to detail, creativity, and.",
+      "Expert care for newborns, including premature babies, with focus on ensuring healthy start to life and parental education",
     animationOrder: "6",
     isLink: false,
     column: 2,

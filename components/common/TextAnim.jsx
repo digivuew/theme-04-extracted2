@@ -6,11 +6,10 @@ export default function TextAnim() {
       <div className="container tmp-section-gap">
         <div className="text-para-doc-wrap">
           <h2 className="text-para-documents tmp-scroll-trigger tmp-fade-in inv-title-animation-wrap animation-order-1">
-            A personal <span>portfolio</span> is a collection of your work, that
-            is aa go achievements, and skills that highlights{" "}
-            <span>web design</span> in your is abilities and professional
-            growth. It serves as A personal to a portfolio in
-            <span> since 2009</span> a collection of your work
+            Providing <span>comprehensive</span> pediatric care for children from birth to 18 years,
+            specializing in <span>respiratory disorders</span>, infectious diseases, and critical care.
+            Committed to delivering compassionate, evidence-based treatment with{" "}
+            <span>9+ years</span> of dedicated medical practice in pediatrics
           </h2>
           <div className="right-bg-text-para">
             <Image

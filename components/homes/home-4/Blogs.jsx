@@ -9,11 +9,11 @@ export default function Blogs({ isLight = false }) {
       <div className="container">
         <div className="section-head mb--60">
           <div className="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-            <span className="subtitle">Latest Blog</span>
+            <span className="subtitle">Health Resources</span>
           </div>
           <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-            Transforming Ideas into Exceptional <br />
-            the man can Creations
+            Child Health Tips & <br />
+            Medical Insights
           </h2>
         </div>
         <div className="row">

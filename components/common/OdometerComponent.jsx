@@ -3,67 +3,67 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const OdometerComponent = ({ max }) => {
-  const odometerRef = useRef(null);
   const [value, setValue] = useState(0);
-  const odometerInitRef = useRef();
+  const hasAnimated = useRef(false);
+  const elementRef = useRef(null);
 
   useEffect(() => {
-    import("odometer").then((Odometer) => {
-      // Initialize Odometer or do something with it
-
-      // Example usage of Odometer
-      if (Odometer && odometerRef.current) {
-        odometerInitRef.current = new Odometer.default({
-          el: odometerRef.current,
-          value,
+    // Simple intersection observer that works reliably
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !hasAnimated.current) {
+            hasAnimated.current = true;
+            // Start animation after a short delay
+            setTimeout(() => {
+              animateValue(0, max, 1500);
+            }, 200);
+            observer.unobserve(entry.target);
+          }
         });
-      }
-    });
-  }, []);
-  useEffect(() => {
-    if (odometerRef.current && odometerInitRef.current) {
-      odometerInitRef.current.update(value); // Update odometer when value changes
-    }
-  }, [value]);
+      },
+      { threshold: 0.1 }
+    );
 
-  const startCountup = () => {
-    setValue(max);
-  };
-
-  useEffect(() => {
-    const handleIntersection = (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          startCountup();
-          observer.unobserve(entry.target);
-        }
-      });
-    };
-
-    const options = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0.5,
-    };
-
-    const observer = new IntersectionObserver(handleIntersection, options);
-    if (odometerRef.current) {
-      observer.observe(odometerRef.current);
+    if (elementRef.current) {
+      observer.observe(elementRef.current);
     }
 
     return () => {
-      if (odometerRef.current) {
-        observer.unobserve(odometerRef.current);
+      if (elementRef.current) {
+        observer.unobserve(elementRef.current);
       }
     };
-  }, []);
+  }, [max]);
+
+  const animateValue = (start, end, duration) => {
+    const startTime = Date.now();
+    const endTime = startTime + duration;
+
+    const updateValue = () => {
+      const now = Date.now();
+      const progress = Math.min((now - startTime) / duration, 1);
+
+      // Easing function for smooth animation
+      const easeOutCubic = 1 - Math.pow(1 - progress, 3);
+      const currentValue = Math.floor(start + (end - start) * easeOutCubic);
+
+      setValue(currentValue);
+
+      if (progress < 1) {
+        requestAnimationFrame(updateValue);
+      } else {
+        setValue(end);
+      }
+    };
+
+    updateValue();
+  };
 
   return (
-    <>
-      <div ref={odometerRef} className="odometer">
-        0
-      </div>
-    </>
+    <span ref={elementRef} className="odometer">
+      {value}
+    </span>
   );
 };
 

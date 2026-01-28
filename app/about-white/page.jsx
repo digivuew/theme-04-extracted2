@@ -11,9 +11,9 @@ import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
 export const metadata = {
   title:
-    "About || Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+    "About Dr. Vishrut Singh | Pediatrician in Dubai - Medical Background & Expertise",
   description:
-    "Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+    "Learn about Dr. Vishrut Singh, board-certified Pediatrician with 9+ years of experience. MBBS Gold Medallist, MD Pediatrics, IDPCCM Critical Care certified. Serving at Aster Clinic, Dubai.",
 };
 export default function page() {
   return (
@@ -25,7 +25,7 @@ export default function page() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="breadcrumb-inner text-center">
-                  <h1 className="title split-collab">About Me</h1>
+                  <h1 className="title split-collab">About Dr. Vishrut Singh</h1>
                   <ul className="page-list">
                     <li className="tmp-breadcrumb-item">
                       <Link href={`/`}>Home</Link>
@@ -33,7 +33,7 @@ export default function page() {
                     <li className="icon">
                       <i className="fa-solid fa-angle-right" />
                     </li>
-                    <li className="tmp-breadcrumb-item active">About Me</li>
+                    <li className="tmp-breadcrumb-item active">About</li>
                   </ul>
                 </div>
               </div>

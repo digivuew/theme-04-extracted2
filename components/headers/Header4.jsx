@@ -17,14 +17,14 @@ export default function Header4() {
                   <Link href={`/`}>
                     <Image
                       className="logo-dark"
-                      alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                      alt="Dr. Vishrut Singh - Pediatrician in Dubai"
                       src="/assets/images/logo/logo-yello.svg"
                       width={121}
                       height={41}
                     />
                     <Image
                       className="logo-white"
-                      alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                      alt="Dr. Vishrut Singh - Pediatrician in Dubai"
                       src="/assets/images/logo/logo-yello.svg"
                       width={121}
                       height={40}

@@ -8,18 +8,17 @@ export default function Experiences2() {
         <div className="header-top-inner">
           <div className="section-head text-align-left">
             <div className="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-              <span className="subtitle">My Expertise</span>
+              <span className="subtitle">Medical Expertise</span>
             </div>
             <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-              Elevated Designs Personalized <br />
-              the best Experiences
+              Specialized Pediatric Care <br />
+              & Medical Excellence
             </h2>
           </div>
           <div className="discription-area tmp-scroll-trigger tmp-fade-in animation-order-3">
             <p className="description color-primary-3rd">
-              Business consulting consultants provide expert advice and guida
-              businesses to help them improve their performance, efficiency, and
-              organizational
+              Dr. Vishrut Singh provides comprehensive pediatric healthcare services with expertise in
+              respiratory disorders, infectious diseases, critical care, and child development
             </p>
           </div>
         </div>

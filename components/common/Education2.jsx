@@ -10,13 +10,13 @@ export default function Education() {
             <span className="subtitle">Education &amp; Experience</span>
           </div>
           <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-            Empowering Creativity <br />
-            through
+            Excellence in Pediatric <br />
+            Medicine
           </h2>
           <p className="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3">
-            Business consulting consultants provide expert advice and guida
-            businesses to help them improve their performance, efficiency, and
-            organizational
+            Comprehensive medical training and extensive clinical experience
+            dedicated to providing exceptional pediatric care and improving
+            children's health outcomes
           </p>
         </div>
         <h2 className="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">
@@ -59,23 +59,23 @@ export default function Education() {
                   </span>
                 </h2>
                 <div className="experience-content tmp-scroll-trigger tmp-fade-in animation-order-1">
-                  <p className="ex-subtitle">experience</p>
-                  <h2 className="ex-name">Soft Tech (2 Years)</h2>
-                  <h3 className="ex-title">UI/UX Designer</h3>
+                  <p className="ex-subtitle">Current Position</p>
+                  <h2 className="ex-name">Aster DM Healthcare (5+ Years)</h2>
+                  <h3 className="ex-title">Consultant Pediatrician</h3>
                   <p className="ex-para">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum desi dolore eu fugiat nulla pariatu Duis aute
-                    irure.
+                    Providing comprehensive pediatric care in Dubai, specializing in
+                    respiratory disorders, infectious diseases, and critical care for
+                    children from birth to 18 years.
                   </p>
                 </div>
                 <div className="experience-content tmp-scroll-trigger tmp-fade-in animation-order-2">
-                  <p className="ex-subtitle">experience</p>
-                  <h2 className="ex-name">ModernTech (3 Years)</h2>
-                  <h3 className="ex-title">App Developer</h3>
+                  <p className="ex-subtitle">Previous Experience</p>
+                  <h2 className="ex-name">Felix Hospital (2 Years)</h2>
+                  <h3 className="ex-title">Pediatrician & Postgraduate Trainer</h3>
                   <p className="ex-para">
-                    In this portfolio, you’ll find a curated selection of
-                    projects that highlight my skills in [Main Areas, e.g.,
-                    responsive web design.
+                    Served as Pediatrician and medical educator in Greater Noida, India,
+                    managing critical pediatric cases and training medical residents
+                    in advanced pediatric care protocols.
                   </p>
                 </div>
               </div>

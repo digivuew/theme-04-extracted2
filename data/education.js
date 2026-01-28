@@ -1,105 +1,105 @@
 export const educationExperienceData = [
   {
-    role: "Trainer Marketing",
-    duration: "2005-2009",
+    role: "Consultant Pediatrician",
+    duration: "2019-Present",
     description:
-      "A personal portfolio is a curated collection of an individual's professional work, showcasing their skills, experience A personal portfolio.",
+      "Providing comprehensive pediatric care at Aster DM Healthcare, Dubai, specializing in respiratory disorders, infectious diseases, and critical care for children of all ages.",
     animationOrder: 1,
   },
   {
-    role: "Assistant Director",
-    duration: "2010-2014",
+    role: "Pediatrician & Postgraduate Trainer",
+    duration: "2017-2019",
     description:
-      "Each project here showcases my commitment to excellence and adaptability, tailored to meet each client’s unique needs.",
+      "Served as Pediatrician and Postgraduate Trainer at Felix Hospital, Greater Noida, managing critical cases and mentoring medical residents in pediatric care.",
     animationOrder: 2,
   },
   {
-    role: "Design Assistant",
-    duration: "2008-2012",
+    role: "IDPCCM Critical Care Training",
+    duration: "2018-2019",
     description:
-      "I’ve had the privilege of working with various clients, from startups to established companies, helping bring their visions to life.",
+      "Completed advanced Pediatric Critical Care Medicine training at Fortis Memorial Research Institute, Gurugram, specializing in intensive care management for critically ill children.",
     animationOrder: 3,
   },
   {
-    role: "Design Assistant",
-    duration: "2008-2012",
+    role: "MD Pediatrics",
+    duration: "2015-2018",
     description:
-      "Each project here showcases my commitment to excellence and adaptability, tailored to meet each client’s unique needs a personal.",
+      "Completed postgraduate medical training in Pediatrics at Lady Hardinge Medical College, New Delhi, with comprehensive training in child healthcare and development.",
     animationOrder: 4,
   },
 ];
 
 export const educationExperience = [
   {
-    title: "Trainer Marketing",
-    duration: "2005-2009",
+    title: "Consultant Pediatrician",
+    duration: "2019-Present",
     description:
-      "A personal portfolio is a curated collection of an individual's professional work, showcasing their skills, experience A personal portfolio.",
+      "Providing comprehensive pediatric care at Aster DM Healthcare, Dubai, specializing in respiratory disorders, infectious diseases, and critical care for children of all ages.",
   },
   {
-    title: "Assistant Director",
-    duration: "2010-2014",
+    title: "Pediatrician & Postgraduate Trainer",
+    duration: "2017-2019",
     description:
-      "Each project here showcases my commitment to excellence and adaptability, tailored to meet each client’s unique needs.",
+      "Served as Pediatrician and Postgraduate Trainer at Felix Hospital, Greater Noida, managing critical cases and mentoring medical residents in pediatric care.",
   },
   {
-    title: "Design Assistant",
-    duration: "2008-2012",
+    title: "IDPCCM Critical Care Training",
+    duration: "2018-2019",
     description:
-      "I’ve had the privilege of working with various clients, from startups to established companies, helping bring their visions to life.",
+      "Completed advanced Pediatric Critical Care Medicine training at Fortis Memorial Research Institute, Gurugram, specializing in intensive care management for critically ill children.",
   },
   {
-    title: "Design Assistant",
-    duration: "2008-2012",
+    title: "MD Pediatrics",
+    duration: "2015-2018",
     description:
-      "Each project here showcases my commitment to excellence and adaptability, tailored to meet each client’s unique needs a personal.",
+      "Completed postgraduate medical training in Pediatrics at Lady Hardinge Medical College, New Delhi, with comprehensive training in child healthcare and development.",
   },
 ];
 
 export const educationResumeItems = [
   {
-    duration: "2020 - 2023",
-    title: "Programming course",
-    institute: "Harverd University",
+    duration: "2018 - 2019",
+    title: "Indian Diploma in Pediatric Critical Care Medicine (IDPCCM)",
+    institute: "Fortis Memorial Research Institute, Gurugram",
   },
   {
-    duration: "2016 - 2020",
-    title: "Graphic design course",
-    institute: "University of Denmark",
+    duration: "2015 - 2018",
+    title: "MD Pediatrics",
+    institute: "Lady Hardinge Medical College, New Delhi",
   },
   {
-    duration: "2012 - 2015",
-    title: "Web design course",
-    institute: "University of California",
+    duration: "2010 - 2015",
+    title: "MBBS (Gold Medallist)",
+    institute: "King George's Medical University, Lucknow",
   },
   {
-    duration: "2010 - 2011",
-    title: "Design & Technology",
-    institute: "Parsons, The New School",
+    duration: "2008 - 2010",
+    title: "Higher Secondary Education",
+    institute: "Senior Secondary School",
     isLast: true, // to apply the mb--0 class
   },
 ];
 
 export const resumeListItems = [
   {
-    title: "Personal Portfolio April Fools",
-    institution: "University of DVI (1997 - 2001)",
-    rating: "4.30/5",
+    title: "MBBS - Gold Medallist",
+    institution: "King George's Medical University, Lucknow (2010 - 2015)",
+    rating: "Gold Medal",
     description:
-      "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+      "Completed undergraduate medical education with distinction, earning Gold Medal for academic excellence. Developed strong foundation in medical sciences and clinical practice.",
   },
   {
-    title: "Examples Of Personal Portfolio",
-    institution: "College of Studies (2000 - 2002)",
-    rating: "4.50/5",
+    title: "MD Pediatrics",
+    institution: "Lady Hardinge Medical College, New Delhi (2015 - 2018)",
+    rating: "Distinction",
     description:
-      "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+      "Specialized postgraduate training in Pediatrics with comprehensive exposure to child healthcare, growth and development, and pediatric diseases across all age groups.",
   },
   {
-    title: "Tips For Personal Portfolio",
-    institution: "University of Studies (1997 - 2001)",
-    rating: "4.80/5",
+    title: "IDPCCM - Pediatric Critical Care",
+    institution: "Fortis Memorial Research Institute, Gurugram (2018 - 2019)",
+    rating: "Certified",
     description:
-      "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+      "Advanced fellowship training in Pediatric Critical Care Medicine, specializing in intensive care management of critically ill children and emergency pediatric care.",
   },
 ];
