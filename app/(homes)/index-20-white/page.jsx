@@ -236,8 +236,8 @@ export default function page() {
           </div>
         </div>
         <Footer4
-          {/* Logo removed - unused */}
-          {/* Previously: /assets/images/logo/logo-pink.svg */}
+          darkLogo="/assets/images/logo/logo-blue-white.svg"
+          lightLogo="/assets/images/logo/logo-blue-white.svg"
         />{" "}
         <CommonComponents />
       </>

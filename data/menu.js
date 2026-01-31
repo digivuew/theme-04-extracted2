@@ -32,10 +32,6 @@ export const menuItems = [
 export const menuItemsLight = menuItems;
 
 // Demo data removed - unused demo pages
-// export const demoData = [
-//   { href: "/", img: "/assets/images/demo/home-4.png", title: "Theme04 Light" },
-// ];
+export const demoData = [];
 
-// export const whiteDemoData = [
-//   { href: "/", img: "/assets/images/demo/home-4-white.png", title: "Theme04 Light" },
-// ];
+export const whiteDemoData = [];
