@@ -24,63 +24,27 @@ export default function Footer2({
                     <Link href={`/`} style={{
                       textDecoration: 'none',
                       fontFamily: 'inherit',
-                      display: 'flex',
+                      display: 'inline-flex',
                       alignItems: 'center',
-                      gap: '14px'
+                      gap: '0px',
+                      width: 'fit-content'
                     }}>
-                      <div style={{
-                        position: 'relative',
-                        width: '56px',
-                        height: '56px',
-                        background: 'linear-gradient(135deg, #FF9A3D 0%, #FDC448 50%, #FFE082 100%)',
-                        borderRadius: '16px',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        boxShadow: '0 8px 24px rgba(253, 196, 72, 0.4), 0 4px 8px rgba(0, 0, 0, 0.1)',
-                        border: '2px solid rgba(255, 255, 255, 0.8)',
-                        transform: 'rotate(-3deg)',
-                        overflow: 'hidden'
-                      }}>
-                        {/* Decorative shine effect */}
-                        <div style={{
-                          position: 'absolute',
-                          top: '-50%',
-                          left: '-50%',
-                          width: '200%',
-                          height: '200%',
-                          background: 'linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.3) 50%, transparent 70%)',
-                          transform: 'rotate(45deg)',
-                          pointerEvents: 'none'
-                        }}></div>
-
-                        {/* Medical heart icon as background */}
-                        <div style={{
-                          position: 'absolute',
-                          fontSize: '32px',
-                          opacity: '0.15',
-                          color: '#fff',
-                          transform: 'rotate(3deg)'
-                        }}>❤</div>
-
-                        <span style={{
-                          fontWeight: '900',
-                          fontSize: '26px',
-                          color: '#fff',
-                          transform: 'rotate(3deg)',
-                          letterSpacing: '-2px',
-                          textShadow: '0 2px 8px rgba(0, 0, 0, 0.2)',
-                          zIndex: 1,
-                          fontFamily: 'inherit'
-                        }}>
-                          VS
-                        </span>
-                      </div>
+                      <Image
+                        src="/assets/images/logo/vishrut-singh-site-logo-without-background.png"
+                        alt="Vishrut Singh logo"
+                        width={56}
+                        height={56}
+                        style={{
+                          display: 'block',
+                          objectFit: 'contain',
+                          filter: 'drop-shadow(0 6px 14px rgba(0, 0, 0, 0.25))'
+                        }}
+                      />
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '3px' }}>
                         <span style={{
                           fontSize: '22px',
                           fontWeight: '800',
-                          color: '#fff',
+                          color: '#000',
                           lineHeight: '1',
                           letterSpacing: '-0.8px'
                         }}>
@@ -176,7 +140,7 @@ export default function Footer2({
                   </p>
                   <p className="para">
                     <strong>India Clinic:</strong><br />
-                    <a href="https://www.google.com/search?q=kilkari+children+clinic+ghaziabad+Vishrut+Singh&sca_esv=5c1233ee610bdfb6&sxsrf=ANbL-n4VaqHl3kG_ULajPJ4pjme2KRh5wg%3A1769353869022&ei=jTJ2aZyNAeOMnesPgafkiAg&ved=0ahUKEwjch-Hm_KaSAxVjRmcHHYETGYEQ4dUDCBE&uact=5&oq=kilkari+children+clinic+ghaziabad+Vishrut+Singh&gs_lp=Egxnd3Mtd2l6LXNlcnAiL2tpbGthcmkgY2hpbGRyZW4gY2xpbmljIGdoYXppYWJhZCBWaXNocnV0IFNpbmdoSIYiUG1YliBwAXgBkAEAmAGUAaAB4w2qAQQwLjE0uAEDyAEA-AEBmAICoAKZAcICChAAGLADGNYEGEfCAgYQABgWGB7CAggQABiABBiiBJgDAIgGAZAGBZIHAzEuMaAHsQeyBwMwLjG4B5UBwgcDMC4yyAcDgAgA&sclient=gws-wiz-serp&lqi=Ci9raWxrYXJpIGNoaWxkcmVuIGNsaW5pYyBnaGF6aWFiYWQgVmlzaHJ1dCBTaW5naEjztdDr27CAgAhaQRAEEAUYARgDGAQYBSIva2lsa2FyaSBjaGlsZHJlbiBjbGluaWMgZ2hhemlhYmFkIHZpc2hydXQgc2luZ2gqAggCkgEObWVkaWNhbF9jbGluaWM#rlimm=17556755910220230808" target="_blank" rel="noopener noreferrer" style={{color: '#FDC448'}}>
+                    <a href="https://www.google.com/maps/place/Dr+Vishrut+Singh-+Child+specialist+%2F+pediatrician+in+Ghaziabad/@28.6847951,77.4092558,17z/data=!3m1!4b1!4m6!3m5!1s0x390cf1a041991f77:0xf3a6207b0ceab098!8m2!3d28.6847904!4d77.4118307!16s%2Fg%2F11jqzr86rm?entry=ttu&g_ep=EgoyMDI2MDEyOC4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D" target="_blank" rel="noopener noreferrer" style={{color: '#FDC448'}}>
                       Kilkari Children Clinic, Ghaziabad
                     </a>
                   </p>
