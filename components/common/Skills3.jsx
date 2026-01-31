@@ -36,12 +36,16 @@ export default function Skills3() {
                       className={`my-skill-card tmp-scroll-trigger tmp-fade-in animation-order-${skill.animationOrder}`}
                     >
                       <div className="card-icon">
-                        <Image
-                          alt="my-skill-icon"
-                          src={skill.icon.src}
-                          width={skill.icon.width}
-                          height={skill.icon.height}
-                        />
+                        {skill.iconClass ? (
+                          <i className={skill.iconClass} style={{ fontSize: "32px" }} />
+                        ) : (
+                          <Image
+                            alt="my-skill-icon"
+                            src={skill.icon.src}
+                            width={skill.icon.width}
+                            height={skill.icon.height}
+                          />
+                        )}
                       </div>
                       <h3 className="card-title">{skill.title}</h3>
                       <p className="card-para">{skill.description}</p>
