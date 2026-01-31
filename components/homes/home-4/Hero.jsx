@@ -11,9 +11,10 @@ export default function Hero() {
             <Image
               className="tmp-scroll-trigger tmp-zoom-in animation-order-1"
               alt="banner"
-              src="/assets/images/banner/banner-user-image-four.png"
-              width={959}
-              height={778}
+              src="/assets/images/1741865220786-Dr Vishruth.png"
+              width={760}
+              height={616}
+              style={{ marginLeft: "-154px" }}
             />
           </div>
           <div className="banner-four-right-bg-img">
