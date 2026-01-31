@@ -140,7 +140,7 @@ export default function Footer2({
                   </p>
                   <p className="para">
                     <strong>India Clinic:</strong><br />
-                    <a href="https://www.google.com/search?q=kilkari+children+clinic+ghaziabad+Vishrut+Singh&sca_esv=5c1233ee610bdfb6&sxsrf=ANbL-n4VaqHl3kG_ULajPJ4pjme2KRh5wg%3A1769353869022&ei=jTJ2aZyNAeOMnesPgafkiAg&ved=0ahUKEwjch-Hm_KaSAxVjRmcHHYETGYEQ4dUDCBE&uact=5&oq=kilkari+children+clinic+ghaziabad+Vishrut+Singh&gs_lp=Egxnd3Mtd2l6LXNlcnAiL2tpbGthcmkgY2hpbGRyZW4gY2xpbmljIGdoYXppYWJhZCBWaXNocnV0IFNpbmdoSIYiUG1YliBwAXgBkAEAmAGUAaAB4w2qAQQwLjE0uAEDyAEA-AEBmAICoAKZAcICChAAGLADGNYEGEfCAgYQABgWGB7CAggQABiABBiiBJgDAIgGAZAGBZIHAzEuMaAHsQeyBwMwLjG4B5UBwgcDMC4yyAcDgAgA&sclient=gws-wiz-serp&lqi=Ci9raWxrYXJpIGNoaWxkcmVuIGNsaW5pYyBnaGF6aWFiYWQgVmlzaHJ1dCBTaW5naEjztdDr27CAgAhaQRAEEAUYARgDGAQYBSIva2lsa2FyaSBjaGlsZHJlbiBjbGluaWMgZ2hhemlhYmFkIHZpc2hydXQgc2luZ2gqAggCkgEObWVkaWNhbF9jbGluaWM#rlimm=17556755910220230808" target="_blank" rel="noopener noreferrer" style={{color: '#FDC448'}}>
+                    <a href="https://www.google.com/maps/place/Dr+Vishrut+Singh-+Child+specialist+%2F+pediatrician+in+Ghaziabad/@28.6847951,77.4092558,17z/data=!3m1!4b1!4m6!3m5!1s0x390cf1a041991f77:0xf3a6207b0ceab098!8m2!3d28.6847904!4d77.4118307!16s%2Fg%2F11jqzr86rm?entry=ttu&g_ep=EgoyMDI2MDEyOC4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D" target="_blank" rel="noopener noreferrer" style={{color: '#FDC448'}}>
                       Kilkari Children Clinic, Ghaziabad
                     </a>
                   </p>
