@@ -1,52 +1,102 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import BlogSidebar from "./BlogSidebar";
 import Comment from "./Comment";
-import { tags } from "@/data/blogs";
 import { slugify } from "@/utlis/slugify";
+import { allBlogs } from "@/data/blogs";
+import { calculateReadTime, formatReadTime } from "@/utlis/readTime";
+
 export default function BlogDetails({ blog, isLight = false }) {
+  const [showCopied, setShowCopied] = useState(false);
+
+  // Find current blog index for prev/next navigation
+  const currentIndex = allBlogs.findIndex(b => b.slug === blog.slug);
+  const previousBlog = currentIndex > 0 ? allBlogs[currentIndex - 1] : null;
+  const nextBlog = currentIndex < allBlogs.length - 1 ? allBlogs[currentIndex + 1] : null;
+
+  const handleCopyLink = (e) => {
+    e.preventDefault();
+    if (typeof window !== 'undefined') {
+      navigator.clipboard.writeText(window.location.href);
+      setShowCopied(true);
+      setTimeout(() => setShowCopied(false), 2000);
+    }
+  };
   return (
     <div className="blog-classic-area-wrapper tmp-section-gap">
       <div className="container">
         <div className="row">
           <div className="col-lg-8">
-            <div className="blog-details-left-area">
-              <div className="thumbnail-top">
+            <div className="blog-details-left-area" style={{
+              background: 'linear-gradient(135deg, rgba(255, 249, 246, 0.2) 0%, rgba(255, 252, 240, 0.2) 100%)',
+              borderRadius: '12px',
+              padding: '20px',
+              border: '1px solid rgba(255, 182, 193, 0.15)'
+            }}>
+              <div className="thumbnail-top" style={{
+                aspectRatio: '16/9',
+                overflow: 'hidden',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: '8px',
+                backgroundColor: '#f5f5f5'
+              }}>
                 <Image
                   alt="Corporate_business"
                   src={blog.imageSrc}
-                  width={850}
-                  height={440}
+                  width={750}
+                  height={390}
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover'
+                  }}
                 />
               </div>
               <div className="blog-details-discription">
                 <div className="blog-classic-tag">
-                  <h4 className="title">By Dr. Vishrut Singh</h4>
                   <ul>
+                    {blog.categories && blog.categories.length > 0 && (
+                      <li>
+                        <div className="tag-wrap">
+                          <i className="fa-solid fa-tag" />
+                          <h4 className="tag-title">{blog.categories[0]}</h4>
+                        </div>
+                      </li>
+                    )}
+                    {blog.date && (
+                      <li>
+                        <div className="tag-wrap">
+                          <i className="fa-solid fa-calendar-day" />
+                          <h4 className="tag-title">{blog.date}</h4>
+                        </div>
+                      </li>
+                    )}
                     <li>
                       <div className="tag-wrap">
-                        <i className="fa-solid fa-tag" />
-                        <h4 className="tag-title">Child Health</h4>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="tag-wrap">
-                        <i className="fa-solid fa-calendar-day" />
-                        <h4 className="tag-title">Comments (05)</h4>
+                        <i className="fa-solid fa-clock" />
+                        <h4 className="tag-title">{formatReadTime(calculateReadTime(blog))}</h4>
                       </div>
                     </li>
                   </ul>
                 </div>
                 <h3 className="title split-collab">{blog.title}</h3>
-                <p className="disc">
-                  As a board-certified Pediatrician with over 9 years of experience, I've dedicated my career to providing comprehensive healthcare for children from birth to 18 years. My approach combines evidence-based medicine with compassionate care, ensuring every child receives the attention and treatment they deserve.
-                </p>
-                <p className="disc">
-                  In my practice, I focus on preventive care, early diagnosis, and effective treatment of pediatric conditions. From routine check-ups and vaccinations to managing complex respiratory disorders and critical care situations, I work closely with families to ensure optimal health outcomes for every child.
-                </p>
+                <p className="disc">{blog.content.intro}</p>
+                {blog.content.sections && blog.content.sections.map((section, index) => (
+                  <div key={index} style={{ marginTop: '30px' }}>
+                    <h4 className="title">{section.title}</h4>
+                    <p className="disc">{section.text}</p>
+                  </div>
+                ))}
               </div>
-              <div className="quote-area-blog-details">
+              <div className="quote-area-blog-details" style={{
+                background: 'linear-gradient(135deg, rgba(255, 228, 230, 0.2) 0%, rgba(255, 249, 230, 0.2) 100%)',
+                borderLeft: '4px solid rgba(255, 143, 199, 0.5)'
+              }}>
                 <p className="disc">
                   Every child deserves the highest quality healthcare. My mission is to provide compassionate, evidence-based pediatric care that helps children thrive and gives parents peace of mind.
                 </p>
@@ -89,9 +139,9 @@ export default function BlogDetails({ blog, isLight = false }) {
                 </div>
                 <div className="blog-details-navigation">
                   <div className="navigation-tags">
-                    <h3 className="tag-title">Keyword:</h3>
+                    <h3 className="tag-title">Keywords:</h3>
                     <ul>
-                      {tags.slice(1, 4).map((tag, index) => (
+                      {blog.tags && blog.tags.slice(0, 3).map((tag, index) => (
                         <li key={index}>
                           <p className="tag">
                             <Link
@@ -106,23 +156,170 @@ export default function BlogDetails({ blog, isLight = false }) {
                       ))}
                     </ul>
                   </div>
-                  <div className="social-link footer">
-                    <a href="https://www.instagram.com/dr_vishrut_singh_md/" target="_blank" rel="noopener noreferrer">
-                      <i className="fa-brands fa-instagram" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/dr-vishrut-singh-4b671113a" target="_blank" rel="noopener noreferrer">
-                      <i className="fa-brands fa-linkedin-in" />
-                    </a>
-                    <a href="https://x.com/vishruts261" target="_blank" rel="noopener noreferrer">
-                      <i className="fa-brands fa-twitter" />
-                    </a>
-                    <a href="https://www.facebook.com/DrVishrutSingh" target="_blank" rel="noopener noreferrer">
-                      <i className="fa-brands fa-facebook-f" />
-                    </a>
+                </div>
+                <div className="blog-details-navigation" style={{ marginTop: '30px', paddingTop: '20px', borderTop: '1px solid var(--color-border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '15px', position: 'relative' }}>
+                  {showCopied && (
+                    <div style={{
+                      position: 'fixed',
+                      top: '20px',
+                      right: '20px',
+                      background: '#4CAF50',
+                      color: 'white',
+                      padding: '12px 24px',
+                      borderRadius: '8px',
+                      boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+                      zIndex: 9999,
+                      fontSize: '14px',
+                      fontWeight: '600',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px'
+                    }}>
+                      <i className="fa-solid fa-check-circle" />
+                      <span>Link copied!</span>
+                    </div>
+                  )}
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <span style={{ fontSize: '14px', fontWeight: '600', color: 'var(--color-heading)' }}>Share:</span>
+                    <div className="social-link footer" style={{ marginTop: 0 }}>
+                      <a
+                        href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(blog.title)}&url=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="Share on Twitter"
+                      >
+                        <i className="fa-brands fa-twitter" />
+                      </a>
+                      <a
+                        href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="Share on LinkedIn"
+                      >
+                        <i className="fa-brands fa-linkedin-in" />
+                      </a>
+                      <a
+                        href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="Share on Facebook"
+                      >
+                        <i className="fa-brands fa-facebook-f" />
+                      </a>
+                      <a
+                        href="#"
+                        onClick={handleCopyLink}
+                        title="Copy link"
+                      >
+                        <i className="fa-solid fa-link" />
+                      </a>
+                    </div>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <span style={{ fontSize: '14px', fontWeight: '600', color: 'var(--color-heading)' }}>Follow:</span>
+                    <div className="social-link footer" style={{ marginTop: 0 }}>
+                      <a href="https://www.instagram.com/dr_vishrut_singh_md/" target="_blank" rel="noopener noreferrer">
+                        <i className="fa-brands fa-instagram" />
+                      </a>
+                      <a href="https://www.linkedin.com/in/dr-vishrut-singh-4b671113a" target="_blank" rel="noopener noreferrer">
+                        <i className="fa-brands fa-linkedin-in" />
+                      </a>
+                      <a href="https://x.com/vishruts261" target="_blank" rel="noopener noreferrer">
+                        <i className="fa-brands fa-twitter" />
+                      </a>
+                      <a href="https://www.facebook.com/DrVishrutSingh" target="_blank" rel="noopener noreferrer">
+                        <i className="fa-brands fa-facebook-f" />
+                      </a>
+                    </div>
                   </div>
                 </div>
+                {/* Previous/Next Article Navigation */}
+                {(previousBlog || nextBlog) && (
+                  <div style={{
+                    marginTop: '50px',
+                    paddingTop: '30px',
+                    borderTop: '1px solid var(--color-border)',
+                    display: 'grid',
+                    gridTemplateColumns: previousBlog && nextBlog ? '1fr 1fr' : '1fr',
+                    gap: '20px'
+                  }}>
+                    {previousBlog && (
+                      <Link
+                        href={`/blog-details${isLight ? "-white" : ""}/${previousBlog.slug}`}
+                        className="blog-nav-link"
+                      >
+                        <div style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '10px',
+                          marginBottom: '10px',
+                          color: '#FDB900',
+                          fontSize: '14px',
+                          fontWeight: '600'
+                        }}>
+                          <i className="fa-solid fa-arrow-left" />
+                          <span>Previous Article</span>
+                        </div>
+                        <h4 style={{
+                          fontSize: '16px',
+                          fontWeight: '700',
+                          color: 'var(--color-heading)',
+                          margin: '0',
+                          lineHeight: '1.4'
+                        }}>
+                          {previousBlog.title}
+                        </h4>
+                      </Link>
+                    )}
+                    {nextBlog && (
+                      <Link
+                        href={`/blog-details${isLight ? "-white" : ""}/${nextBlog.slug}`}
+                        className="blog-nav-link"
+                        style={{ textAlign: 'right' }}
+                      >
+                        <div style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'flex-end',
+                          gap: '10px',
+                          marginBottom: '10px',
+                          color: '#FDB900',
+                          fontSize: '14px',
+                          fontWeight: '600'
+                        }}>
+                          <span>Next Article</span>
+                          <i className="fa-solid fa-arrow-right" />
+                        </div>
+                        <h4 style={{
+                          fontSize: '16px',
+                          fontWeight: '700',
+                          color: 'var(--color-heading)',
+                          margin: '0',
+                          lineHeight: '1.4'
+                        }}>
+                          {nextBlog.title}
+                        </h4>
+                      </Link>
+                    )}
+                  </div>
+                )}
+                <style jsx>{`
+                  .blog-nav-link {
+                    display: block;
+                    padding: 20px;
+                    borderRadius: 8px;
+                    border: 1px solid var(--color-border);
+                    textDecoration: none;
+                    transition: all 0.3s ease;
+                    background: var(--color-bg-card);
+                  }
+                  .blog-nav-link:hover {
+                    border-color: #FDB900;
+                    box-shadow: 0 4px 12px rgba(253, 185, 0, 0.15);
+                  }
+                `}</style>
                 {/* Comment Area Main Wrapper Start */}
-                <div className="comment-area-main-wrapper mt--30">
+                <div className="comment-area-main-wrapper mt--30" style={{ display: 'none' }}>
                   <h3 className="title">Comments (3)</h3>
                   <div className="single-comment-audience">
                     <div className="author-image tmponhover">
@@ -232,7 +429,9 @@ export default function BlogDetails({ blog, isLight = false }) {
                 </div>
                 {/* Comment Area Main Wrapper End */}
                 {/* Blog Details Form Wrapper Start */}
-                <Comment />
+                <div style={{ display: 'none' }}>
+                  <Comment />
+                </div>
                 {/* Blog Details Form Wrapper End */}
               </div>
             </div>

@@ -39,13 +39,13 @@ export default function Footer1({
                     </Link>
                   </div>
                   <p className="description">
-                    <span>Get Ready</span> To Create Great
+                    <span>Compassionate Care</span> for Every Child
                   </p>
                   <form
                     onSubmit={(e) => e.preventDefault()}
                     className="newsletter-form-1 mt--40"
                   >
-                    <input type="email" placeholder="Email Adress" />
+                    <input type="email" placeholder="Subscribe to health tips" />
                     <span className="form-icon">
                       <i className="fa-regular fa-envelope" />
                     </span>

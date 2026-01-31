@@ -13,18 +13,7 @@ export const menuItems = [
       },
     ],
   },
-  {
-    label: "Blog",
-    href: "#",
-    hasDropdown: true,
-    submenu: [
-      { label: "Blog Classic", href: "/blog-white" },
-      {
-        label: "Blog Details",
-        href: "/blog-details-white/lets-bring-your-ideas-to-life-contact-me-and-lets",
-      },
-    ],
-  },
+  { label: "Blog", href: "/blog-white", isLink: true },
   { label: "Contact", href: "/contact-white", isLink: true },
 ];
 

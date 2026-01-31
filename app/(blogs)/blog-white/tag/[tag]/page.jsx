@@ -1,6 +1,6 @@
 import Blogs from "@/components/blog/Blogs";
 import Copyright from "@/components/footers/Copyright";
-import Footer1 from "@/components/footers/Footer1";
+import Footer2 from "@/components/footers/Footer2";
 import Header1 from "@/components/headers/Header1";
 import { allBlogs } from "@/data/blogs";
 import { slugify } from "@/utlis/slugify";
@@ -9,9 +9,9 @@ import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
 export const metadata = {
   title:
-    "Blog || Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+    "Blog Tag | Dr. Vishrut Singh MD - Pediatric Health Topics",
   description:
-    "Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+    "Explore pediatric health articles by tag. Find expert insights on child health topics from Dr. Vishrut Singh, MD Pediatrician.",
 };
 export default async function TagPage({ params }) {
   let tagTitle = "";
@@ -19,11 +19,17 @@ export default async function TagPage({ params }) {
   const blogs = allBlogs.filter((blog) =>
     blog.tags?.some((el) => slugify(el) == tag)
   );
-  allBlogs[0].tags.forEach((element) => {
-    if (slugify(element) == tag) {
-      tagTitle = element;
+
+  // Find tag title from all blogs
+  for (const blog of allBlogs) {
+    if (blog.tags) {
+      const foundTag = blog.tags.find((element) => slugify(element) == tag);
+      if (foundTag) {
+        tagTitle = foundTag;
+        break;
+      }
     }
-  });
+  }
   return (
     <>
       <div className="tmp-white-version">
@@ -43,7 +49,9 @@ export default async function TagPage({ params }) {
                     <li className="icon">
                       <i className="fa-solid fa-angle-right" />
                     </li>
-                    <li className="tmp-breadcrumb-item">Blog</li>
+                    <li className="tmp-breadcrumb-item">
+                      <Link href={`/blog-white`}>Blog</Link>
+                    </li>
                     <li className="icon">
                       <i className="fa-solid fa-angle-right" />
                     </li>
@@ -55,7 +63,10 @@ export default async function TagPage({ params }) {
           </div>
         </div>
         <Blogs allBlogs={blogs} isLight />
-        <Footer1 />
+        <Footer2
+          darkLogo="/assets/images/logo/logo-yello.svg"
+          lightLogo="/assets/images/logo/logo-yello.svg"
+        />
         <Copyright /> <CommonComponents />
       </div>
     </>

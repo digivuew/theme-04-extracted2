@@ -1,6 +1,6 @@
 import Blogs from "@/components/blog/Blogs";
 import Copyright from "@/components/footers/Copyright";
-import Footer1 from "@/components/footers/Footer1";
+import Footer2 from "@/components/footers/Footer2";
 import Header1 from "@/components/headers/Header1";
 import { allBlogs } from "@/data/blogs";
 import { slugify } from "@/utlis/slugify";
@@ -9,9 +9,9 @@ import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
 export const metadata = {
   title:
-    "Blog || Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+    "Blog Category | Dr. Vishrut Singh MD - Pediatric Health Articles",
   description:
-    "Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+    "Browse pediatric health articles by category. Expert advice on child health, preventive care, and respiratory disorders from Dr. Vishrut Singh.",
 };
 export default async function CategoryPage({ params }) {
   let categoryTitle = "";
@@ -42,7 +42,9 @@ export default async function CategoryPage({ params }) {
                     <li className="icon">
                       <i className="fa-solid fa-angle-right" />
                     </li>
-                    <li className="tmp-breadcrumb-item">Blog</li>
+                    <li className="tmp-breadcrumb-item">
+                      <Link href={`/blog-white`}>Blog</Link>
+                    </li>
                     <li className="icon">
                       <i className="fa-solid fa-angle-right" />
                     </li>
@@ -54,7 +56,10 @@ export default async function CategoryPage({ params }) {
           </div>
         </div>
         <Blogs allBlogs={blogs} isLight />
-        <Footer1 />
+        <Footer2
+          darkLogo="/assets/images/logo/logo-yello.svg"
+          lightLogo="/assets/images/logo/logo-yello.svg"
+        />
         <Copyright /> <CommonComponents />
       </div>
     </>
