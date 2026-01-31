@@ -1,5 +1,5 @@
 import Copyright from "@/components/footers/Copyright";
-import Footer3 from "@/components/footers/Footer3";
+import Footer2 from "@/components/footers/Footer2";
 import Header1 from "@/components/headers/Header1";
 import Contact from "@/components/others/Contact";
 import Link from "next/link";
@@ -7,9 +7,9 @@ import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
 export const metadata = {
   title:
-    "Contact || Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+    "Contact Dr. Vishrut Singh | Book Appointment at Aster Clinic Dubai",
   description:
-    "Personal Portfolio React Nextjs Template | Freelancer & Developer Portfolio",
+    "Schedule an appointment with Dr. Vishrut Singh, Pediatrician at Aster Clinic, Bur Dubai. Mon-Sat 9AM-1PM, 5PM-9PM. Expert pediatric care for your child's health.",
 };
 export default function page() {
   return (
@@ -37,7 +37,10 @@ export default function page() {
           </div>
         </div>
         <Contact />
-        <Footer3 />
+        <Footer2
+          darkLogo="/assets/images/logo/logo-yello.svg"
+          lightLogo="/assets/images/logo/logo-yello.svg"
+        />
         <Copyright /> <CommonComponents />
       </div>
     </>

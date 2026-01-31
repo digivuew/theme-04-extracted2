@@ -1,94 +1,94 @@
 export const skills = [
   {
-    alt: "Figma",
+    alt: "Respiratory Care",
     src: "/assets/images/skill/figma.png",
     width: 40,
     height: 60,
-    count: 92,
-    name: "Figma",
+    count: 95,
+    name: "Respiratory Care",
   },
   {
-    alt: "Framer",
+    alt: "Infectious Diseases",
     src: "/assets/images/skill/framer.png",
     width: 41,
     height: 60,
-    count: 99,
-    name: "Framer",
+    count: 90,
+    name: "Infectious Diseases",
   },
   {
-    alt: "Webflow",
+    alt: "Critical Care",
     src: "/assets/images/skill/webflow.png",
     width: 70,
     height: 49,
-    count: 95,
-    name: "Webflow",
+    count: 88,
+    name: "Critical Care",
   },
   {
-    alt: "React",
+    alt: "Neonatology",
     src: "/assets/images/skill/react.png",
     width: 70,
     height: 61,
-    count: 88,
-    name: "React",
+    count: 85,
+    name: "Neonatology",
   },
   {
-    alt: "WordPress",
+    alt: "Allergy Treatment",
     src: "/assets/images/skill/wordpress.png",
     width: 60,
     height: 60,
-    count: 85,
-    name: "WordPress",
+    count: 90,
+    name: "Allergy Treatment",
   },
   {
-    alt: "Laravel/PHP",
+    alt: "Preventive Care",
     src: "/assets/images/skill/laravel.png",
     width: 60,
     height: 61,
-    count: 94,
-    name: "Laravel/PHP",
+    count: 95,
+    name: "Preventive Care",
   },
   {
-    alt: "Framer",
+    alt: "Growth Assessment",
     src: "/assets/images/skill/framer.png",
     width: 41,
     height: 60,
-    count: 99,
-    name: "Framer",
+    count: 92,
+    name: "Growth Assessment",
   },
   {
-    alt: "WordPress",
+    alt: "Vaccination",
     src: "/assets/images/skill/wordpress.png",
     width: 60,
     height: 60,
-    count: 85,
-    name: "WordPress",
+    count: 98,
+    name: "Vaccination",
   },
 ];
 
 export const skillSections = [
   {
-    title: "Design Skill",
+    title: "Medical Expertise",
     skills: [
-      { name: "PHOTOSHOT", percent: 100, duration: "0.5s", delay: ".3s" },
-      { name: "FIGMA", percent: 95, duration: "0.6s", delay: ".4s" },
-      { name: "ADOBE XD", percent: 60, duration: "0.7s", delay: ".5s" },
+      { name: "PEDIATRIC RESPIRATORY DISORDERS", percent: 95, duration: "0.5s", delay: ".3s" },
+      { name: "INFECTIOUS DISEASE MANAGEMENT", percent: 90, duration: "0.6s", delay: ".4s" },
+      { name: "ALLERGY & ASTHMA TREATMENT", percent: 90, duration: "0.7s", delay: ".5s" },
       {
-        name: "ADOBE ILLUSTRATOR",
-        percent: 70,
+        name: "GROWTH & DEVELOPMENT",
+        percent: 90,
         duration: "0.8s",
         delay: ".6s",
       },
     ],
   },
   {
-    title: "Development Skill",
+    title: "Specialized Skills",
     skills: [
-      { name: "PHOTOSHOT", percent: 100, duration: "0.5s", delay: ".3s" },
-      { name: "FIGMA", percent: 95, duration: "0.6s", delay: ".4s" },
-      { name: "ADOBE XD", percent: 60, duration: "0.7s", delay: ".5s" },
+      { name: "PEDIATRIC CRITICAL CARE", percent: 85, duration: "0.5s", delay: ".3s" },
+      { name: "NEONATOLOGY", percent: 80, duration: "0.6s", delay: ".4s" },
+      { name: "GASTROINTESTINAL DISORDERS", percent: 85, duration: "0.7s", delay: ".5s" },
       {
-        name: "ADOBE ILLUSTRATOR",
-        percent: 70,
+        name: "PREVENTIVE PEDIATRIC CARE",
+        percent: 95,
         duration: "0.8s",
         delay: ".6s",
       },
@@ -98,9 +98,9 @@ export const skillSections = [
 
 export const skillCards = [
   {
-    title: "Framer",
+    title: "Respiratory Care",
     description:
-      "The personal portfol category includes websites or physic Your Journey Your Story",
+      "Expert treatment of asthma, bronchitis, pneumonia and other breathing disorders in children",
     icon: {
       src: "/assets/images/icons/icon-01.png",
       width: 22,
@@ -109,9 +109,9 @@ export const skillCards = [
     animationOrder: 1,
   },
   {
-    title: "Webflow",
+    title: "Infectious Diseases",
     description:
-      "The personal portfol category includes websites or physic Your Journey Your Story",
+      "Comprehensive diagnosis and management of bacterial and viral infections in pediatric patients",
     icon: {
       src: "/assets/images/icons/icon-02.png",
       width: 30,
@@ -120,9 +120,9 @@ export const skillCards = [
     animationOrder: 2,
   },
   {
-    title: "Figma",
+    title: "Critical Care",
     description:
-      "The personal portfol category includes websites or physic Your Journey Your Story",
+      "Advanced pediatric ICU care with IDPCCM certification for critically ill children",
     icon: {
       src: "/assets/images/icons/icon-03.png",
       width: 24,
@@ -131,9 +131,9 @@ export const skillCards = [
     animationOrder: 3,
   },
   {
-    title: "Wordpress",
+    title: "Neonatology",
     description:
-      "The personal portfol category includes websites or physic Your Journey Your Story",
+      "Specialized newborn care including premature infants and postnatal health management",
     icon: {
       src: "/assets/images/icons/icon-04.png",
       width: 35,

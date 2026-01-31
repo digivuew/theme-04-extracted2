@@ -38,13 +38,8 @@ export default function Services2() {
           </div>
           <div className="col-lg-6">
             <div className="service-card-user-image">
-              <Image
-                className="tmp-scroll-trigger tmp-zoom-in animation-order-1"
-                alt="latest-user-image"
-                width={567}
-                height={588}
-                src="/assets/images/services/latest-services-user-image-two.png"
-              />
+              {/* Service image removed - unused */}
+              {/* Previously: /assets/images/services/latest-services-user-image-two.png */}
             </div>
           </div>
         </div>

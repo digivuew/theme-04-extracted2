@@ -9,15 +9,14 @@ export default function Testimonials() {
     <section className="clients-testimonial-area tmp-section-gapTop">
       <div className="section-head mb--50">
         <div className="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-          <span className="subtitle">Clients Testimonial</span>
+          <span className="subtitle">Patient Testimonials</span>
         </div>
         <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-          Bringing Dreams to Life through
+          Trusted Care & Compassionate Treatment
         </h2>
         <p className="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3">
-          Business consulting consultants provide expert advice and guida
-          businesses to <br />
-          help them improve their performance, efficiency, and organizational
+          Hear from parents and families about their experiences with <br />
+          Dr. Vishrut Singh's expert pediatric care and compassionate approach
         </p>
       </div>
       <div className="client-testimonial-swiper position-relative">

@@ -9,8 +9,8 @@ import MobileMenu from "../headers/MobileMenu";
 import MobileMenuOnepage from "../headers/MobileMenuOnepage";
 import { footerLinks, footerLinksWhite } from "@/data/footerLinks";
 export default function Footer1({
-  darkLogo = "/assets/images/logo/white-logo-reeni.png",
-  lightLogo = "/assets/images/logo/logo-white.png",
+  darkLogo = "/assets/images/logo/logo-yello.svg",
+  lightLogo = "/assets/images/logo/logo-yello.svg",
 }) {
   return (
     <>
@@ -24,14 +24,14 @@ export default function Footer1({
                     <Link href={`/`}>
                       <Image
                         className="logo-dark"
-                        alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                        alt="Dr. Vishrut Singh - Pediatrician in Dubai"
                         src={darkLogo}
                         width={121}
                         height={41}
                       />
                       <Image
                         className="logo-white"
-                        alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                        alt="Dr. Vishrut Singh - Pediatrician in Dubai"
                         src={lightLogo}
                         width={121}
                         height={40}
@@ -79,19 +79,19 @@ export default function Footer1({
                       <span className="ft-icon">
                         <i className="fa-solid fa-envelope" />
                       </span>
-                      <a href="#">example@gmail.com</a>
+                      <a href="mailto:vishruts261@gmail.com">vishruts261@gmail.com</a>
                     </li>
                     <li>
                       <span className="ft-icon">
                         <i className="fa-solid fa-location-dot" />
                       </span>
-                      3891 Ranchview Dr. Richardson
+                      Rajdhani Nikunj, IP Extension, Patparganj, Delhi, India
                     </li>
                     <li>
                       <span className="ft-icon">
                         <i className="fa-solid fa-phone" />
                       </span>
-                      <a href="#">01245789321</a>
+                      <a href="tel:+971504961514">+971504961514</a>
                     </li>
                   </ul>
                   <div className="social-link footer">

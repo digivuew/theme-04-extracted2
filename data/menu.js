@@ -25,28 +25,13 @@ export const menuItems = [
       },
     ],
   },
-  {
-    label: "Project",
-    href: "#",
-    hasDropdown: true,
-    submenu: [
-      { label: "Project", href: "/project-white" },
-      {
-        label: "Project Details",
-        href: "/project-details-white/my-portfolio-of-innovation",
-      },
-    ],
-  },
   { label: "Contact", href: "/contact-white", isLink: true },
 ];
 
 // Same as menuItems since we only have white/light theme
 export const menuItemsLight = menuItems;
 
-export const demoData = [
-  { href: "/", img: "/assets/images/demo/home-4.png", title: "Theme04 Light" },
-];
+// Demo data removed - unused demo pages
+export const demoData = [];
 
-export const whiteDemoData = [
-  { href: "/", img: "/assets/images/demo/home-4-white.png", title: "Theme04 Light" },
-];
+export const whiteDemoData = [];

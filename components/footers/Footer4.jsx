@@ -8,8 +8,8 @@ import Sidebar from "../headers/Sidebar";
 import MobileMenu from "../headers/MobileMenu";
 import MobileMenuOnepage from "../headers/MobileMenuOnepage";
 export default function Footer4({
-  darkLogo = "/assets/images/logo/white-logo-reeni.png",
-  lightLogo = "/assets/images/logo/logo-white.png",
+  darkLogo = "/assets/images/logo/logo-yello.svg",
+  lightLogo = "/assets/images/logo/logo-yello.svg",
 }) {
   return (
     <>
@@ -22,7 +22,7 @@ export default function Footer4({
                   <Link href={`/`}>
                     <Image
                       className="logo-dark dark-content"
-                      alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                      alt="Dr. Vishrut Singh - Pediatrician in Dubai"
                       src={darkLogo}
                       width={121}
                       height={41}
@@ -33,7 +33,7 @@ export default function Footer4({
                     >
                       <Image
                         className=""
-                        alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                        alt="Dr. Vishrut Singh - Pediatrician in Dubai"
                         src={lightLogo}
                         width={121}
                         height={40}
@@ -45,10 +45,10 @@ export default function Footer4({
                   © {new Date().getFullYear()} . All rights reserved by
                   <a
                     target="_blank"
-                    href="https://themeforest.net/user/inversweb/portfolio"
+                    href="#"
                   >
                     {" "}
-                    Inversweb.
+                    Digivue.
                   </a>
                 </p>
               </div>

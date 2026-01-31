@@ -37,14 +37,7 @@ export default function Hero() {
                         height={198}
                       />
                     </div>
-                    <div className="logo-under-img-2">
-                      <Image
-                        alt="logo-under-image"
-                        src="/assets/images/banner/logo-under-image-2.png"
-                        width={30}
-                        height={30}
-                      />
-                    </div>
+                    {/* Removed unused image: banner/logo-under-image-2.png */}
                   </div>
                 </div>
               </div>

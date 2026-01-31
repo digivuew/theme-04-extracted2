@@ -30,7 +30,7 @@ export default function Footer5() {
                           target="_blank"
                           href="https://themeforest.net/item/reeni-personal-portfolio-html-template/56387656"
                         >
-                          Purchase Reeni{" "}
+                          Visit Clinic{" "}
                           <i className="icon feather-arrow-right"> </i>
                         </a>
                       </div>
@@ -101,9 +101,9 @@ export default function Footer5() {
                       © {new Date().getFullYear()} Copyright All rights reserved{" "}
                       <a
                         target="_blank"
-                        href="https://themeforest.net/user/inversweb/portfolio"
+                        href="#"
                       >
-                        Inversweb
+                        Digivue
                       </a>
                     </p>
                   </div>

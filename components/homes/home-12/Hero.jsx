@@ -11,12 +11,8 @@ export default function Hero({ isLight = false }) {
             <div className="col-lg-12">
               <div className="inner text-center">
                 <div className="thumbnail-author">
-                  <Image
-                    alt="personal-logo"
-                    src="/assets/images/banner/banner-user-image-04.png"
-                    width={525}
-                    height={525}
-                  />
+                  {/* Banner image removed - unused */}
+                  {/* Previously: /assets/images/banner/banner-user-image-04.png */}
                   <div className="loader-bg-pattern-wrapper">
                     <div className="loader-bg-pattern">
                       <div className="box">

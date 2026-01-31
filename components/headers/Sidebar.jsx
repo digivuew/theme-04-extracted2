@@ -11,15 +11,15 @@ export default function Sidebar() {
             <a href="index.html" className="logo">
               <img
                 className="logo-dark"
-                alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
-                src="/assets/images/logo/white-logo-reeni.png"
+                alt="Dr. Vishrut Singh - Pediatrician in Dubai"
+                src="/assets/images/logo/logo-yello.svg"
                 width={121}
                 height={41}
               />
               <img
                 className="logo-white"
-                alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
-                src="/assets/images/logo/logo-white.png"
+                alt="Dr. Vishrut Singh - Pediatrician in Dubai"
+                src="/assets/images/logo/logo-yello.svg"
                 width={121}
                 height={40}
               />
@@ -35,14 +35,8 @@ export default function Sidebar() {
           </div>
           <div className="content-wrapper">
             <div className="image-area-feature">
-              <a href="index.html">
-                <img
-                  alt="personal-logo"
-                  src="/assets/images/logo/man.png"
-                  width={340}
-                  height={196}
-                />
-              </a>
+              {/* Logo image removed - unused */}
+              {/* Previously: /assets/images/logo/man.png */}
             </div>
             <h5 className="title mt--30">
               Freelancer delivering exceptional Webflow, and Next.js solutions.

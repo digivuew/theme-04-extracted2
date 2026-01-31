@@ -10,44 +10,16 @@ export default function Contact({
 
   const sandMail = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        // EmailJS service ID - identifies which email service to use
-        "service_cyobi0y",
-
-        // EmailJS template ID - specifies which email template to use
-        "template_4nbexqj",
-
-        // Reference to the HTML form element containing user input
-        form.current,
-
-        {
-          // Public API key for authentication with EmailJS
-          publicKey: "D79JdTqxXVCcQBXL4",
-        }
-      )
-      .then((res) => {
-        if (res.status == 200) {
-          toast.success("Message Sent successfully!", {
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
-          form.current.reset();
-        } else {
-          toast.error("Ops Message not Sent!", {
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-          });
-        }
-      });
+    // Email sending is currently disabled
+    toast.info("Coming Soon", {
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+    form.current.reset();
   };
   return (
     <section className={parentClass} id="contacts">
@@ -57,7 +29,7 @@ export default function Contact({
             <div className="col-lg-5">
               <div className="contact-inner">
                 <div className="section-head section-head-one-side text-align-left tmp-scroll-trigger tmp-fade-in animation-order-1">
-                  <span className="title-left">Get Ready To Create Great</span>
+                  <span className="title-left">Schedule Your Appointment</span>
                 </div>
                 <ul className="ft-link v2">
                   <li className="tmp-scroll-trigger tmp-fade-in animation-order-1 tmp-link-animation">
@@ -66,7 +38,7 @@ export default function Contact({
                     </span>
                     <div className="ft-link-wrap">
                       <h4 className="link-title">E-mail:</h4>
-                      <a href="#">nafiz125@gmail.com</a>
+                      <a href="mailto:vishruts261@gmail.com">vishruts261@gmail.com</a>
                     </div>
                   </li>
                   <li className="tmp-scroll-trigger tmp-fade-in animation-order-2">
@@ -74,8 +46,8 @@ export default function Contact({
                       <i className="fa-solid fa-location-dot" />
                     </span>
                     <div className="ft-link-wrap">
-                      <h4 className="link-title">Location:</h4>
-                      <div>3891 Ranchview Dr. Richardson</div>
+                      <h4 className="link-title">Clinic Location:</h4>
+                      <div>Aster Clinic, Bur Dubai, Sharaf DG Metro Station, Khalid Bin Al Waleed Road, Dubai, UAE</div>
                     </div>
                   </li>
                   <li className="tmp-scroll-trigger tmp-fade-in animation-order-3 tmp-link-animation">
@@ -84,7 +56,7 @@ export default function Contact({
                     </span>
                     <div className="ft-link-wrap">
                       <h4 className="link-title">Contact:</h4>
-                      <a href="#">01245789321</a>
+                      <a href="tel:+971504961514">+971504961514</a>
                     </div>
                   </li>
                 </ul>
@@ -93,7 +65,7 @@ export default function Contact({
             <div className="col-lg-7">
               <div className="contact-inner">
                 <div className="section-head section-head-one-side text-align-left tmp-scroll-trigger tmp-fade-in animation-order-1">
-                  <span className="title">GET IN TOUCH</span>
+                  <span className="title">BOOK AN APPOINTMENT</span>
                 </div>
                 <div className="contact-form">
                   <div id="form-messages" className="error" />
@@ -172,7 +144,7 @@ export default function Contact({
                             id="submit"
                           >
                             <span className="icon-reverse-wrapper">
-                              <span className="btn-text">Appointment Now</span>
+                              <span className="btn-text">Book appointment now</span>
                               <span className="btn-icon">
                                 <i className="fa-sharp fa-regular fa-arrow-right" />
                               </span>

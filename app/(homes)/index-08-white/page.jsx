@@ -36,12 +36,8 @@ export default function page() {
                 <div className="position-sticky sticky-top tmp-sticky-top w-100">
                   <div className="tmp-contact-about-inner">
                     <div className="thumbnail">
-                      <Image
-                        alt="contact-img"
-                        src="/assets/images/banner/banner-user-image-03.png"
-                        width={1360}
-                        height={1400}
-                      />
+                      {/* Banner image removed - unused */}
+                      {/* Previously: /assets/images/banner/banner-user-image-03.png */}
                     </div>
                     <div className="content">
                       <div className="title-area">

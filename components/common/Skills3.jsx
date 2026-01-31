@@ -14,17 +14,16 @@ export default function Skills3() {
               <div className="my-skill-area-left-content-wrap">
                 <div className="section-head text-align-left">
                   <div className="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-                    <span className="subtitle">My Skill</span>
+                    <span className="subtitle">Medical Expertise</span>
                   </div>
                   <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-                    My Experts Areas Where I <br />
-                    Gained Skill
+                    Specialized Areas in <br />
+                    Pediatric Medicine
                   </h2>
                   <p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
-                    Business consulting consultants provide expert advice and
-                    guida busi nesses to help them improve their performance,
-                    efficiency, and organ izational Business consulting
-                    consultants provide
+                    With advanced training in Pediatric Critical Care (IDPCCM) and
+                    MD in Pediatrics, Dr. Vishrut provides expert medical care across
+                    multiple specializations in child health and wellness
                   </p>
                 </div>
               </div>

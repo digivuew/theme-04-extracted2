@@ -9,8 +9,8 @@ import MobileMenu from "../headers/MobileMenu";
 import MobileMenuOnepage from "../headers/MobileMenuOnepage";
 import { footerLinks, footerLinksWhite } from "@/data/footerLinks";
 export default function Footer3({
-  darkLogo = "/assets/images/logo/white-logo-reeni.png",
-  lightLogo = "/assets/images/logo/logo-white.png",
+  darkLogo = "/assets/images/logo/logo-yello.svg",
+  lightLogo = "/assets/images/logo/logo-yello.svg",
 }) {
   return (
     <>
@@ -24,14 +24,14 @@ export default function Footer3({
                     <Link href={`/`}>
                       <Image
                         className="logo-dark"
-                        alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                        alt="Dr. Vishrut Singh - Pediatrician in Dubai"
                         src={darkLogo}
                         width={121}
                         height={41}
                       />
                       <Image
                         className="logo-white"
-                        alt="Reeni - Personal Portfolio HTML Template for developers and freelancers"
+                        alt="Dr. Vishrut Singh - Pediatrician in Dubai"
                         src={lightLogo}
                         width={121}
                         height={40}
@@ -39,13 +39,13 @@ export default function Footer3({
                     </Link>
                   </div>
                   <p className="description">
-                    <span>Get Ready</span> To <br /> Create Great
+                    <span>Get Ready</span> To Create Great
                   </p>
                   <form
                     onSubmit={(e) => e.preventDefault()}
                     className="newsletter-form-1 mt--40"
                   >
-                    <input type="email" placeholder="Email Adress" />
+                    <input type="email" placeholder="Subscribe to Newsletter" />
                     <span className="form-icon">
                       <i className="fa-regular fa-envelope" />
                     </span>
@@ -79,32 +79,26 @@ export default function Footer3({
                       <span className="ft-icon">
                         <i className="fa-solid fa-envelope" />
                       </span>
-                      <a href="#">nafiz125@gmail.com</a>
-                    </li>
-                    <li>
-                      <span className="ft-icon">
-                        <i className="fa-solid fa-location-dot" />
-                      </span>
-                      3891 Ranchview Dr. Richardson
+                      <a href="mailto:vishruts261@gmail.com">vishruts261@gmail.com</a>
                     </li>
                     <li>
                       <span className="ft-icon">
                         <i className="fa-solid fa-phone" />
                       </span>
-                      <a href="#">01245789321</a>
+                      <a href="tel:+971504961514">+971504961514</a>
                     </li>
                   </ul>
                   <div className="social-link footer">
-                    <a href="#">
+                    <a href="https://www.instagram.com/dr_vishrut_singh_md/" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-instagram" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/dr-vishrut-singh-4b671113a" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-linkedin-in" />
                     </a>
-                    <a href="#">
+                    <a href="https://x.com/vishruts261" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-twitter" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.facebook.com/DrVishrutSingh" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-facebook-f" />
                     </a>
                   </div>
