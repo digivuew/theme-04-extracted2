@@ -1,6 +1,13 @@
 @use "../default/variables";
 
 /*===============================
+  Get In Touch Area Section
+  ===============================*/
+.get-in-touch-area {
+    margin-bottom: 80px;
+}
+
+/*===============================
   Get In Touch Wrapper
   ===============================*/
 .get-in-touch-wrapper {
@@ -9,6 +16,7 @@
     padding: 20px 30px;
     @media (min-width: 576px) {
         padding: 80px 60px;
+        margin-bottom: 70px;
     }
     @media #{variables.$md-layout} {
         padding: 40px 40px;
@@ -170,6 +178,7 @@
   Contact Get In Touch Wrap
   ===============================*/
 .contact-get-in-touch-wrap {
+    margin-bottom: 80px;
     .get-in-touch-wrapper {
         .section-head {
             padding-right: 80px;

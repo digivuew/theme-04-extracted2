@@ -12,16 +12,15 @@ export default function Facts() {
               <div className="year-expariance-wrap">
                 {/* <h2 class="year-number"><span class="counter">25 </span> </h2> */}
                 <h2 className="counter year-number">
-                  <OdometerComponent max={25} />
+                  <OdometerComponent max={7} />+
                 </h2>
                 <h3 className="year-title">
                   Years Of <br />
-                  experience
+                  Experience
                 </h3>
               </div>
               <p className="year-para">
-                Business consulting consultants provide expert advice and guida
-                the a businesses to help theme their performance efficiency
+                Specialized expertise in pediatric and neonatal critical care, providing compassionate and evidence-based medical care for children from birth to 18 years across premier healthcare institutions.
               </p>
             </div>
           </div>

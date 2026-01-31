@@ -11,7 +11,7 @@ export default function About({ parentClass = "about-us-area" }) {
             <div className="about-us-left-content-wrap bg-vactor-one">
               <div className="years-of-experience-card tmp-scroll-trigger tmp-fade-in animation-order-1">
                 <h2 className="counter card-title">
-                  <OdometerComponent max={9} /> +
+                  <OdometerComponent max={7} /> +
                 </h2>
                 <p className="card-para">Years of Experience</p>
               </div>
@@ -22,7 +22,7 @@ export default function About({ parentClass = "about-us-area" }) {
                   </div>
                 </div>
                 <div className="card-info">
-                  <h3 className="card-title">Pediatric Care</h3>
+                  <h3 className="card-title">Pediatric & Neonatal Care</h3>
                   <p className="card-para">5000+ Patients Treated</p>
                 </div>
               </div>
@@ -39,8 +39,8 @@ export default function About({ parentClass = "about-us-area" }) {
                   Your Child's Health
                 </h2>
                 <p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
-                  Dr. Vishrut Singh specializes in diagnosing and treating health conditions in children from birth to 18 years.
-                  With expertise in respiratory disorders, infectious diseases, and critical care, he provides evidence-based, patient-centered medical care.
+                  Dr. Vishrut Singh is a dedicated paediatrician and neonatologist with over 7 years of specialized experience in pediatric and neonatal critical care.
+                  He provides comprehensive, evidence-based medical care for children from birth to 18 years, with expertise in NICU management, respiratory disorders, and infectious diseases.
                 </p>
               </div>
               <div className="about-us-section-card row g-5">
@@ -76,7 +76,7 @@ export default function About({ parentClass = "about-us-area" }) {
                       <h3 className="card-title">Specialized Training</h3>
                     </div>
                     <p className="card-para">
-                      MD Pediatrics and IDPCCM certified in Pediatric Critical Care
+                      MD Pediatrics, IDPCCM, MRCPCH I & II, and DHA Licensed Specialist
                     </p>
                   </div>
                 </div>

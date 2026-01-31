@@ -33,12 +33,10 @@ export default function Contact({
                     <span className="subtitle">GET IN TOUCH</span>
                   </div>
                   <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-                    Elevate your brand with Me
+                    Get in Touch with Me
                   </h2>
                   <p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
-                    ished fact that a reader will be distrol acted bioiiy desig
-                    ished fact that a reader will acted ished fact that a reader
-                    will be distrol acted
+                    Have questions about pediatric care or services? I'd love to hear from you. Contact me directly for consultations, appointments, or any medical inquiries. Your child's health is my priority.
                   </p>
                 </div>
               </div>

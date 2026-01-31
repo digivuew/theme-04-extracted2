@@ -40,14 +40,14 @@ export default function Portfolios2({ isLight = false }) {
                     >
                       <Image
                         className="img-primary hidden-on-mobile"
-                        alt="Blog Thumbnail"
+                        alt={item.altText || item.title}
                         src={item.imageSrc}
                         width={item.width}
                         height={item.height}
                       />
                       <Image
                         className="img-secondary"
-                        alt="Blog Thumbnail"
+                        alt={item.altText || item.title}
                         src={item.imageSrc}
                         width={item.width}
                         height={item.height}

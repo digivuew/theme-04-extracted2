@@ -101,6 +101,7 @@ export const skillCards = [
     title: "Respiratory Care",
     description:
       "Expert treatment of asthma, bronchitis, pneumonia and other breathing disorders in children",
+    iconClass: "fa-light fa-lungs",
     icon: {
       src: "/assets/images/icons/icon-01.png",
       width: 22,
@@ -112,6 +113,7 @@ export const skillCards = [
     title: "Infectious Diseases",
     description:
       "Comprehensive diagnosis and management of bacterial and viral infections in pediatric patients",
+    iconClass: "fa-light fa-virus",
     icon: {
       src: "/assets/images/icons/icon-02.png",
       width: 30,
@@ -123,6 +125,7 @@ export const skillCards = [
     title: "Critical Care",
     description:
       "Advanced pediatric ICU care with IDPCCM certification for critically ill children",
+    iconClass: "fa-light fa-heart-pulse",
     icon: {
       src: "/assets/images/icons/icon-03.png",
       width: 24,
@@ -134,6 +137,7 @@ export const skillCards = [
     title: "Neonatology",
     description:
       "Specialized newborn care including premature infants and postnatal health management",
+    iconClass: "fa-light fa-baby",
     icon: {
       src: "/assets/images/icons/icon-04.png",
       width: 35,
