@@ -24,63 +24,27 @@ export default function Footer2({
                     <Link href={`/`} style={{
                       textDecoration: 'none',
                       fontFamily: 'inherit',
-                      display: 'flex',
+                      display: 'inline-flex',
                       alignItems: 'center',
-                      gap: '14px'
+                      gap: '0px',
+                      width: 'fit-content'
                     }}>
-                      <div style={{
-                        position: 'relative',
-                        width: '56px',
-                        height: '56px',
-                        background: 'linear-gradient(135deg, #FF9A3D 0%, #FDC448 50%, #FFE082 100%)',
-                        borderRadius: '16px',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        boxShadow: '0 8px 24px rgba(253, 196, 72, 0.4), 0 4px 8px rgba(0, 0, 0, 0.1)',
-                        border: '2px solid rgba(255, 255, 255, 0.8)',
-                        transform: 'rotate(-3deg)',
-                        overflow: 'hidden'
-                      }}>
-                        {/* Decorative shine effect */}
-                        <div style={{
-                          position: 'absolute',
-                          top: '-50%',
-                          left: '-50%',
-                          width: '200%',
-                          height: '200%',
-                          background: 'linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.3) 50%, transparent 70%)',
-                          transform: 'rotate(45deg)',
-                          pointerEvents: 'none'
-                        }}></div>
-
-                        {/* Medical heart icon as background */}
-                        <div style={{
-                          position: 'absolute',
-                          fontSize: '32px',
-                          opacity: '0.15',
-                          color: '#fff',
-                          transform: 'rotate(3deg)'
-                        }}>❤</div>
-
-                        <span style={{
-                          fontWeight: '900',
-                          fontSize: '26px',
-                          color: '#fff',
-                          transform: 'rotate(3deg)',
-                          letterSpacing: '-2px',
-                          textShadow: '0 2px 8px rgba(0, 0, 0, 0.2)',
-                          zIndex: 1,
-                          fontFamily: 'inherit'
-                        }}>
-                          VS
-                        </span>
-                      </div>
+                      <Image
+                        src="/assets/images/logo/vishrut-singh-site-logo-without-background.png"
+                        alt="Vishrut Singh logo"
+                        width={56}
+                        height={56}
+                        style={{
+                          display: 'block',
+                          objectFit: 'contain',
+                          filter: 'drop-shadow(0 6px 14px rgba(0, 0, 0, 0.25))'
+                        }}
+                      />
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '3px' }}>
                         <span style={{
                           fontSize: '22px',
                           fontWeight: '800',
-                          color: '#fff',
+                          color: '#000',
                           lineHeight: '1',
                           letterSpacing: '-0.8px'
                         }}>
