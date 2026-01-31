@@ -2,6 +2,7 @@ import "../public/assets/scss/main.scss";
 import "odometer/themes/odometer-theme-default.css"; // Import theme
 import "react-toastify/dist/ReactToastify.css";
 import LayoutWrapper from "@/components/common/LayoutWrapper";
+import FloatingAppointmentButton from "@/components/common/FloatingAppointmentButton";
 import Script from 'next/script';
 import { ToastContainer } from "react-toastify";
 export const metadata = {
@@ -48,6 +49,7 @@ export default function RootLayout({ children }) {
             pauseOnHover
           />
           {children}
+          <FloatingAppointmentButton />
         </LayoutWrapper>
       </body>
     </html>

@@ -39,7 +39,7 @@ export default function Footer3({
                     </Link>
                   </div>
                   <p className="description">
-                    <span>Get Ready</span> To Create Great
+                    <span>Compassionate Care</span> for Every Child
                   </p>
                   <form
                     onSubmit={(e) => e.preventDefault()}

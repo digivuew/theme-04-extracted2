@@ -5,6 +5,18 @@ const nextConfig = {
     silenceDeprecations: ["mixed-decls", "legacy-js-api"],
   },
   output: 'standalone', // Enable standalone output for Docker
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+      },
+    ],
+  },
 };
 
 export default nextConfig;

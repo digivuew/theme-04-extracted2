@@ -18,19 +18,18 @@ export default function Footer5() {
                   <div className="inner">
                     <div className="content text-center">
                       <h2 className="title sal-animate">
-                        Ready to start creating a <br />
-                        standard website?
+                        Need Expert Pediatric <br />
+                        Care for Your Child?
                       </h2>
                       <h6 className="subtitle sal-animate">
-                        Finest choice for your home &amp; office
+                        Schedule a Consultation Today
                       </h6>
                       <div className="call-to-btn text-center mt--30 d-flex justify-content-center sal-animate">
                         <a
                           className="tmp-btn btn-icon"
-                          target="_blank"
-                          href="https://themeforest.net/item/reeni-personal-portfolio-html-template/56387656"
+                          href="/contact-white"
                         >
-                          Visit Clinic{" "}
+                          Book Appointment{" "}
                           <i className="icon feather-arrow-right"> </i>
                         </a>
                       </div>
