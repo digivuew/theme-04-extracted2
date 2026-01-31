@@ -3,9 +3,7 @@ name: Build and Push Frontend Docker Image to Docker Hub
 on:
   push:
     branches:
-      - dev
-      - main
-      - master
+      - "**"
   pull_request:
     branches:
       - dev
