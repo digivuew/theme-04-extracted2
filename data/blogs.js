@@ -372,19 +372,19 @@ export const blogData7 = [
 export const posts = [
   {
     id: 1,
-    imageSrc: "/assets/images/blog/single-post-card-img-1.png",
+    imageSrc: "/assets/images/blog/blog-classic-card-img-1.jpg",
     category: "Category",
     title: "Antibiotic Resistance: What Parents Should Know",
   },
   {
     id: 2,
-    imageSrc: "/assets/images/blog/single-post-card-img-2.png",
+    imageSrc: "/assets/images/blog/blog-classic-card-img-2.jpg",
     category: "Category",
     title: "Understanding Pediatric Diabetes and Care",
   },
   {
     id: 3,
-    imageSrc: "/assets/images/blog/single-post-card-img-3.png",
+    imageSrc: "/assets/images/blog/blog-classic-card-img-3.jpg",
     category: "Category",
     title: "Sports Medicine for Young Athletes: Injury Prevention",
   },

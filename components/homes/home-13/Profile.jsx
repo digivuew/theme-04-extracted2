@@ -5,12 +5,8 @@ export default function Profile() {
   return (
     <>
       <div className="profile-image-1-personal-left-fixed dark-content">
-        <Image
-          alt="business-coatch"
-          src="/assets/images/banner/portfolio-image-1.jpg"
-          width={912}
-          height={1218}
-        />
+        {/* Portfolio image removed - unused */}
+        {/* Previously: /assets/images/banner/portfolio-image-1.jpg */}
         <h3 className="title">
           Hello I'm <br />
           John Deon <br />a{" "}

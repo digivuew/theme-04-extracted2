@@ -11,13 +11,8 @@ export default function Hero({ isLight = false }) {
           <div className="row align-items-center">
             <div className="col-lg-6 order-lg-2">
               <div className="banner-right-content">
-                <Image
-                  className="tmp-scroll-trigger tmp-zoom-in animation-order-1"
-                  alt="banner-img"
-                  src="/assets/images/banner/banner-user-image-02.png"
-                  width={542}
-                  height={802}
-                />
+                {/* Banner image removed - unused */}
+                {/* Previously: /assets/images/banner/banner-user-image-02.png */}
                 <h2 className="banner-big-text-1 up-down">WEB DESIGNER</h2>
                 <h2 className="banner-big-text-2 up-down-2">WEB DESIGNER</h2>
               </div>

@@ -11,12 +11,8 @@ export default function Hero({ isLight = false }) {
             <div className="col-lg-12">
               <div className="inner text-center">
                 <div className="thumbnail-author">
-                  <Image
-                    alt="personal-logo"
-                    src="/assets/images/banner/banner-user-image-03.png"
-                    width={1360}
-                    height={1400}
-                  />
+                  {/* Banner image removed - unused */}
+                  {/* Previously: /assets/images/banner/banner-user-image-03.png */}
                 </div>
                 <h1 className="title tmp-scroll-trigger tmp-fade-in animation-order-2">
                   I’m John Lee <br />A{" "}

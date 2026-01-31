@@ -35,14 +35,8 @@ export default function Sidebar() {
           </div>
           <div className="content-wrapper">
             <div className="image-area-feature">
-              <a href="index.html">
-                <img
-                  alt="personal-logo"
-                  src="/assets/images/logo/man.png"
-                  width={340}
-                  height={196}
-                />
-              </a>
+              {/* Logo image removed - unused */}
+              {/* Previously: /assets/images/logo/man.png */}
             </div>
             <h5 className="title mt--30">
               Freelancer delivering exceptional Webflow, and Next.js solutions.

@@ -138,21 +138,8 @@ export default function Demomodal() {
                     <div className="single-demo">
                       <div className="inner">
                         <div className="thumbnail">
-                          <a href="#">
-                            <Image
-                              className="w-100"
-                              alt="Medical Portfolio"
-                              src="/assets/images/demo/coming-soon.png"
-                              width={340}
-                              height={240}
-                            />
-                            <span className="overlay-content">
-                              <span className="overlay-text">
-                                View Demo{" "}
-                                <i className="feather-external-link" />
-                              </span>
-                            </span>
-                          </a>
+                          {/* Demo image removed - unused */}
+                          {/* Previously: /assets/images/demo/coming-soon.png */}
                         </div>
                         <div className="inner">
                           <h3 className="title">
@@ -211,21 +198,8 @@ export default function Demomodal() {
                     <div className="single-demo">
                       <div className="inner">
                         <div className="thumbnail">
-                          <a href="#">
-                            <Image
-                              className="w-100"
-                              alt="Medical Portfolio"
-                              src="/assets/images/demo/coming-soon-white.png"
-                              width={340}
-                              height={240}
-                            />
-                            <span className="overlay-content">
-                              <span className="overlay-text">
-                                View Demo{" "}
-                                <i className="feather-external-link" />
-                              </span>
-                            </span>
-                          </a>
+                          {/* Demo image removed - unused */}
+                          {/* Previously: /assets/images/demo/coming-soon-white.png */}
                         </div>
                         <div className="inner">
                           <h3 className="title">

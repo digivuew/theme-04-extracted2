@@ -42,12 +42,8 @@ export default function page() {
                   <div className="position-sticky sticky-top tmp-sticky-top w-100">
                     <div className="tmp-contact-about-inner">
                       <div className="thumbnail">
-                        <Image
-                          alt="contact-img"
-                          src="/assets/images/banner/banner-user-image-06.png"
-                          width={525}
-                          height={525}
-                        />
+                        {/* Banner image removed - unused */}
+                        {/* Previously: /assets/images/banner/banner-user-image-06.png */}
                       </div>
                       <div className="content">
                         <div className="title-area">
@@ -240,8 +236,8 @@ export default function page() {
           </div>
         </div>
         <Footer4
-          darkLogo="/assets/images/logo/logo-pink.svg"
-          lightLogo="/assets/images/logo/logo-pink.svg"
+          {/* Logo removed - unused */}
+          {/* Previously: /assets/images/logo/logo-pink.svg */}
         />{" "}
         <CommonComponents />
       </>
