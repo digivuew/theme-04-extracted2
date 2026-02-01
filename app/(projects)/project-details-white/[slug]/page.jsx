@@ -1,5 +1,5 @@
 import Copyright from "@/components/footers/Copyright";
-import Footer3 from "@/components/footers/Footer3";
+import Footer2 from "@/components/footers/Footer2";
 import Header1 from "@/components/headers/Header1";
 import ProjectDetails from "@/components/projects/ProjectDetails";
 import { allPortfolioItems } from "@/data/portfolio";
@@ -43,7 +43,10 @@ export default async function page({ params }) {
           </div>
         </div>
         <ProjectDetails portfolioItem={portfolioItem} />
-        <Footer3 />
+        <Footer2
+          darkLogo="/assets/images/logo/logo-yello.svg"
+          lightLogo="/assets/images/logo/logo-yello.svg"
+        />
         <Copyright /> <CommonComponents />
       </div>
     </>
