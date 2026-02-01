@@ -1,6 +1,7 @@
 import Contact from "@/components/common/Contact2";
 import Education from "@/components/common/Education";
-import Footer1 from "@/components/footers/Footer1";
+import Footer2 from "@/components/footers/Footer2";
+import Copyright from "@/components/footers/Copyright";
 import Header1 from "@/components/headers/Header1";
 import Link from "next/link";
 import React from "react";
@@ -125,7 +126,11 @@ export default function page() {
         </section>
         <Education />
         <Contact />
-        <Footer1 />
+        <Footer2
+          darkLogo="/assets/images/logo/logo-yello.svg"
+          lightLogo="/assets/images/logo/logo-yello.svg"
+        />
+        <Copyright />
         <CommonComponents />
       </div>
     </>

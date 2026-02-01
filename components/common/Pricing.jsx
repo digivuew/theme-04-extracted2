@@ -9,10 +9,10 @@ export default function Pricing({
       <div className="container">
         <div className="section-head mb--50">
           <div className="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-            <span className="subtitle">My Price plan</span>
+            <span className="subtitle">Transparent Pricing</span>
           </div>
           <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-            Enhancing Collaboration <br /> between Remote
+            Affordable Quality Healthcare <br /> for Your Child
           </h2>
         </div>
         <div className="row align-items-center">
