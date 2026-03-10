@@ -28,7 +28,14 @@ export default function Services({ isLight = false }) {
                   }`}
                   className={`service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-${service.animationOrder}`}
                   key={service.id}
-                  style={{ position: 'relative', paddingLeft: '80px' }}
+                  style={{
+                    position: 'relative',
+                    paddingLeft: '80px',
+                    height: '250px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    overflow: 'hidden'
+                  }}
                 >
                   {service.icon && (
                     <div className="service-icon-wrapper" style={{
@@ -54,9 +61,19 @@ export default function Services({ isLight = false }) {
                     <span>{service.num}</span>
                     {service.title}
                   </h2>
-                  <p className="service-para">{service.description}</p>
-                  <div className="service-arrow" style={{
-                    marginTop: '15px',
+                  <p style={{
+                    overflow: 'hidden',
+                    display: '-webkit-box',
+                    WebkitLineClamp: 3,
+                    WebkitBoxOrient: 'vertical',
+                    textOverflow: 'ellipsis',
+                    fontSize: '15px',
+                    lineHeight: '1.7',
+                    color: '#666',
+                    margin: '15px 0'
+                  }}>{service.description}...</p>
+                  <div style={{
+                    marginTop: 'auto',
                     color: '#FEDD8E',
                     fontSize: '14px',
                     fontWeight: '500',
@@ -82,7 +99,14 @@ export default function Services({ isLight = false }) {
                   }`}
                   className={`service-card-v2 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-${service.animationOrder}`}
                   key={service.id}
-                  style={{ position: 'relative', paddingLeft: '80px' }}
+                  style={{
+                    position: 'relative',
+                    paddingLeft: '80px',
+                    height: '250px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    overflow: 'hidden'
+                  }}
                 >
                   {service.icon && (
                     <div className="service-icon-wrapper" style={{
@@ -108,9 +132,19 @@ export default function Services({ isLight = false }) {
                     <span>{service.num}</span>
                     {service.title}
                   </h2>
-                  <p className="service-para">{service.description}</p>
-                  <div className="service-arrow" style={{
-                    marginTop: '15px',
+                  <p style={{
+                    overflow: 'hidden',
+                    display: '-webkit-box',
+                    WebkitLineClamp: 3,
+                    WebkitBoxOrient: 'vertical',
+                    textOverflow: 'ellipsis',
+                    fontSize: '15px',
+                    lineHeight: '1.7',
+                    color: '#666',
+                    margin: '15px 0'
+                  }}>{service.description}...</p>
+                  <div style={{
+                    marginTop: 'auto',
                     color: '#FEDD8E',
                     fontSize: '14px',
                     fontWeight: '500',

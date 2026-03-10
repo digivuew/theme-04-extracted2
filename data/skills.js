@@ -16,14 +16,6 @@ export const skills = [
     name: "Infectious Diseases",
   },
   {
-    alt: "Critical Care",
-    src: "/assets/images/skill/webflow.png",
-    width: 70,
-    height: 49,
-    count: 88,
-    name: "Critical Care",
-  },
-  {
     alt: "Neonatology",
     src: "/assets/images/skill/react.png",
     width: 70,
@@ -83,7 +75,6 @@ export const skillSections = [
   {
     title: "Specialized Skills",
     skills: [
-      { name: "PEDIATRIC CRITICAL CARE", percent: 85, duration: "0.5s", delay: ".3s" },
       { name: "NEONATOLOGY", percent: 80, duration: "0.6s", delay: ".4s" },
       { name: "GASTROINTESTINAL DISORDERS", percent: 85, duration: "0.7s", delay: ".5s" },
       {
@@ -120,18 +111,6 @@ export const skillCards = [
       height: 19,
     },
     animationOrder: 2,
-  },
-  {
-    title: "Critical Care",
-    description:
-      "Advanced pediatric ICU care with IDPCCM certification for critically ill children",
-    iconClass: "fa-light fa-heart-pulse",
-    icon: {
-      src: "/assets/images/icons/icon-03.png",
-      width: 24,
-      height: 36,
-    },
-    animationOrder: 3,
   },
   {
     title: "Neonatology",

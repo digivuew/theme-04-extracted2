@@ -1,18 +1,7 @@
 export const menuItems = [
   { label: "Home", href: "/", isLink: true },
   { label: "About", href: "/about-white", isLink: true },
-  {
-    label: "Services",
-    href: "#",
-    hasDropdown: true,
-    submenu: [
-      { label: "Service", href: "/service-white" },
-      {
-        label: "Service Details",
-        href: "/service-details-white/success-architects",
-      },
-    ],
-  },
+  { label: "Services", href: "/service-white", isLink: true },
   { label: "Blog", href: "/blog-white", isLink: true },
   { label: "Contact", href: "/contact-white", isLink: true },
 ];
