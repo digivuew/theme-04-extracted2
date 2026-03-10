@@ -30,13 +30,6 @@ export const services = [
     animationOrder: "4",
   },
   {
-    id: 5,
-    icon: "fa-light fa-heart-pulse",
-    title: "Critical Care",
-    projects: "Pediatric ICU expertise",
-    animationOrder: "5",
-  },
-  {
     id: 6,
     icon: "fa-light fa-baby",
     title: "Neonatology",
@@ -92,16 +85,6 @@ export const services2 = [
     column: 2,
   },
   {
-    id: 5,
-    num: "05.",
-    title: "Pediatric Critical Care",
-    description:
-      "Advanced critical care support with IDPCCM certification, providing specialized intensive care for critically ill children",
-    animationOrder: "5",
-    isLink: false,
-    column: 2,
-  },
-  {
     id: 6,
     num: "06.",
     title: "Neonatology Services",
@@ -153,8 +136,9 @@ export const services4 = [
     num: "01.",
     title: "Core Pediatric Services",
     icon: "fa-solid fa-stethoscope",
+    image: "https://images.unsplash.com/photo-1565843708714-52ecf69ab81f?w=850&h=476&fit=crop",
     description:
-      "Comprehensive child health consultations covering newborn care, growth & developmental assessment, routine check-ups, feeding & nutrition counseling, sleep guidance, and behavioral & school health advice",
+      "Complete child health consultations covering newborn care, growth monitoring, developmental milestones, routine check-ups, nutrition guidance, and behavioral support for children of all ages.",
     animationOrder: 1,
     column: 1,
     detailContent: {
@@ -184,10 +168,11 @@ export const services4 = [
     num: "02.",
     title: "Vaccination & Preventive Care",
     icon: "fa-solid fa-syringe",
+    image: "https://images.unsplash.com/photo-1612531386530-97286d97c2d2?w=850&h=476&fit=crop",
     description:
-      "Complete childhood immunization as per DHA schedule, travel vaccinations, vaccine counseling & catch-up schedules, and pre-school & school health assessments",
+      "Full childhood immunization following DHA schedule, travel vaccines, personalized catch-up programs, pre-school health checks, and comprehensive vaccine counseling for parents.",
     animationOrder: 2,
-    column: 1,
+    column: 2,
     detailContent: {
       overview: "Vaccination is one of the most effective ways to protect children from serious diseases. We follow the DHA (Dubai Health Authority) immunization schedule and provide comprehensive vaccine counseling to help parents make informed decisions about their child's preventive healthcare.",
       sections: [
@@ -215,8 +200,9 @@ export const services4 = [
     num: "03.",
     title: "Acute Illness Management",
     icon: "fa-solid fa-thermometer",
+    image: "https://images.unsplash.com/photo-1607013251379-e6eecfffe234?w=850&h=476&fit=crop",
     description:
-      "Expert care for fever & infections, cough, cold, flu & respiratory illnesses, diarrhea, vomiting & dehydration, ear, nose & throat infections, and skin rashes & allergic reactions",
+      "Expert diagnosis and treatment for fever, viral and bacterial infections, cough, cold, flu, diarrhea, vomiting, ear infections, sore throat, and skin rashes in children.",
     animationOrder: 3,
     column: 1,
     detailContent: {
@@ -246,10 +232,11 @@ export const services4 = [
     num: "04.",
     title: "Growth, Development & Special Care",
     icon: "fa-solid fa-chart-line",
+    image: "https://images.unsplash.com/photo-1587616211892-f743fcca64f9?w=850&h=476&fit=crop",
     description:
-      "Specialized developmental delay screening, speech & language delay assessment, learning & attention issues (ADHD screening), and puberty & adolescent health care",
+      "Specialized developmental delay screening, speech and language assessment, ADHD and learning difficulty evaluation, puberty guidance, and comprehensive adolescent health care.",
     animationOrder: 4,
-    column: 1,
+    column: 2,
     detailContent: {
       overview: "Every child develops at their own pace, but early identification of developmental concerns allows for timely intervention. We provide comprehensive developmental assessments and specialized care for children with unique needs, ensuring they receive the support necessary to reach their full potential.",
       sections: [
@@ -277,10 +264,11 @@ export const services4 = [
     num: "05.",
     title: "Allergy & Chronic Disease Care",
     icon: "fa-solid fa-lungs",
+    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=850&h=476&fit=crop",
     description:
-      "Professional management of asthma, food & environmental allergies, eczema & chronic skin conditions, and recurrent infections evaluation",
+      "Expert management of childhood asthma, food and environmental allergies, eczema, chronic skin conditions, wheezing disorders, and evaluation of recurrent infections.",
     animationOrder: 5,
-    column: 2,
+    column: 1,
     detailContent: {
       overview: "Chronic conditions require ongoing management and support. We provide comprehensive care for children with allergies, asthma, and other chronic diseases, helping families manage these conditions effectively while maintaining quality of life.",
       sections: [
@@ -308,8 +296,9 @@ export const services4 = [
     num: "06.",
     title: "Screening & Preventive Programs",
     icon: "fa-solid fa-clipboard-check",
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=850&h=476&fit=crop",
     description:
-      "Comprehensive vision & hearing screening, anemia screening, obesity & nutrition assessment, and vitamin deficiency screening for optimal child health",
+      "Early detection through vision and hearing tests, anemia screening, obesity assessment, vitamin D and nutritional deficiency checks for proactive child health management.",
     animationOrder: 6,
     column: 2,
     detailContent: {
@@ -339,10 +328,11 @@ export const services4 = [
     num: "07.",
     title: "Newborn Care Services",
     icon: "fa-solid fa-baby",
+    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=850&h=476&fit=crop",
     description:
-      "Complete newborn examination & follow-up, jaundice assessment, breastfeeding counseling, newborn screening guidance, and parent education & reassurance",
+      "Comprehensive newborn examinations, jaundice monitoring, breastfeeding support, umbilical cord care, newborn screening guidance, and essential parenting education for new families.",
     animationOrder: 7,
-    column: 2,
+    column: 1,
     detailContent: {
       overview: "The first weeks of life are critical for establishing healthy patterns and detecting potential health concerns. We provide comprehensive newborn care, supporting new parents through this important transition with expert medical guidance and compassionate support.",
       sections: [

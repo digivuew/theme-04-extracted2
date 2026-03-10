@@ -17,13 +17,4 @@ export const expertiseItems = [
       "Comprehensive management of bacterial, viral infections, sepsis and critical illness in pediatric patients",
     animationOrder: 2,
   },
-  {
-    icon: "/assets/images/my-expertise/logo-6.svg",
-    title: "Critical Care Medicine",
-    percentage: "88%",
-    counterValue: 88,
-    description:
-      "Advanced ICU care with IDPCCM certification for critically ill children and emergency response",
-    animationOrder: 3,
-  },
 ];

@@ -17,10 +17,10 @@ export default function ServiceDetails({ serviceItem }) {
             <div className="service-thumnail-wrap" style={{ marginBottom: '35px' }}>
               <Image
                 alt={serviceItem.title}
-                src="/assets/images/services/service-detials-thumnail-wrap.png"
+                src={serviceItem.image || "/assets/images/services/service-detials-thumnail-wrap.png"}
                 width={850}
                 height={476}
-                style={{ borderRadius: '8px', boxShadow: '0 2px 12px rgba(0,0,0,0.08)' }}
+                style={{ borderRadius: '8px', boxShadow: '0 2px 12px rgba(0,0,0,0.08)', objectFit: 'cover' }}
               />
             </div>
 
