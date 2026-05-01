@@ -40,3 +40,7 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# Code review graph artifacts
+.code-review-graph/
+.claude/skills/
