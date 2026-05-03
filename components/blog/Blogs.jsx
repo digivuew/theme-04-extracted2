@@ -1,15 +1,24 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { blogData } from "@/data/blogs";
 import BlogSidebar from "./BlogSidebar";
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 import { calculateReadTime, formatReadTime } from "@/utlis/readTime";
 
 export default function Blogs({ allBlogs = blogData, isLight = false }) {
   const blogsPerPage = 3;
+  const router = useRouter();
+  const searchParams = useSearchParams();
   const [currentPage, setCurrentPage] = useState(1);
+
+  // Initialize page from URL on mount
+  useEffect(() => {
+    const pageFromUrl = parseInt(searchParams.get('page')) || 1;
+    setCurrentPage(pageFromUrl);
+  }, [searchParams]);
 
   // Calculate pagination
   const indexOfLastBlog = currentPage * blogsPerPage;
@@ -19,6 +28,7 @@ export default function Blogs({ allBlogs = blogData, isLight = false }) {
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
+    router.push(`?page=${pageNumber}`, { scroll: false });
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 

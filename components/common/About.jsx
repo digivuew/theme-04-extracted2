@@ -11,9 +11,9 @@ export default function About({ parentClass = "about-us-area" }) {
             <div className="about-us-left-content-wrap bg-vactor-one">
               <div className="years-of-experience-card tmp-scroll-trigger tmp-fade-in animation-order-1">
                 <h2 className="counter card-title">
-                  <OdometerComponent max={7} /> +
+                  <OdometerComponent max={9} /> +
                 </h2>
-                <p className="card-para">Year of Experience</p>
+                <p className="card-para">Years of Experience</p>
               </div>
               <div className="design-card tmp-scroll-trigger tmp-fade-in animation-order-2">
                 <div className="design-card-img">
@@ -39,8 +39,8 @@ export default function About({ parentClass = "about-us-area" }) {
                   Your Child's Health
                 </h2>
                 <p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
-                  Dr. Vishrut Singh is a dedicated paediatrician and neonatologist with over 7 years of specialized experience in pediatric and neonatal critical care.
-                  He provides comprehensive, evidence-based medical care for children from birth to 18 years, with expertise in NICU management, respiratory disorders, and infectious diseases.
+                  Dr. Vishrut Singh is a dedicated paediatrician and neonatologist with over 9 years of specialized experience in pediatric and neonatal critical care.
+                  He provides comprehensive, evidence-based medical care for children from birth to 18 years, with expertise in NICU management, respiratory disorders, infectious diseases, and critical care.
                 </p>
               </div>
               <div className="about-us-section-card row g-5">

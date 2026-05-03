@@ -6,15 +6,38 @@ import { allBlogs } from "@/data/blogs";
 import Link from "next/link";
 import React from "react";
 import CommonComponents from "@/components/common/CommonComponents";
-export const metadata = {
-  title:
-    "Blog Article | Dr. Vishrut Singh MD - Pediatric Health Insights",
-  description:
-    "Expert pediatric health advice and insights from Dr. Vishrut Singh, board-certified Pediatrician specializing in child health, respiratory care, and preventive medicine.",
-};
+import { notFound } from "next/navigation";
+
+export async function generateStaticParams() {
+  return allBlogs.map((blog) => ({
+    slug: blog.slug,
+  }));
+}
+
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const blog = allBlogs.find((blog) => blog.slug === slug);
+
+  if (!blog) {
+    return {
+      title: "Blog Not Found | Dr. Vishrut Singh MD",
+      description: "The requested blog article could not be found.",
+    };
+  }
+
+  return {
+    title: `${blog.title} | Dr. Vishrut Singh MD - Pediatric Health Insights`,
+    description: blog.description,
+  };
+}
+
 export default async function page({ params }) {
   const { slug } = await params;
-  const blog = allBlogs.find((blog) => blog.slug == slug) || allBlogs[0];
+  const blog = allBlogs.find((blog) => blog.slug === slug);
+
+  if (!blog) {
+    notFound();
+  }
   return (
     <>
       <div className="tmp-white-version">

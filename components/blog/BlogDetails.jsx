@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import BlogSidebar from "./BlogSidebar";
@@ -11,6 +11,11 @@ import { calculateReadTime, formatReadTime } from "@/utlis/readTime";
 
 export default function BlogDetails({ blog, isLight = false }) {
   const [showCopied, setShowCopied] = useState(false);
+  const [currentUrl, setCurrentUrl] = useState('');
+
+  useEffect(() => {
+    setCurrentUrl(window.location.href);
+  }, []);
 
   // Find current blog index for prev/next navigation
   const currentIndex = allBlogs.findIndex(b => b.slug === blog.slug);
@@ -19,11 +24,9 @@ export default function BlogDetails({ blog, isLight = false }) {
 
   const handleCopyLink = (e) => {
     e.preventDefault();
-    if (typeof window !== 'undefined') {
-      navigator.clipboard.writeText(window.location.href);
-      setShowCopied(true);
-      setTimeout(() => setShowCopied(false), 2000);
-    }
+    navigator.clipboard.writeText(currentUrl);
+    setShowCopied(true);
+    setTimeout(() => setShowCopied(false), 2000);
   };
   return (
     <div className="blog-classic-area-wrapper tmp-section-gap">
@@ -128,8 +131,8 @@ export default function BlogDetails({ blog, isLight = false }) {
                       </div>
                       <div className="card-right-content">
                         <Image
-                          alt="blog-swip-img"
-                          src="/assets/images/blog/blog-details-swiper-img.jpg"
+                          alt="Comprehensive Pediatric Care Services"
+                          src="/assets/images/Comprehensive Pediatric Care Services2.png"
                           width={300}
                           height={280}
                         />
@@ -183,7 +186,7 @@ export default function BlogDetails({ blog, isLight = false }) {
                     <span style={{ fontSize: '14px', fontWeight: '600', color: 'var(--color-heading)' }}>Share:</span>
                     <div className="social-link footer" style={{ marginTop: 0 }}>
                       <a
-                        href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(blog.title)}&url=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}`}
+                        href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(blog.title)}&url=${encodeURIComponent(currentUrl)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Share on Twitter"
@@ -191,7 +194,7 @@ export default function BlogDetails({ blog, isLight = false }) {
                         <i className="fa-brands fa-twitter" />
                       </a>
                       <a
-                        href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}`}
+                        href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Share on LinkedIn"
@@ -199,7 +202,7 @@ export default function BlogDetails({ blog, isLight = false }) {
                         <i className="fa-brands fa-linkedin-in" />
                       </a>
                       <a
-                        href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}`}
+                        href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Share on Facebook"

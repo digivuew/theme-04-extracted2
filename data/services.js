@@ -136,7 +136,7 @@ export const services4 = [
     num: "01.",
     title: "Core Pediatric Services",
     icon: "fa-solid fa-stethoscope",
-    image: "https://images.unsplash.com/photo-1565843708714-52ecf69ab81f?w=850&h=476&fit=crop",
+    image: "/assets/images/Core Pediatric Services.png",
     description:
       "Complete child health consultations covering newborn care, growth monitoring, developmental milestones, routine check-ups, nutrition guidance, and behavioral support for children of all ages.",
     animationOrder: 1,
@@ -168,7 +168,7 @@ export const services4 = [
     num: "02.",
     title: "Vaccination & Preventive Care",
     icon: "fa-solid fa-syringe",
-    image: "https://images.unsplash.com/photo-1612531386530-97286d97c2d2?w=850&h=476&fit=crop",
+    image: "/assets/images/Vaccination & Preventive Care.png",
     description:
       "Full childhood immunization following DHA schedule, travel vaccines, personalized catch-up programs, pre-school health checks, and comprehensive vaccine counseling for parents.",
     animationOrder: 2,
@@ -200,7 +200,7 @@ export const services4 = [
     num: "03.",
     title: "Acute Illness Management",
     icon: "fa-solid fa-thermometer",
-    image: "https://images.unsplash.com/photo-1607013251379-e6eecfffe234?w=850&h=476&fit=crop",
+    image: "/assets/images/Acute Illness Management.png",
     description:
       "Expert diagnosis and treatment for fever, viral and bacterial infections, cough, cold, flu, diarrhea, vomiting, ear infections, sore throat, and skin rashes in children.",
     animationOrder: 3,
@@ -232,7 +232,7 @@ export const services4 = [
     num: "04.",
     title: "Growth, Development & Special Care",
     icon: "fa-solid fa-chart-line",
-    image: "https://images.unsplash.com/photo-1587616211892-f743fcca64f9?w=850&h=476&fit=crop",
+    image: "/assets/images/Growth, Development & Special Care.png",
     description:
       "Specialized developmental delay screening, speech and language assessment, ADHD and learning difficulty evaluation, puberty guidance, and comprehensive adolescent health care.",
     animationOrder: 4,
@@ -264,7 +264,7 @@ export const services4 = [
     num: "05.",
     title: "Allergy & Chronic Disease Care",
     icon: "fa-solid fa-lungs",
-    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=850&h=476&fit=crop",
+    image: "/assets/images/Allergy & Chronic Disease Care.png",
     description:
       "Expert management of childhood asthma, food and environmental allergies, eczema, chronic skin conditions, wheezing disorders, and evaluation of recurrent infections.",
     animationOrder: 5,
@@ -296,7 +296,7 @@ export const services4 = [
     num: "06.",
     title: "Screening & Preventive Programs",
     icon: "fa-solid fa-clipboard-check",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=850&h=476&fit=crop",
+    image: "/assets/images/Screening & Preventive Programs.png",
     description:
       "Early detection through vision and hearing tests, anemia screening, obesity assessment, vitamin D and nutritional deficiency checks for proactive child health management.",
     animationOrder: 6,
@@ -328,7 +328,7 @@ export const services4 = [
     num: "07.",
     title: "Newborn Care Services",
     icon: "fa-solid fa-baby",
-    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=850&h=476&fit=crop",
+    image: "/assets/images/Newborn Care Services.png",
     description:
       "Comprehensive newborn examinations, jaundice monitoring, breastfeeding support, umbilical cord care, newborn screening guidance, and essential parenting education for new families.",
     animationOrder: 7,
