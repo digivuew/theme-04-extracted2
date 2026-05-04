@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import Image from "next/image";
 import { blogData } from "@/data/blogs";
 import BlogSidebar from "./BlogSidebar";
@@ -8,7 +8,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { calculateReadTime, formatReadTime } from "@/utlis/readTime";
 
-export default function Blogs({ allBlogs = blogData, isLight = false }) {
+function BlogsContent({ allBlogs = blogData, isLight = false }) {
   const blogsPerPage = 3;
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -277,5 +277,13 @@ export default function Blogs({ allBlogs = blogData, isLight = false }) {
         </div>
       </div>
     </>
+  );
+}
+
+export default function Blogs(props) {
+  return (
+    <Suspense fallback={<div>Loading blogs...</div>}>
+      <BlogsContent {...props} />
+    </Suspense>
   );
 }
