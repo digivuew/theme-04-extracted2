@@ -397,7 +397,44 @@ export const blogData5 = [
   };
 });
 
-export const blogData6 = [].map((elm) => {
+export const blogData6 = [
+  {
+    id: 1,
+    animationOrder: "animation-order-1",
+    imageSrc: "/assets/images/Essential Guide to Child Vaccination and Immunization.png",
+    altText: "Child vaccination and immunization protection",
+    author: "Dr. Vishrut Singh",
+    comments: "Comments (05)",
+    date: "January 15, 2025",
+    title: "Essential Guide to Child Vaccination and Immunization",
+    width: 410,
+    height: 291,
+  },
+  {
+    id: 2,
+    animationOrder: "animation-order-2",
+    imageSrc: "/assets/images/Managing Respiratory Disorders in Children.png",
+    altText: "Child with respiratory health monitoring",
+    author: "Dr. Vishrut Singh",
+    comments: "Comments (05)",
+    date: "January 10, 2025",
+    title: "Managing Respiratory Disorders in Children",
+    width: 410,
+    height: 291,
+  },
+  {
+    id: 3,
+    animationOrder: "animation-order-3",
+    imageSrc: "/assets/images/Nutrition and Growth Tips for Healthy Children.png",
+    altText: "Healthy nutrition for children",
+    author: "Dr. Vishrut Singh",
+    comments: "Comments (05)",
+    date: "January 5, 2025",
+    title: "Nutrition and Growth Tips for Healthy Children",
+    width: 410,
+    height: 291,
+  },
+].map((elm) => {
   return {
     ...elm,
     slug: slugify(elm.title),
