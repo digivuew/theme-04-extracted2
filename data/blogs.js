@@ -4,8 +4,8 @@ export const blogData = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "https://images.pexels.com/photos/5878507/pexels-photo-5878507.jpeg?auto=compress&cs=tinysrgb&w=700",
-    altText: "Person holding vaccine vial",
+    imageSrc: "/assets/images/Essential Guide to Child Vaccination and Immunization.png",
+    altText: "Child vaccination and immunization protection",
     date: "January 15, 2025",
     title: "Essential Guide to Child Vaccination and Immunization",
     description:
@@ -33,8 +33,8 @@ export const blogData = [
   {
     id: 2,
     animationOrder: "animation-order-2",
-    imageSrc: "/assets/images/blog/blog-img-2.jpg",
-    altText: "Blog Thumbnail",
+    imageSrc: "/assets/images/Managing Respiratory Disorders in Children.png",
+    altText: "Child with respiratory health monitoring",
     date: "January 10, 2025",
     title: "Managing Respiratory Disorders in Children",
     tags: ["Respiratory Care", "Asthma", "Child Health"],
@@ -62,7 +62,7 @@ export const blogData = [
   {
     id: 3,
     animationOrder: "animation-order-3",
-    imageSrc: "https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=700&q=80",
+    imageSrc: "/assets/images/Nutrition and Growth Tips for Healthy Children.png",
     altText: "Healthy fruits and vegetables for children",
     date: "January 5, 2025",
     tags: ["Nutrition", "Child Health", "Development"],
@@ -99,8 +99,8 @@ export const blogData2 = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "/assets/images/blog/blog-img-1.jpg",
-    altText: "Blog Thumbnail",
+    imageSrc: "/assets/images/Understanding Common Childhood Infections and Prevention.png",
+    altText: "Child health monitoring and infection prevention",
     author: "Dr. Vishrut Singh",
     date: "December 28, 2024",
     title: "Understanding Common Childhood Infections and Prevention",
@@ -135,38 +135,8 @@ export const blogData2 = [
   {
     id: 2,
     animationOrder: "animation-order-2",
-    imageSrc: "/assets/images/blog/blog-img-2.jpg",
-    altText: "Blog Thumbnail",
-    author: "Dr. Vishrut Singh",
-    date: "December 25, 2024",
-    title: "Asthma Management and Care in Pediatric Patients",
-    tags: ["Asthma", "Respiratory Care", "Child Health"],
-    categories: ["Respiratory Care"],
-    description:
-      "Comprehensive guide to managing childhood asthma, including triggers, medications, action plans, and lifestyle modifications for better control.",
-    content: {
-      intro: "Asthma is one of the most common chronic conditions in children, affecting millions worldwide. With proper management, most children with asthma can lead active, healthy lives. Understanding triggers, medications, and action plans is essential for effective asthma control.",
-      sections: [
-        {
-          title: "Understanding Asthma Triggers",
-          text: "Common triggers include allergens (pollen, dust mites, pet dander), respiratory infections, cold air, exercise, and air pollution. Keep a diary to identify your child's specific triggers. Environmental control measures like using air purifiers, washing bedding in hot water, and minimizing exposure to known triggers can significantly reduce asthma symptoms."
-        },
-        {
-          title: "Medication Management",
-          text: "Asthma medications include quick-relief (rescue) inhalers for immediate symptoms and controller medications for long-term management. Ensure your child uses inhalers correctly with proper technique or spacer devices. Never stop controller medications without consulting your doctor, even if symptoms improve."
-        },
-        {
-          title: "Creating an Asthma Action Plan",
-          text: "Work with your pediatrician to develop a written asthma action plan. This should include daily management instructions, how to recognize worsening symptoms, and emergency steps. Share this plan with school nurses, teachers, and caregivers to ensure consistent care across all settings."
-        }
-      ]
-    }
-  },
-  {
-    id: 3,
-    animationOrder: "animation-order-3",
-    imageSrc: "/assets/images/blog/blog-img-3.jpg",
-    altText: "Blog Thumbnail",
+    imageSrc: "/assets/images/Growth and Development Milestones in Children.png",
+    altText: "Happy child demonstrating healthy growth and development",
     author: "Dr. Vishrut Singh",
     date: "December 20, 2024",
     title: "Growth and Development Milestones in Children",
@@ -203,8 +173,8 @@ export const blogData3 = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "/assets/images/blog/blog-img-1.jpg",
-    altText: "Blog Thumbnail",
+    imageSrc: "/assets/images/Allergy Testing and Treatment Options for Children.png",
+    altText: "Pediatric allergy testing and treatment",
     date: "December 15, 2024",
     author: "Dr. Vishrut Singh",
     comments: "Comments (05)",
@@ -237,80 +207,6 @@ export const blogData3 = [
       ]
     }
   },
-  {
-    id: 2,
-    animationOrder: "animation-order-2",
-    imageSrc: "/assets/images/blog/blog-img-2.jpg",
-    altText: "Blog Thumbnail",
-    date: "December 12, 2024",
-    author: "Dr. Vishrut Singh",
-    comments: "Comments (05)",
-    title: "Critical Care Management for Pediatric Emergencies",
-    tags: [
-      "Critical Care",
-      "Emergency",
-      "Pediatric Care",
-      "Child Health",
-      "Intensive Care",
-    ],
-    categories: ["Child Health", "Respiratory Care"],
-    description:
-      "Essential guide for parents and caregivers on recognizing pediatric emergencies and understanding critical care procedures.",
-    content: {
-      intro: "Pediatric emergencies require rapid recognition and appropriate response. While most childhood illnesses are minor, knowing when a situation requires immediate medical attention can be life-saving. Understanding critical care helps parents make informed decisions during stressful situations.",
-      sections: [
-        {
-          title: "Recognizing Pediatric Emergencies",
-          text: "True emergencies include difficulty breathing or turning blue, unresponsiveness or extreme lethargy, severe dehydration, seizures lasting more than 5 minutes, suspected poisoning, severe injuries, or high fever in infants under 3 months. Trust your instincts—if something seems seriously wrong, seek immediate care. Call 911 for life-threatening situations rather than driving to the hospital yourself."
-        },
-        {
-          title: "Critical Care Settings",
-          text: "Pediatric intensive care units (PICUs) specialize in treating critically ill children with advanced monitoring and life support. Emergency departments provide immediate stabilization, while specialized teams handle trauma, respiratory failure, cardiac emergencies, and neurological crises. Pediatric critical care specialists have specific training in managing complex pediatric conditions."
-        },
-        {
-          title: "What to Expect in Critical Care",
-          text: "Your child will have continuous monitoring of vital signs, IV access for medications and fluids, and possibly respiratory support. The team may include intensivists, nurses, respiratory therapists, and specialists. Parents can usually stay with their child and participate in care decisions. Don't hesitate to ask questions about treatments, procedures, and your child's condition."
-        }
-      ]
-    }
-  },
-  {
-    id: 3,
-    animationOrder: "animation-order-3",
-    imageSrc: "/assets/images/blog/blog-img-3.jpg",
-    altText: "Blog Thumbnail",
-    date: "December 8, 2024",
-    author: "Dr. Vishrut Singh",
-    comments: "Comments (05)",
-    title: "Pediatric Nutrition Guidelines for Optimal Health",
-    tags: [
-      "Nutrition",
-      "Child Health",
-      "Growth",
-      "Development",
-      "Pediatric Care",
-    ],
-    categories: ["Preventive Medicine", "Pediatric Care Tips"],
-    description:
-      "Evidence-based nutritional guidelines for different age groups, addressing common dietary concerns and promoting healthy eating habits.",
-    content: {
-      intro: "Proper nutrition is fundamental to childhood health, growth, and development. Nutritional needs change as children grow, and establishing healthy eating patterns early sets the foundation for lifelong wellness. Evidence-based guidelines help parents navigate feeding challenges and optimize their child's diet.",
-      sections: [
-        {
-          title: "Age-Specific Nutritional Needs",
-          text: "Infants need breast milk or formula exclusively for the first 6 months, then gradual introduction of solid foods. Toddlers require balanced meals with appropriate portions, while preschoolers need regular meals and healthy snacks. School-age children benefit from family meals and involvement in food preparation. Adolescents have increased caloric needs to support rapid growth and development."
-        },
-        {
-          title: "Essential Nutrients for Growing Children",
-          text: "Protein supports growth and tissue repair; choose lean meats, fish, eggs, beans, and dairy. Calcium and vitamin D build strong bones; include milk, yogurt, and fortified foods. Iron prevents anemia; offer red meat, fortified cereals, and leafy greens. Healthy fats from nuts, avocados, and fish support brain development. Fiber from fruits, vegetables, and whole grains aids digestion."
-        },
-        {
-          title: "Addressing Common Feeding Challenges",
-          text: "Picky eating peaks in toddlerhood and usually improves with patience and repeated exposure. Avoid power struggles over food. Offer variety without pressure, include one familiar food at each meal, and model healthy eating. Limit juice and sugary drinks. Establish regular meal times and minimize distractions during meals. Consult your pediatrician if growth concerns or severe feeding difficulties arise."
-        }
-      ]
-    }
-  },
 ].map((elm) => {
   return {
     ...elm,
@@ -322,44 +218,8 @@ export const blogData4 = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "/assets/images/blog/blog-img-4.jpg",
-    altText: "Blog Thumbnail",
-    author: "Dr. Vishrut Singh",
-    date: "December 5, 2024",
-    title: "Seasonal Illnesses and How to Protect Your Child",
-    tags: [
-      "Child Health",
-      "Prevention",
-      "Infectious Diseases",
-      "Seasonal Care",
-      "Pediatric Care",
-    ],
-    categories: ["Child Health"],
-    description:
-      "Prepare for seasonal health challenges with this guide to flu, colds, and other common seasonal illnesses affecting children.",
-    content: {
-      intro: "Seasonal changes bring predictable health challenges for children. Cold and flu season, spring allergies, and summer illnesses each present unique concerns. Preparation and prevention strategies can reduce illness severity and frequency, keeping your family healthier year-round.",
-      sections: [
-        {
-          title: "Fall and Winter Illnesses",
-          text: "Influenza peaks between October and March, causing fever, body aches, and respiratory symptoms. Annual flu vaccination is recommended for all children over 6 months. Respiratory syncytial virus (RSV) affects infants and toddlers, causing bronchiolitis. Common colds circulate constantly, with children averaging 6-8 per year. Practice frequent hand washing, avoid close contact with sick individuals, and ensure adequate rest and nutrition."
-        },
-        {
-          title: "Spring and Summer Health Concerns",
-          text: "Seasonal allergies emerge in spring, triggering sneezing, itchy eyes, and congestion. Manage symptoms with antihistamines and limit outdoor time during high pollen counts. Summer brings heat-related illnesses—ensure adequate hydration and sun protection. Hand, foot, and mouth disease spreads in summer camps and daycare. Insect bites and tick-borne diseases require prevention with appropriate repellents and protective clothing."
-        },
-        {
-          title: "Year-Round Prevention Strategies",
-          text: "Maintain up-to-date vaccinations for all vaccine-preventable diseases. Teach proper hand hygiene and respiratory etiquette (covering coughs and sneezes). Ensure children get adequate sleep, nutrition, and physical activity to support immune function. Keep sick children home from school to prevent spreading illness. Stock basic supplies like thermometers, age-appropriate fever reducers, and saline nasal drops for managing common illnesses at home."
-        }
-      ]
-    }
-  },
-  {
-    id: 2,
-    animationOrder: "animation-order-2",
-    imageSrc: "/assets/images/blog/blog-img-5.jpg",
-    altText: "Blog Thumbnail",
+    imageSrc: "/assets/images/Understanding and Managing Childhood Fever.png",
+    altText: "Managing childhood fever and temperature",
     author: "Dr. Vishrut Singh",
     date: "December 1, 2024",
     title: "Understanding and Managing Childhood Fever",
@@ -392,10 +252,10 @@ export const blogData4 = [
     }
   },
   {
-    id: 3,
-    animationOrder: "animation-order-3",
-    imageSrc: "/assets/images/blog/blog-img-6.jpg",
-    altText: "Blog Thumbnail",
+    id: 2,
+    animationOrder: "animation-order-2",
+    imageSrc: "/assets/images/Importance of Regular Pediatric Check-ups.png",
+    altText: "Regular pediatric checkups and wellness visits",
     author: "Dr. Vishrut Singh",
     date: "November 28, 2024",
     title: "Importance of Regular Pediatric Check-ups",
@@ -437,40 +297,8 @@ export const blogData5 = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "/assets/images/blog/blog-img-7.jpg",
-    altText: "Blog Thumbnail",
-    date: "November 25, 2024",
-    author: "Dr. Vishrut Singh",
-    comments: "Comments (05)",
-    title: "Common Respiratory Issues in Children and Treatment",
-    tags: ["Respiratory Care", "Treatment", "Child Health", "Colds", "Bronchitis"],
-    categories: ["Respiratory Care"],
-    description: "Identify and treat common respiratory problems in children, from colds to bronchitis, with expert medical guidance.",
-    width: 410,
-    height: 291,
-    content: {
-      intro: "Respiratory issues are the most frequent health problems in childhood. From common colds to more serious conditions like bronchitis and pneumonia, understanding symptoms and appropriate treatment helps parents provide effective care and recognize when professional medical attention is necessary.",
-      sections: [
-        {
-          title: "Upper Respiratory Infections",
-          text: "The common cold causes runny nose, congestion, cough, and mild fever. Treatment focuses on symptom relief with rest, fluids, and humidity. Saline nasal drops help clear congestion. Most colds resolve within 7-10 days. Sinusitis may develop if symptoms persist beyond 10 days or worsen after initial improvement. Croup causes a barking cough and stridor, often responding to cool mist and corticosteroids."
-        },
-        {
-          title: "Lower Respiratory Conditions",
-          text: "Bronchitis involves inflammation of bronchial tubes, causing persistent cough and mucus production. Viral bronchitis is most common and resolves with supportive care. Pneumonia presents with fever, rapid breathing, and chest pain, requiring prompt medical evaluation and possible antibiotics. Bronchiolitis, common in infants, causes wheezing and difficulty breathing, sometimes requiring hospitalization for supportive care including oxygen and hydration."
-        },
-        {
-          title: "When to Seek Medical Care",
-          text: "Contact your pediatrician for difficulty breathing, rapid breathing, wheezing, chest pain, high persistent fever, dehydration signs, or symptoms lasting more than 10 days. Seek emergency care for severe breathing difficulty, blue lips or face, inability to drink, extreme lethargy, or respiratory distress. Trust your instincts—if your child seems seriously ill, don't hesitate to seek immediate medical attention."
-        }
-      ]
-    }
-  },
-  {
-    id: 2,
-    animationOrder: "animation-order-2",
-    imageSrc: "/assets/images/blog/blog-img-8.jpg",
-    altText: "Blog Thumbnail",
+    imageSrc: "/assets/images/Newborn Care Essential Tips for New Parents.png",
+    altText: "Newborn baby care for first-time parents",
     date: "November 20, 2024",
     author: "Dr. Vishrut Singh",
     comments: "Comments (05)",
@@ -499,10 +327,10 @@ export const blogData5 = [
     }
   },
   {
-    id: 3,
-    animationOrder: "animation-order-3",
-    imageSrc: "/assets/images/blog/blog-img-9.jpg",
-    altText: "Blog Thumbnail",
+    id: 2,
+    animationOrder: "animation-order-2",
+    imageSrc: "/assets/images/Pediatric Sleep Disorders and Solutions.png",
+    altText: "Child sleeping peacefully - pediatric sleep health",
     date: "November 15, 2024",
     author: "Dr. Vishrut Singh",
     comments: "Comments (05)",
@@ -531,10 +359,10 @@ export const blogData5 = [
     }
   },
   {
-    id: 4,
+    id: 3,
     animationOrder: "animation-order-3",
-    imageSrc: "/assets/images/blog/blog-img-4.jpg",
-    altText: "Blog Thumbnail",
+    imageSrc: "/assets/images/Managing Chronic Conditions in Children.png",
+    altText: "Managing chronic pediatric conditions with care",
     date: "November 10, 2024",
     author: "Dr. Vishrut Singh",
     comments: "Comments (05)",
@@ -573,98 +401,38 @@ export const blogData6 = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "/assets/images/blog/blog-img-7.jpg",
-    altText: "Child Health Tips",
-    date: "November 5, 2024",
+    imageSrc: "/assets/images/Essential Guide to Child Vaccination and Immunization.png",
+    altText: "Child vaccination and immunization protection",
     author: "Dr. Vishrut Singh",
     comments: "Comments (05)",
-    title: "Essential Vaccination Schedule for Your Child's Health",
-    tags: ["Vaccination", "Immunization", "Preventive Care", "Vaccines", "Child Safety"],
-    categories: ["Preventive Medicine"],
-    description: "Stay on track with your child's immunizations using this comprehensive vaccination schedule and timing guide.",
+    date: "January 15, 2025",
+    title: "Essential Guide to Child Vaccination and Immunization",
     width: 410,
     height: 291,
-    content: {
-      intro: "Vaccinations are one of the most important preventive health measures for children. Following the recommended immunization schedule protects your child from serious diseases and contributes to community immunity. Understanding which vaccines your child needs and when helps you stay on track with this crucial aspect of pediatric care.",
-      sections: [
-        {
-          title: "Birth Through 18 Months",
-          text: "Hepatitis B vaccine begins at birth, with additional doses at 1-2 months and 6-18 months. At 2, 4, and 6 months, babies receive multiple vaccines including DTaP (diphtheria, tetanus, pertussis), Hib (Haemophilus influenzae type b), IPV (polio), PCV13 (pneumococcal), and rotavirus. MMR (measles, mumps, rubella) and varicella (chickenpox) vaccines are given at 12-15 months. Hepatitis A vaccination starts between 12-23 months. This intensive early schedule provides critical protection during vulnerable developmental periods."
-        },
-        {
-          title: "Preschool Through Adolescence",
-          text: "Booster shots at 4-6 years include DTaP, IPV, MMR, and varicella, ensuring continued immunity as children enter school. At 11-12 years, preteens receive Tdap (tetanus, diphtheria, pertussis booster), HPV (human papillomavirus), and MenACWY (meningococcal) vaccines. Annual influenza vaccination is recommended for all children over 6 months. The adolescent vaccines protect against serious diseases particularly prevalent in teenage and young adult years."
-        },
-        {
-          title: "Addressing Common Concerns",
-          text: "Vaccines undergo rigorous safety testing and monitoring. Serious side effects are extremely rare, while the diseases they prevent can cause severe complications or death. Minor side effects like soreness, low fever, or fussiness are temporary and indicate the immune system is responding appropriately. Spreading out vaccines or delaying them leaves children vulnerable during critical periods. Discuss any concerns with your pediatrician, who can provide evidence-based information to help you make informed decisions about your child's health."
-        }
-      ]
-    }
   },
   {
     id: 2,
     animationOrder: "animation-order-2",
-    imageSrc: "/assets/images/blog/blog-img-8.jpg",
-    altText: "Respiratory Health",
-    date: "October 30, 2024",
+    imageSrc: "/assets/images/Managing Respiratory Disorders in Children.png",
+    altText: "Child with respiratory health monitoring",
     author: "Dr. Vishrut Singh",
-    comments: "Comments (08)",
-    title: "Managing Asthma and Respiratory Disorders in Children",
-    tags: ["Asthma", "Respiratory Health", "Breathing Problems", "Chronic Disease", "Medication Management"],
-    categories: ["Respiratory Care"],
-    description: "Practical strategies for managing pediatric asthma and respiratory conditions to improve quality of life.",
+    comments: "Comments (05)",
+    date: "January 10, 2025",
+    title: "Managing Respiratory Disorders in Children",
     width: 410,
     height: 291,
-    content: {
-      intro: "Asthma and chronic respiratory disorders affect millions of children worldwide, impacting daily activities, sleep, and quality of life. Effective management through medication, environmental controls, and education allows most children with respiratory conditions to lead active, healthy lives. Partnership between families, children, and healthcare providers is key to optimal outcomes.",
-      sections: [
-        {
-          title: "Identifying and Avoiding Triggers",
-          text: "Common asthma triggers include allergens (dust mites, pet dander, pollen, mold), irritants (tobacco smoke, air pollution, strong odors), respiratory infections, weather changes, exercise, and emotional stress. Keep a symptom diary to identify your child's specific triggers. Implement environmental controls: use allergen-proof mattress and pillow covers, wash bedding weekly in hot water, maintain low humidity, use HEPA filters, avoid tobacco smoke exposure, and minimize contact with known allergens. Trigger identification and avoidance significantly reduces symptom frequency and severity."
-        },
-        {
-          title: "Medication Adherence and Techniques",
-          text: "Controller medications (inhaled corticosteroids, leukotriene modifiers) prevent symptoms when used daily, even when your child feels well. Never stop these without consulting your doctor. Quick-relief inhalers (albuterol) treat acute symptoms. Ensure proper inhaler technique—many children don't use inhalers correctly, reducing medication effectiveness. Spacers improve drug delivery, especially in young children. Schedule regular follow-ups to assess control and adjust medications. Good adherence to controller therapy reduces exacerbations, emergency visits, and long-term lung damage."
-        },
-        {
-          title: "Emergency Preparedness",
-          text: "Create a written asthma action plan with your pediatrician, outlining daily management, symptom recognition, and emergency steps. Use the \"zones\" system: green (doing well), yellow (caution), and red (danger). Ensure your child, family members, school nurses, and coaches understand the plan. Keep emergency medications accessible at home, school, and during activities. Teach your child to recognize worsening symptoms. Seek emergency care for severe difficulty breathing, blue lips, inability to speak in sentences, or lack of improvement with rescue medication. Quick action during exacerbations prevents serious complications."
-        }
-      ]
-    }
   },
   {
     id: 3,
     animationOrder: "animation-order-3",
-    imageSrc: "/assets/images/blog/blog-img-9.jpg",
-    altText: "Nutrition Guide",
-    date: "October 25, 2024",
+    imageSrc: "/assets/images/Nutrition and Growth Tips for Healthy Children.png",
+    altText: "Healthy nutrition for children",
     author: "Dr. Vishrut Singh",
-    comments: "Comments (12)",
-    title: "Nutrition Tips for Healthy Growth and Development",
-    tags: ["Nutrition", "Healthy Eating", "Growth", "Meal Planning", "Dietary Guidelines"],
-    categories: ["Preventive Medicine", "Pediatric Care Tips"],
-    description: "Age-appropriate nutrition advice to support your child's growth, development, and overall health.",
-    width: 411,
+    comments: "Comments (05)",
+    date: "January 5, 2025",
+    title: "Nutrition and Growth Tips for Healthy Children",
+    width: 410,
     height: 291,
-    content: {
-      intro: "Optimal nutrition fuels children's rapid growth, supports cognitive development, and establishes lifelong healthy eating patterns. Children's nutritional needs evolve as they grow, requiring different nutrients and portions at various developmental stages. Practical strategies help parents navigate picky eating, busy schedules, and conflicting nutrition information to provide balanced, nourishing meals.",
-      sections: [
-        {
-          title: "Building Balanced Meals",
-          text: "Each meal should include protein (lean meats, fish, eggs, beans, tofu), whole grains (brown rice, whole wheat bread, oatmeal), fruits and vegetables (aim for colorful variety), and dairy or calcium-rich alternatives. Healthy fats from nuts, seeds, avocados, and fish support brain development. Portion sizes vary by age—toddlers need smaller servings than teenagers. Use your child's palm as a guide for protein portions, fist for carbohydrates, and thumb for fats. Offer three meals and 1-2 healthy snacks daily to maintain energy and prevent excessive hunger leading to overeating."
-        },
-        {
-          title: "Navigating Picky Eating",
-          text: "Picky eating peaks in toddlerhood as children assert independence. Offer new foods multiple times without pressure—it may take 10-15 exposures before acceptance. Include at least one familiar food at each meal. Let children help with meal planning and preparation to increase interest. Avoid using food as reward or punishment. Model healthy eating yourself. Minimize distractions during meals—turn off screens and eat together as a family when possible. Focus on the division of responsibility: parents decide what, when, and where food is offered; children decide whether and how much to eat."
-        },
-        {
-          title: "Special Nutritional Considerations",
-          text: "Children with food allergies require careful planning to ensure adequate nutrition despite restrictions. Vegetarian and vegan diets can support healthy growth with attention to protein, iron, calcium, vitamin B12, and omega-3 fatty acids. Limit added sugars and processed foods—read labels carefully. Encourage water as the primary beverage, limiting juice to 4-6 ounces daily. Children engaged in intense athletics may need additional calories and nutrients. If your child isn't growing well, has extreme food limitations, or you're concerned about their nutrition, consult your pediatrician or a registered dietitian specializing in pediatrics."
-        }
-      ]
-    }
   },
 ].map((elm) => {
   return {
@@ -676,8 +444,8 @@ export const blogData7 = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "/assets/images/blog/blog-img-4.jpg",
-    altText: "Blog Thumbnail",
+    imageSrc: "/assets/images/Child Mental Health and Emotional Development.png",
+    altText: "Child mental health and emotional wellness",
     author: "Dr. Vishrut Singh",
     date: "October 20, 2024",
     title: "Child Mental Health and Emotional Development",
@@ -707,8 +475,8 @@ export const blogData7 = [
   {
     id: 2,
     animationOrder: "animation-order-2",
-    imageSrc: "/assets/images/blog/blog-img-5.jpg",
-    altText: "Blog Thumbnail",
+    imageSrc: "/assets/images/Common Skin Conditions in Children.png",
+    altText: "Pediatric dermatology and skin health",
     author: "Dr. Vishrut Singh",
     date: "October 15, 2024",
     title: "Pediatric Dermatology: Common Skin Conditions in Children",
@@ -738,8 +506,8 @@ export const blogData7 = [
   {
     id: 3,
     animationOrder: "animation-order-3",
-    imageSrc: "/assets/images/blog/blog-img-6.jpg",
-    altText: "Blog Thumbnail",
+    imageSrc: "/assets/images/Digestive Health Issues in Children and Management.png",
+    altText: "Child digestive health and nutrition",
     author: "Dr. Vishrut Singh",
     date: "October 10, 2024",
     title: "Digestive Health Issues in Children and Management",
@@ -776,7 +544,7 @@ export const blogData7 = [
 export const posts = [
   {
     id: 1,
-    imageSrc: "/assets/images/blog/single-post-card-img-1.png",
+    imageSrc: "/assets/images/Antibiotic Resistance.png",
     author: "Dr. Vishrut Singh",
     category: "Pediatric Care Tips",
     categories: ["Pediatric Care Tips"],
@@ -804,7 +572,7 @@ export const posts = [
   },
   {
     id: 2,
-    imageSrc: "/assets/images/blog/single-post-card-img-2.png",
+    imageSrc: "/assets/images/Understanding Pediatric Diabetes and Care.png",
     author: "Dr. Vishrut Singh",
     category: "Child Health",
     categories: ["Child Health"],
@@ -832,7 +600,7 @@ export const posts = [
   },
   {
     id: 3,
-    imageSrc: "/assets/images/blog/single-post-card-img-3.png",
+    imageSrc: "/assets/images/Injury Prevention.png",
     author: "Dr. Vishrut Singh",
     category: "Preventive Medicine",
     categories: ["Preventive Medicine"],

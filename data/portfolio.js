@@ -374,46 +374,94 @@ export const portfolioItems9 = [
   {
     id: 1,
     animationOrder: 1,
-    imageSrc: "/assets/images/latest-portfolio/tab-image-1.png",
-    altText: "Critical care achievement illustration",
-    title: "Critical Care Success Story",
-    tags: ["PICU", "Ventilator Support"],
+    imageSrc: "/assets/images/Premature Twin NICU Success.png",
+    altText: "Premature newborn baby receiving specialized neonatal care",
+    title: "Premature Twin NICU Success",
+    tags: ["Neonatology", "NICU Care"],
     buttonText: "View Details",
     width: 410,
     height: 457,
+    detailContent: {
+      overview: "Caring for premature twins requires specialized neonatal expertise, advanced monitoring, and comprehensive family support. This case demonstrates successful management of extremely premature neonates with respiratory distress.",
+      story: "Twin babies born at 28 weeks gestation were admitted to the Neonatal Intensive Care Unit under Dr. Vishrut Singh's care. Both infants presented with respiratory distress syndrome requiring immediate surfactant therapy and mechanical ventilation. The smaller twin weighed only 950 grams and faced additional challenges including feeding difficulties and temperature instability. Dr. Singh implemented comprehensive neonatal care protocols including gentle ventilation strategies, careful fluid and nutrition management, infection prevention, and developmental care practices. The twins received continuous monitoring, graduated respiratory support from ventilator to CPAP to room air, and specialized feeding protocols to establish adequate nutrition while their digestive systems matured.",
+      keyPoints: [
+        "Expert management of extreme prematurity at 28 weeks gestation",
+        "Successful surfactant therapy and respiratory support",
+        "Comprehensive nutrition and growth monitoring",
+        "Prevention of common prematurity complications",
+        "Family-centered developmental care approach"
+      ],
+      outcome: "After 8 weeks in the NICU, both twins achieved healthy weight gain, independent breathing, and successful feeding. They were discharged home with their family, continuing regular developmental follow-up. Both children are now thriving with age-appropriate growth and development."
+    }
   },
   {
     id: 2,
     animationOrder: 2,
-    imageSrc: "/assets/images/latest-portfolio/tab-image-2.png",
-    altText: "Neonatal case recognition illustration",
+    imageSrc: "/assets/images/Neonatal Chikungunya Case.png",
+    altText: "Newborn baby receiving specialized neonatal care",
     title: "Neonatal Chikungunya Case",
     tags: ["Neonatology", "Rare Disease"],
     buttonText: "View Details",
     width: 410,
     height: 457,
+    detailContent: {
+      overview: "Early recognition of rare neonatal infections requires high clinical suspicion and prompt intervention. This case represents successful diagnosis and management of neonatal Chikungunya, an uncommon presentation in newborns.",
+      story: "A 10-day-old neonate presented with fever, lethargy, and poor feeding. Given the maternal history of febrile illness during late pregnancy and the clinical presentation, Dr. Vishrut Singh suspected neonatal Chikungunya infection - a rare but serious condition. Confirmatory testing was arranged, and the infant received supportive care including IV fluids, temperature management, and close monitoring for complications. The diagnosis was confirmed, and with appropriate neonatal intensive care management, the infant recovered without developing the typical complications associated with neonatal Chikungunya.",
+      keyPoints: [
+        "Early recognition of rare neonatal infection",
+        "Detailed maternal and birth history assessment",
+        "Appropriate diagnostic testing and confirmation",
+        "Supportive care in neonatal intensive care setting",
+        "Prevention of common complications through vigilant monitoring"
+      ],
+      outcome: "Full recovery without neurological or developmental sequelae. This case was significant as neonatal Chikungunya is rarely reported, and early recognition prevented potential complications."
+    }
   },
   {
     id: 3,
     animationOrder: 3,
-    imageSrc: "/assets/images/latest-portfolio/tab-image-3.png",
-    altText: "Sepsis recovery recognition illustration",
+    imageSrc: "/assets/images/Septic Shock Recovery.png",
+    altText: "Child recovering from critical illness",
     title: "Septic Shock Recovery",
     tags: ["Critical Care", "ICU Management"],
     buttonText: "View Details",
     width: 410,
     height: 457,
+    detailContent: {
+      overview: "Septic shock is a life-threatening condition requiring immediate recognition and aggressive management. This case demonstrates the importance of early intervention and expert critical care in pediatric sepsis.",
+      story: "A 3-year-old child arrived in the emergency department with high fever, decreased consciousness, poor perfusion, and signs of shock secondary to severe bacterial infection. Dr. Vishrut Singh immediately initiated septic shock protocols including fluid resuscitation, broad-spectrum antibiotics, and vasoactive medication support. The child was admitted to PICU for intensive monitoring and management. Through careful fluid management, hemodynamic support, source control, and vigilant monitoring for organ dysfunction, the child stabilized over 72 hours. Antibiotic therapy was adjusted based on culture results, and supportive care continued until full recovery.",
+      keyPoints: [
+        "Rapid recognition of septic shock requiring immediate intervention",
+        "Aggressive fluid resuscitation and hemodynamic support",
+        "Appropriate antibiotic selection and adjustment",
+        "Prevention and management of multi-organ dysfunction",
+        "Comprehensive PICU monitoring and family support"
+      ],
+      outcome: "Complete recovery with restoration of normal organ function. The child was discharged after 7 days with appropriate antibiotic completion plan and close pediatric follow-up for growth and development monitoring."
+    }
   },
   {
     id: 4,
     animationOrder: 4,
-    imageSrc: "/assets/images/latest-portfolio/tab-image-4.png",
-    altText: "Community health leadership illustration",
+    imageSrc: "/assets/images/Blood Donation Campaign.png",
+    altText: "Healthy happy children - community health success",
     title: "Blood Donation Campaign",
     tags: ["Community Health", "Leadership"],
     buttonText: "View Details",
     width: 410,
     height: 457,
+    detailContent: {
+      overview: "Beyond clinical care, pediatricians have a responsibility to contribute to community health initiatives. This blood donation campaign demonstrates leadership in promoting health awareness and social responsibility.",
+      story: "Dr. Vishrut Singh organized and led a hospital-wide blood donation campaign, recognizing the critical shortage of blood products for pediatric emergencies and surgical procedures. The campaign educated staff and community members about the importance of regular blood donation, addressed common misconceptions, and facilitated the donation process. The initiative successfully collected over 150 units of blood, directly benefiting pediatric patients requiring transfusions for surgeries, trauma, hematological conditions, and critical illnesses.",
+      keyPoints: [
+        "Community leadership in healthcare initiatives",
+        "Education about importance of blood donation",
+        "Successful coordination of large-scale health campaign",
+        "Direct impact on pediatric patient care",
+        "Building partnerships between healthcare and community"
+      ],
+      outcome: "The campaign collected 150+ units of blood, ensuring adequate blood bank supplies for pediatric patients. This initiative highlighted the importance of pediatricians engaging in broader health promotion beyond individual patient care."
+    }
   },
 ].map((elm) => {
   return {

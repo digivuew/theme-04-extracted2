@@ -47,7 +47,7 @@ export default function Education() {
                   </span>
                 </h2>
                 {professionalExperienceTimeline.slice(0, 4).map((item, index) => (
-                  <div 
+                  <div
                     key={index}
                     className={`experience-content tmp-scroll-trigger tmp-fade-in animation-order-${item.animationOrder}`}
                   >
@@ -62,10 +62,10 @@ export default function Education() {
               <div className="experiences-wrap-right-content">
                 <Image
                   className="tmp-scroll-trigger tmp-zoom-in animation-order-1"
-                  alt="expert-img"
+                  alt="Happy healthy child - pediatric wellness"
                   width={630}
                   height={479}
-                  src="/assets/images/experiences/expert-img-two.jpg"
+                  src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1260&h=958&fit=crop"
                 />
               </div>
             </div>
@@ -78,10 +78,10 @@ export default function Education() {
               <div className="experiences-wrap-right-content">
                 <Image
                   className="tmp-scroll-trigger tmp-zoom-in animation-order-1"
-                  alt="expert-img"
+                  alt="Newborn baby receiving pediatric care"
                   width={630}
                   height={479}
-                  src="/assets/images/experiences/expert-img-two.jpg"
+                  src="https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=1260&h=958&fit=crop"
                 />
               </div>
             </div>
