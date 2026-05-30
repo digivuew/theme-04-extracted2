@@ -397,7 +397,7 @@ export const portfolioItems9 = [
   {
     id: 2,
     animationOrder: 2,
-    imageSrc: "/assets/images/Neonatal Chikungunya Case.png",
+    imageSrc: "/assets/images/Neonatal-Chikungunya-Case.png",
     altText: "Newborn baby receiving specialized neonatal care",
     title: "Neonatal Chikungunya Case",
     tags: ["Neonatology", "Rare Disease"],
