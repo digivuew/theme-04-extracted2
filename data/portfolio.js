@@ -374,7 +374,7 @@ export const portfolioItems9 = [
   {
     id: 1,
     animationOrder: 1,
-    imageSrc: "/assets/images/Premature Twin NICU Success.png",
+    imageSrc: "/assets/images/Premature-Twin-NICU-Success.png",
     altText: "Premature newborn baby receiving specialized neonatal care",
     title: "Premature Twin NICU Success",
     tags: ["Neonatology", "NICU Care"],

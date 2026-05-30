@@ -4,7 +4,7 @@ export const blogData = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "/assets/images/Essential Guide to Child Vaccination and Immunization.png",
+    imageSrc: "/assets/images/Essential-Guide-to-Child-Vaccination-and-Immunization.png",
     altText: "Child vaccination and immunization protection",
     date: "January 15, 2025",
     title: "Essential Guide to Child Vaccination and Immunization",
@@ -33,7 +33,7 @@ export const blogData = [
   {
     id: 2,
     animationOrder: "animation-order-2",
-    imageSrc: "/assets/images/Managing Respiratory Disorders in Children.png",
+    imageSrc: "/assets/images/Managing-Respiratory-Disorders-in-Children.png",
     altText: "Child with respiratory health monitoring",
     date: "January 10, 2025",
     title: "Managing Respiratory Disorders in Children",
@@ -62,7 +62,7 @@ export const blogData = [
   {
     id: 3,
     animationOrder: "animation-order-3",
-    imageSrc: "/assets/images/Nutrition and Growth Tips for Healthy Children.png",
+    imageSrc: "/assets/images/Nutrition-and-Growth-Tips-for-Healthy-Children.png",
     altText: "Healthy fruits and vegetables for children",
     date: "January 5, 2025",
     tags: ["Nutrition", "Child Health", "Development"],
@@ -99,7 +99,7 @@ export const blogData2 = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "/assets/images/Understanding Common Childhood Infections and Prevention.png",
+    imageSrc: "/assets/images/Understanding-Common-Childhood-Infections-and-Prevention.png",
     altText: "Child health monitoring and infection prevention",
     author: "Dr. Vishrut Singh",
     date: "December 28, 2024",
@@ -135,7 +135,7 @@ export const blogData2 = [
   {
     id: 2,
     animationOrder: "animation-order-2",
-    imageSrc: "/assets/images/Growth and Development Milestones in Children.png",
+    imageSrc: "/assets/images/Growth-and-Development-Milestones-in-Children.png",
     altText: "Happy child demonstrating healthy growth and development",
     author: "Dr. Vishrut Singh",
     date: "December 20, 2024",
@@ -173,7 +173,7 @@ export const blogData3 = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "/assets/images/Allergy Testing and Treatment Options for Children.png",
+    imageSrc: "/assets/images/Allergy-Testing-and-Treatment-Options-for-Children.png",
     altText: "Pediatric allergy testing and treatment",
     date: "December 15, 2024",
     author: "Dr. Vishrut Singh",
@@ -218,7 +218,7 @@ export const blogData4 = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "/assets/images/Understanding and Managing Childhood Fever.png",
+    imageSrc: "/assets/images/Understanding-and-Managing-Childhood-Fever.png",
     altText: "Managing childhood fever and temperature",
     author: "Dr. Vishrut Singh",
     date: "December 1, 2024",
@@ -254,7 +254,7 @@ export const blogData4 = [
   {
     id: 2,
     animationOrder: "animation-order-2",
-    imageSrc: "/assets/images/Importance of Regular Pediatric Check-ups.png",
+    imageSrc: "/assets/images/Importance-of-Regular-Pediatric-Check-ups.png",
     altText: "Regular pediatric checkups and wellness visits",
     author: "Dr. Vishrut Singh",
     date: "November 28, 2024",
@@ -297,7 +297,7 @@ export const blogData5 = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "/assets/images/Newborn Care Essential Tips for New Parents.png",
+    imageSrc: "/assets/images/Newborn-Care-Essential-Tips-for-New-Parents.png",
     altText: "Newborn baby care for first-time parents",
     date: "November 20, 2024",
     author: "Dr. Vishrut Singh",
@@ -329,7 +329,7 @@ export const blogData5 = [
   {
     id: 2,
     animationOrder: "animation-order-2",
-    imageSrc: "/assets/images/Pediatric Sleep Disorders and Solutions.png",
+    imageSrc: "/assets/images/Pediatric-Sleep-Disorders-and-Solutions.png",
     altText: "Child sleeping peacefully - pediatric sleep health",
     date: "November 15, 2024",
     author: "Dr. Vishrut Singh",
@@ -401,7 +401,7 @@ export const blogData6 = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "/assets/images/Essential Guide to Child Vaccination and Immunization.png",
+    imageSrc: "/assets/images/Essential-Guide-to-Child-Vaccination-and-Immunization.png",
     altText: "Child vaccination and immunization protection",
     author: "Dr. Vishrut Singh",
     comments: "Comments (05)",
@@ -413,7 +413,7 @@ export const blogData6 = [
   {
     id: 2,
     animationOrder: "animation-order-2",
-    imageSrc: "/assets/images/Managing Respiratory Disorders in Children.png",
+    imageSrc: "/assets/images/Managing-Respiratory-Disorders-in-Children.png",
     altText: "Child with respiratory health monitoring",
     author: "Dr. Vishrut Singh",
     comments: "Comments (05)",
@@ -425,7 +425,7 @@ export const blogData6 = [
   {
     id: 3,
     animationOrder: "animation-order-3",
-    imageSrc: "/assets/images/Nutrition and Growth Tips for Healthy Children.png",
+    imageSrc: "/assets/images/Nutrition-and-Growth-Tips-for-Healthy-Children.png",
     altText: "Healthy nutrition for children",
     author: "Dr. Vishrut Singh",
     comments: "Comments (05)",

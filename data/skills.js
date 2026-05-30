@@ -118,7 +118,7 @@ export const skillCards = [
       "Specialized newborn care including premature infants and postnatal health management",
     iconClass: "fa-light fa-baby",
     icon: {
-      src: "/assets/images/Neonatal Chikungunya Case.png",
+      src: "/assets/images/Neonatal-Chikungunya-Case.png",
       width: 35,
       height: 36,
     },
