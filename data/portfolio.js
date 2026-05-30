@@ -420,7 +420,7 @@ export const portfolioItems9 = [
   {
     id: 3,
     animationOrder: 3,
-    imageSrc: "https://images.unsplash.com/photo-1576091160550-112173f7f869?w=1260&h=1260&fit=crop",
+    imageSrc: "/assets/images/Acute-Illness-Management.png",
     altText: "Child recovering from critical illness",
     title: "Septic Shock Recovery",
     tags: ["Critical Care", "ICU Management"],
@@ -443,7 +443,7 @@ export const portfolioItems9 = [
   {
     id: 4,
     animationOrder: 4,
-    imageSrc: "https://images.unsplash.com/photo-1576091160575-2173dba999ef?w=1260&h=1260&fit=crop",
+    imageSrc: "/assets/images/Screening-&-Preventive-Programs.png",
     altText: "Healthy happy children - community health success",
     title: "Blood Donation Campaign",
     tags: ["Community Health", "Leadership"],
