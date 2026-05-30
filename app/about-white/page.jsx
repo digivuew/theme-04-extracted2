@@ -45,7 +45,7 @@ export default function page() {
               <div className="col-lg-6">
                 <div className="about-us-left-content-wrap bg-vactor-one">
                   <div className="years-of-experience-card tmp-scroll-trigger tmp-fade-in animation-order-1">
-                    <h2 className="counter card-title">7+</h2>
+                    <h2 className="counter card-title">9+</h2>
                     <p className="card-para">Years of Experience</p>
                   </div>
                   <div className="design-card tmp-scroll-trigger tmp-fade-in animation-order-2">
@@ -83,11 +83,11 @@ export default function page() {
                       Pediatric Care
                     </h2>
                   </div>
-                  
+
                   <p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
                     Dr. Vishrut specializes in diagnosing and treating a wide range of health conditions in children from birth to 18 years of age. His areas of expertise include <strong>pediatric respiratory disorders, asthma management, infectious diseases, allergies, and gastrointestinal disorders</strong>. Dr. Vishrut is committed to delivering compassionate, evidence-based care to ensure the optimal health and well-being of every child under his care.
                   </p>
-                  
+
                   <p className="description tmp-scroll-trigger tmp-fade-in animation-order-4">
                     His approach is patient-centered, focusing on both preventive care and effective treatment, with an emphasis on educating parents and guardians about their child's health needs. Dr. Vishrut is dedicated to staying current with the latest advancements in pediatrics, ensuring that his patients receive the highest standard of care.
                   </p>
