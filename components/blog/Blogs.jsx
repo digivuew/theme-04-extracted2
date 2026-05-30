@@ -98,12 +98,12 @@ function BlogsContent({ allBlogs = blogData, isLight = false }) {
             <div className="col-lg-8">
             {currentBlogs.map((blog, i) => (
               <div
-                key={i}
-                className={`blog-classic-card tmp-scroll-trigger tmponhover tmp-fade-in ${
+                key={blog.slug || blog.id || i}
+                className={`blog-classic-card tmp-scroll-trigger tmponhover tmp-fade-in animation-order-${
                   i + 1
                 }`}
                 style={{
-                  ...(i === 0 ? { marginTop: '0' } : {}),
+                  marginTop: i === 0 ? '0' : undefined,
                   background: 'linear-gradient(135deg, rgba(255, 249, 246, 0.2) 0%, rgba(255, 252, 240, 0.2) 100%)',
                   borderRadius: '12px',
                   padding: '20px',

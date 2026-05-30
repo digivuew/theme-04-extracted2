@@ -175,8 +175,8 @@ export default function BlogSidebar({ isLight = false }) {
           </p>
         </div>
         <div className="body">
-          {recentPosts.map((post) => (
-            <div key={post.id} className="single-post-card tmp-hover-link">
+          {recentPosts.map((post, index) => (
+            <div key={`${post.id}-${index}`} className="single-post-card tmp-hover-link">
               <div className="single-post-card-img" style={{
                 width: '82px',
                 height: '92px',
