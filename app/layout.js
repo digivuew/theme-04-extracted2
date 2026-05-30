@@ -1,5 +1,5 @@
 import "../public/assets/scss/main.scss";
-import "odometer/themes/odometer-theme-default.css"; // Import theme
+// import "odometer/themes/odometer-theme-default.css"; // Disabled - incompatible with Next.js 16
 import "react-toastify/dist/ReactToastify.css";
 import LayoutWrapper from "@/components/common/LayoutWrapper";
 import FloatingAppointmentButton from "@/components/common/FloatingAppointmentButton";
