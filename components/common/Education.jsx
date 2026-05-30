@@ -62,10 +62,10 @@ export default function Education() {
               <div className="experiences-wrap-right-content">
                 <Image
                   className="tmp-scroll-trigger tmp-zoom-in animation-order-1"
-                  alt="Happy healthy child - pediatric wellness"
+                  alt="Professional Experience"
                   width={630}
                   height={479}
-                  src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1260&h=958&fit=crop"
+                  src="/assets/images/ProfessionalExperience.png"
                 />
               </div>
             </div>
