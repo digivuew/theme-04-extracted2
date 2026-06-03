@@ -5,10 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { openSidebar } from "@/utlis/toggleSidebar";
 import { openMobilemenu } from "@/utlis/toggleMobilemenu";
-export default function Header1({
-  darkLogo = "/assets/images/logo/logo-yello.svg",
-  lightLogo = "/assets/images/logo/logo-yello.svg",
-}) {
+export default function Header1() {
   return (
     <header className="tmp-header-area-start header-one header--sticky header--transparent">
       <div className="container">

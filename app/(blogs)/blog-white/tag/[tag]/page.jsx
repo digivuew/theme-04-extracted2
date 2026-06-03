@@ -63,10 +63,7 @@ export default async function TagPage({ params }) {
           </div>
         </div>
         <Blogs allBlogs={blogs} isLight />
-        <Footer2
-          darkLogo="/assets/images/logo/logo-yello.svg"
-          lightLogo="/assets/images/logo/logo-yello.svg"
-        />
+        <Footer2 />
         <Copyright /> <CommonComponents />
       </div>
     </>

@@ -70,10 +70,7 @@ export default async function page({ params }) {
           </div>
         </div>
         <BlogDetails isLight blog={blog} />
-        <Footer2
-          darkLogo="/assets/images/logo/logo-yello.svg"
-          lightLogo="/assets/images/logo/logo-yello.svg"
-        />
+        <Footer2 />
         <Copyright /> <CommonComponents />
       </div>
     </>

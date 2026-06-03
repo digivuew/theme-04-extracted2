@@ -37,10 +37,7 @@ export default function page() {
           </div>
         </div>
         <Contact />
-        <Footer2
-          darkLogo="/assets/images/logo/logo-yello.svg"
-          lightLogo="/assets/images/logo/logo-yello.svg"
-        />
+        <Footer2 />
         <Copyright /> <CommonComponents />
       </div>
     </>

@@ -25,10 +25,7 @@ export default function Home() {
     <>
       <div className="tmp-white-version">
         <div className="color-primary-3rd">
-          <Header1
-            darkLogo="/assets/images/logo/logo-yello.svg"
-            lightLogo="/assets/images/logo/logo-yello.svg"
-          />
+          <Header1 />
           <Hero />
           <TextAnim />
           <About />
@@ -38,10 +35,7 @@ export default function Home() {
           <Portfolios2 isLight />
           <Contact />
           <Blogs isLight />
-          <Footer2
-            darkLogo="/assets/images/logo/logo-yello.svg"
-            lightLogo="/assets/images/logo/logo-yello.svg"
-          />
+          <Footer2 />
           <Copyright />
           <CommonComponents />
         </div>

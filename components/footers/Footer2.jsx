@@ -8,10 +8,7 @@ import Sidebar from "../headers/Sidebar";
 import MobileMenu from "../headers/MobileMenu";
 import MobileMenuOnepage from "../headers/MobileMenuOnepage";
 import { footerLinks, footerLinksWhite } from "@/data/footerLinks";
-export default function Footer2({
-  darkLogo = "/assets/images/logo/logo-yello.svg",
-  lightLogo = "/assets/images/logo/logo-yello.svg",
-}) {
+export default function Footer2() {
   return (
     <>
       <footer className="footer-area footer-style-two-wrapper bg-color-footer bg_images tmp-section-gap">

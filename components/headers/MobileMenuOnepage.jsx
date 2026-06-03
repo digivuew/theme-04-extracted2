@@ -29,20 +29,20 @@ export default function MobileMenuOnepage() {
         <div ref={innerRef} className="inner">
           <div className="header-top">
             <div className="logo">
-              <a href="index.html" className="logo-area">
+              <a href="/" className="logo-area">
                 <img
                   className="logo-dark"
                   alt="Dr. Vishrut Singh - Pediatrician in Dubai"
-                  src="/assets/images/logo/logo-yello.svg"
-                  width={121}
-                  height={41}
+                  src="/assets/images/logo/vishrut-singh-site-logo-without-background.png"
+                  width={56}
+                  height={56}
                 />
                 <img
                   className="logo-white"
                   alt="Dr. Vishrut Singh - Pediatrician in Dubai"
-                  src="/assets/images/logo/logo-yello.svg"
-                  width={121}
-                  height={40}
+                  src="/assets/images/logo/vishrut-singh-site-logo-without-background.png"
+                  width={56}
+                  height={56}
                 />
               </a>
             </div>
@@ -59,16 +59,16 @@ export default function MobileMenuOnepage() {
           <div className="social-wrapper mt--40">
             <span className="subtitle">find with me</span>
             <div className="social-link">
-              <a href="#">
+              <a href="https://www.instagram.com/dr_vishrut_singh_md/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <i className="fa-brands fa-instagram" />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/dr-vishrut-singh-4b671113a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <i className="fa-brands fa-linkedin-in" />
               </a>
-              <a href="#">
+              <a href="https://x.com/vishruts261" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                 <i className="fa-brands fa-twitter" />
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/DrVishrutSingh" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <i className="fa-brands fa-facebook-f" />
               </a>
             </div>
