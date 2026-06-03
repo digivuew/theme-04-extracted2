@@ -132,7 +132,7 @@ export default function BlogDetails({ blog, isLight = false }) {
                       <div className="card-right-content">
                         <Image
                           alt="Comprehensive Pediatric Care Services"
-                          src="/assets/images/Comprehensive Pediatric Care Services2.png"
+                          src="/assets/images/Comprehensive-Pediatric-Care-Services2.png"
                           width={300}
                           height={280}
                         />

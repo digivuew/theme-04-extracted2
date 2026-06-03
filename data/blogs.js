@@ -361,7 +361,7 @@ export const blogData5 = [
   {
     id: 3,
     animationOrder: "animation-order-3",
-    imageSrc: "/assets/images/Managing Chronic Conditions in Children.png",
+    imageSrc: "/assets/images/Managing-Chronic-Conditions-in-Children.png",
     altText: "Managing chronic pediatric conditions with care",
     date: "November 10, 2024",
     author: "Dr. Vishrut Singh",
@@ -444,7 +444,7 @@ export const blogData7 = [
   {
     id: 1,
     animationOrder: "animation-order-1",
-    imageSrc: "/assets/images/Child Mental Health and Emotional Development.png",
+    imageSrc: "/assets/images/Child-Mental-Health-and-Emotional-Development.png",
     altText: "Child mental health and emotional wellness",
     author: "Dr. Vishrut Singh",
     date: "October 20, 2024",
@@ -475,7 +475,7 @@ export const blogData7 = [
   {
     id: 2,
     animationOrder: "animation-order-2",
-    imageSrc: "/assets/images/Common Skin Conditions in Children.png",
+    imageSrc: "/assets/images/Common-Skin-Conditions-in-Children.png",
     altText: "Pediatric dermatology and skin health",
     author: "Dr. Vishrut Singh",
     date: "October 15, 2024",
@@ -506,7 +506,7 @@ export const blogData7 = [
   {
     id: 3,
     animationOrder: "animation-order-3",
-    imageSrc: "/assets/images/Digestive Health Issues in Children and Management.png",
+    imageSrc: "/assets/images/Digestive-Health-Issues-in-Children-and-Management.png",
     altText: "Child digestive health and nutrition",
     author: "Dr. Vishrut Singh",
     date: "October 10, 2024",
@@ -544,7 +544,7 @@ export const blogData7 = [
 export const posts = [
   {
     id: 1,
-    imageSrc: "/assets/images/Antibiotic Resistance.png",
+    imageSrc: "/assets/images/Antibiotic-Resistance.png",
     author: "Dr. Vishrut Singh",
     category: "Pediatric Care Tips",
     categories: ["Pediatric Care Tips"],
@@ -572,7 +572,7 @@ export const posts = [
   },
   {
     id: 2,
-    imageSrc: "/assets/images/Understanding Pediatric Diabetes and Care.png",
+    imageSrc: "/assets/images/Understanding-Pediatric-Diabetes-and-Care.png",
     author: "Dr. Vishrut Singh",
     category: "Child Health",
     categories: ["Child Health"],
@@ -600,7 +600,7 @@ export const posts = [
   },
   {
     id: 3,
-    imageSrc: "/assets/images/Injury Prevention.png",
+    imageSrc: "/assets/images/Injury-Prevention.png",
     author: "Dr. Vishrut Singh",
     category: "Preventive Medicine",
     categories: ["Preventive Medicine"],
