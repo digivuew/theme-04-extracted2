@@ -301,3 +301,59 @@
     }
   }
 }
+
+/* ===========================================
+   Hero (home-4) mobile-only fixes
+   - Cancel desktop negative margin on the doctor image
+   - Hide decorative side shapes that misalign on small screens
+   =========================================== */
+@media (max-width: 991px) {
+  .banner-four-main-wrapper {
+    .bg-benner-img-four {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 24px;
+
+      img {
+        margin-left: 0 !important;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .banner-four-right-bg-img {
+      display: none;
+    }
+  }
+
+  .rpp-banner-four-area {
+    .banner-four-left-bg-img {
+      display: none;
+    }
+  }
+}
+
+/* ===========================================
+   Floating action buttons mobile sizing
+   - Match calendar size to messenger/scroll-top (40x40)
+   - Tighter stacking so they don't dominate the screen
+   =========================================== */
+@media (max-width: 767px) {
+  // The button itself has position:fixed with its own inline `bottom`
+  // (90px or 150px). Override here so it sits cleanly above the messenger.
+  .floating-appointment-btn {
+    width: 42px !important;
+    height: 42px !important;
+    font-size: 16px !important;
+    bottom: 70px !important;
+  }
+  // When the page has been scrolled, the messenger moves up to bottom:90
+  // (40px tall, so its top is at 130). Place the calendar 2px above it.
+  .floating-appointment-wrap.is-scrolled .floating-appointment-btn {
+    bottom: 132px !important;
+  }
+  // Hide the hover tooltip on mobile (no hover) so it doesn't sit awkwardly.
+  .floating-appointment-wrap > div:first-of-type {
+    display: none !important;
+  }
+}

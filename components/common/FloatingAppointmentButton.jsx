@@ -100,7 +100,7 @@ export default function FloatingAppointmentButton() {
   };
 
   return (
-    <div style={{ position: 'fixed', bottom: isScrolled ? '150px' : '90px', right: '20px', zIndex: '999' }}>
+    <div className={`floating-appointment-wrap${isScrolled ? ' is-scrolled' : ''}`} style={{ position: 'fixed', bottom: isScrolled ? '150px' : '90px', right: '20px', zIndex: '999' }}>
       <div style={tooltipStyle}>
         Book Appointment
         <div style={arrowStyle}></div>
@@ -108,6 +108,7 @@ export default function FloatingAppointmentButton() {
       <Link
         href="/contact#book-appointment"
         onClick={handleClick}
+        className="floating-appointment-btn"
         style={buttonStyle}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
