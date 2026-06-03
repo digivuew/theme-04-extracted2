@@ -36,7 +36,7 @@ export default function Copyright() {
                   <a href="#">Privacy Policy</a>
                 </li>
                 <li>
-                  <Link href={`/contact-white`}>Contact Us</Link>
+                  <Link href={`/contact`}>Contact Us</Link>
                 </li>
               </ul>
             </div>

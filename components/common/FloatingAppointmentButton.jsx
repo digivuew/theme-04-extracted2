@@ -28,7 +28,7 @@ export default function FloatingAppointmentButton() {
   // Handle scrolling when on contact page with hash
   useEffect(() => {
     const hash = window.location.hash;
-    if (pathname === '/contact-white' && hash === '#book-appointment') {
+    if (pathname === '/contact' && hash === '#book-appointment') {
       setTimeout(() => {
         const element = document.getElementById('book-appointment');
         if (element) {
@@ -39,7 +39,7 @@ export default function FloatingAppointmentButton() {
   }, [pathname]);
 
   const handleClick = (e) => {
-    if (pathname === '/contact-white') {
+    if (pathname === '/contact') {
       e.preventDefault();
       const element = document.getElementById('book-appointment');
       if (element) {
@@ -106,7 +106,7 @@ export default function FloatingAppointmentButton() {
         <div style={arrowStyle}></div>
       </div>
       <Link
-        href="/contact-white#book-appointment"
+        href="/contact#book-appointment"
         onClick={handleClick}
         style={buttonStyle}
         onMouseEnter={() => setIsHovered(true)}

@@ -52,7 +52,7 @@ export default function page() {
               </div>
               <div className="col-lg-3 text-right" style={{ textAlign: 'right' }}>
                 <Link
-                  href="/contact-white#book-appointment"
+                  href="/contact#book-appointment"
                   className="tmp-btn"
                   style={{
                     background: '#141414',

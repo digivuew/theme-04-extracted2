@@ -34,7 +34,7 @@ export default function Portfolios2({ isLight = false }) {
                 <div className="portfoli-card-img">
                   <div className="img-box v2">
                     <Link
-                      href={`/project-details${isLight ? "-white" : ""}/${
+                      href={`/projects/${
                         item.slug
                       }`}
                     >
@@ -59,7 +59,7 @@ export default function Portfolios2({ isLight = false }) {
                   <div className="content-left">
                     <h3 className="portfolio-card-title">
                       <Link
-                        href={`/project-details${isLight ? "-white" : ""}/${
+                        href={`/projects/${
                           item.slug
                         }`}
                       >
@@ -81,7 +81,7 @@ export default function Portfolios2({ isLight = false }) {
                   <div className="tmp-button-here">
                     <Link
                       className="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
-                      href={`/project-details${isLight ? "-white" : ""}/${
+                      href={`/projects/${
                         item.slug
                       }`}
                     >

@@ -42,7 +42,7 @@ export default function Hero() {
                 <div className="button-area-banner-three tmp-scroll-trigger tmp-fade-in animation-order-4">
                   <Link
                     className="tmp-btn hover-icon-reverse radius-round"
-                    href={`/contact-white`}
+                    href={`/contact`}
                   >
                     <span className="icon-reverse-wrapper">
                       <span className="btn-text">Book Appointment</span>

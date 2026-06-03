@@ -25,7 +25,7 @@ export default function Blogs({ isLight = false }) {
                 <div className="blog-card-img">
                   <div className="img-box">
                     <Link
-                      href={`/blog-details${isLight ? "-white" : ""}/${
+                      href={`/blog/${
                         blog.slug
                       }`}
                     >
@@ -66,7 +66,7 @@ export default function Blogs({ isLight = false }) {
                   </div>
                   <h3 className="blog-title">
                     <Link
-                      href={`/blog-details${isLight ? "-white" : ""}/${
+                      href={`/blog/${
                         blog.slug
                       }`}
                     >
@@ -76,7 +76,7 @@ export default function Blogs({ isLight = false }) {
                   <div className="read-more-btn">
                     <Link
                       className="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
-                      href={`/blog-details${isLight ? "-white" : ""}/${
+                      href={`/blog/${
                         blog.slug
                       }`}
                     >

@@ -84,7 +84,7 @@ export default function About({ parentClass = "about-us-area" }) {
               <div className="about-btn mt--40 tmp-scroll-trigger tmp-fade-in animation-order-6">
                 <Link
                   className="tmp-btn hover-icon-reverse radius-round"
-                  href={`/about-white`}
+                  href={`/about`}
                 >
                   <span className="icon-reverse-wrapper">
                     <span className="btn-text">Read More About Dr. Vishrut</span>

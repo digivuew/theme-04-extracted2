@@ -1,9 +1,9 @@
 export const menuItems = [
   { label: "Home", href: "/", isLink: true },
-  { label: "About", href: "/about-white", isLink: true },
-  { label: "Services", href: "/service-white", isLink: true },
-  { label: "Blog", href: "/blog-white", isLink: true },
-  { label: "Contact", href: "/contact-white", isLink: true },
+  { label: "About", href: "/about", isLink: true },
+  { label: "Services", href: "/services", isLink: true },
+  { label: "Blog", href: "/blog", isLink: true },
+  { label: "Contact", href: "/contact", isLink: true },
 ];
 
 // Same as menuItems since we only have white/light theme

@@ -50,7 +50,7 @@ function SearchContent() {
                     <i className="fa-solid fa-angle-right" />
                   </li>
                   <li className="tmp-breadcrumb-item">
-                    <Link href={`/blog-white`}>Blog</Link>
+                    <Link href={`/blog`}>Blog</Link>
                   </li>
                   <li className="icon">
                     <i className="fa-solid fa-angle-right" />

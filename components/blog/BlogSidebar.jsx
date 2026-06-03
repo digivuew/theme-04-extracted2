@@ -207,7 +207,7 @@ export default function BlogSidebar({ isLight = false }) {
                 <h3 className="post-title">
                   <Link
                     className="link"
-                    href={`/blog-details${isLight ? "-white" : ""}/${
+                    href={`/blog/${
                       post.slug
                     }`}
                   >
@@ -475,7 +475,7 @@ export default function BlogSidebar({ isLight = false }) {
             </div>
           </div>
           <Link
-            href="/contact-white#book-appointment"
+            href="/contact#book-appointment"
             className="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
             style={{
               width: '100%',

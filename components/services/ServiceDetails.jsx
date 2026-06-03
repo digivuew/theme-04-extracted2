@@ -94,7 +94,7 @@ export default function ServiceDetails({ serviceItem }) {
                 {services4.map((service) => (
                   <Link
                     key={service.id}
-                    href={`/service-details-white/${service.slug}`}
+                    href={`/services/${service.slug}`}
                     className={`single-service ${serviceItem.slug === service.slug ? 'active' : ''}`}
                     style={{
                       display: 'flex',

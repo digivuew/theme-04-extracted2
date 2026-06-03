@@ -248,7 +248,7 @@ export default function BlogDetails({ blog, isLight = false }) {
                   }}>
                     {previousBlog && (
                       <Link
-                        href={`/blog-details${isLight ? "-white" : ""}/${previousBlog.slug}`}
+                        href={`/blog/${previousBlog.slug}`}
                         className="blog-nav-link"
                       >
                         <div style={{
@@ -276,7 +276,7 @@ export default function BlogDetails({ blog, isLight = false }) {
                     )}
                     {nextBlog && (
                       <Link
-                        href={`/blog-details${isLight ? "-white" : ""}/${nextBlog.slug}`}
+                        href={`/blog/${nextBlog.slug}`}
                         className="blog-nav-link"
                         style={{ textAlign: 'right' }}
                       >

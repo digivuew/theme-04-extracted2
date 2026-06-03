@@ -120,7 +120,7 @@ function BlogsContent({ allBlogs = blogData, isLight = false }) {
                   backgroundColor: '#f5f5f5'
                 }}>
                   <Link
-                    href={`/blog-details${isLight ? "-white" : ""}/${
+                    href={`/blog/${
                       blog.slug
                     }`}
                     style={{ width: '100%', height: '100%', display: 'block' }}
@@ -195,7 +195,7 @@ function BlogsContent({ allBlogs = blogData, isLight = false }) {
                     minHeight: '70px'
                   }}>
                     <Link
-                      href={`/blog-details${isLight ? "-white" : ""}/${
+                      href={`/blog/${
                         blog.slug
                       }`}
                     >
@@ -213,7 +213,7 @@ function BlogsContent({ allBlogs = blogData, isLight = false }) {
                   <div className="tmp-button-here">
                     <Link
                       className="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
-                      href={`/blog-details${isLight ? "-white" : ""}/${
+                      href={`/blog/${
                         blog.slug
                       }`}
                     >
