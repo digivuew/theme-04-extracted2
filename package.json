@@ -13,6 +13,7 @@
     "@popperjs/core": "^2.11.8",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.8.1",
+    "@vercel/analytics": "^2.0.1",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.8",
     "gsap": "^3.12.7",

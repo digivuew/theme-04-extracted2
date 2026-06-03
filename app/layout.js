@@ -5,6 +5,7 @@ import LayoutWrapper from "@/components/common/LayoutWrapper";
 import FloatingAppointmentButton from "@/components/common/FloatingAppointmentButton";
 import Script from 'next/script';
 import { ToastContainer } from "react-toastify";
+import { Analytics } from "@vercel/analytics/next";
 export const metadata = {
   title:
     "Theme04 Light - Modern Portfolio | Professional Web Solutions",
@@ -51,6 +52,7 @@ export default function RootLayout({ children }) {
           {children}
           <FloatingAppointmentButton />
         </LayoutWrapper>
+        <Analytics />
       </body>
     </html>
   );
